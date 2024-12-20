@@ -1,0 +1,145 @@
+{
+  "service": {
+    "name": null,
+    "url": "https://airtable.com/pricing",
+    "logo_url": null,
+    "description": null,
+    "category": {
+      "primary": null,
+      "secondary": null,
+      "tags": []
+    },
+    "business_model": {
+      "type": [],
+      "description": null
+    }
+  },
+  "pricing_metadata": {
+    "last_updated": "2024-12-17T02:57:27.825811",
+    "currency": null,
+    "regions": [],
+    "billing_cycles": {
+      "available": [],
+      "default": null
+    },
+    "custom_pricing_available": null,
+    "free_tier_available": null,
+    "versioning": {
+      "current": "v1.0",
+      "history": []
+    }
+  },
+  "plans": [
+    {
+      "name": null,
+      "slug": null,
+      "description": null,
+      "highlight_features": [],
+      "is_popular": null,
+      "pricing": {
+        "base": {
+          "amount": null,
+          "amount_range": {
+            "min": null,
+            "max": null
+          },
+          "period": null,
+          "currency": null,
+          "is_per_user": null
+        },
+        "usage_based": [
+          {
+            "name": null,
+            "type": null,
+            "unit": null,
+            "tiers": [
+              {
+                "range": {
+                  "min": null,
+                  "max": null
+                },
+                "unit_price": null,
+                "flat_fee": null
+              }
+            ]
+          }
+        ]
+      },
+      "limits": {
+        "users": {
+          "min": null,
+          "max": null,
+          "description": null
+        },
+        "storage": {
+          "amount": null,
+          "unit": null,
+          "description": null
+        },
+        "api": {
+          "requests": {
+            "rate": null,
+            "period": null,
+            "quota": null,
+            "description": null
+          }
+        },
+        "compute": {
+          "vcpu": null,
+          "memory": null,
+          "unit": null
+        },
+        "other_limits": []
+      },
+      "features": {
+        "categories": [
+          {
+            "name": null,
+            "features": [
+              {
+                "name": null,
+                "description": null,
+                "included": null,
+                "limit": null
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "discounts": [
+    {
+      "type": null,
+      "amount": null,
+      "description": null,
+      "conditions": null,
+      "valid_until": null
+    }
+  ],
+  "enterprise": {
+    "available": null,
+    "contact_sales": null,
+    "minimum_seats": null,
+    "custom_features": []
+  },
+  "ml_metadata": {
+    "embeddings": {
+      "model": null,
+      "version": null,
+      "vectors": []
+    },
+    "confidence_scores": {
+      "pricing_accuracy": null,
+      "feature_accuracy": null
+    },
+    "last_validated": null
+  },
+  "agent_metadata": {
+    "agent_name": "meta-llama/Llama-3.2-1B",
+    "agent_version": "1.0",
+    "execution_time_seconds": 0.47,
+    "fallback_used": false,
+    "comments": ""
+  }
+}

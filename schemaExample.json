@@ -1,0 +1,112 @@
+{
+    "service": {
+      "name": "string",                    // Service name (e.g., Airtable)
+      "url": "string",                     // Pricing page URL
+      "logo_url": "string",                // Logo URL
+      "description": "string",             // Brief description
+      "category": {
+        "primary": "string",               // e.g., "Infrastructure"
+        "secondary": "string",             // e.g., "Database"
+        "tags": ["string"]                 // e.g., ["collaboration", "productivity"]
+      },
+      "business_model": {
+        "type": ["string"],                // e.g., ["fixed", "usage_based", "tiered", "hybrid"]
+        "description": "string"
+      }
+    },
+    "pricing_metadata": {
+      "last_updated": "ISO8601",           // e.g., "2024-06-10T12:34:56Z"
+      "currency": "string",                // e.g., "USD"
+      "regions": ["string"],               // Regions covered
+      "billing_cycles": {
+        "available": ["string"],           // e.g., ["monthly", "annual", "custom"]
+        "default": "string"
+      },
+      "custom_pricing_available": true,
+      "free_tier_available": true,
+      "versioning": {
+        "current": "string",
+        "history": ["string"]              // List of version changes
+      }
+    },
+    "plans": [
+      {
+        "name": "string",                  // Plan name
+        "slug": "string",                  // URL-friendly slug
+        "description": "string",
+        "highlight_features": ["string"],
+        "is_popular": true,
+        "pricing": {
+          "base": {
+            "amount": 20.0,                // Base price
+            "amount_range": {"min": 0, "max": 50},
+            "period": "string",            // "monthly", "annual", "custom"
+            "currency": "string",
+            "is_per_user": true
+          },
+          "usage_based": [
+            {
+              "name": "string",            // Usage component name
+              "type": "string",            // e.g., "api", "storage", "compute"
+              "unit": "string",
+              "tiers": [
+                {
+                  "range": {"min": 0, "max": 1000},
+                  "unit_price": 0.05,
+                  "flat_fee": null
+                }
+              ]
+            }
+          ]
+        },
+        "limits": {
+          "users": {"min": 1, "max": 10},
+          "storage": {"amount": 100, "unit": "GB"},
+          "api": {"requests": {"rate": 100, "period": "day", "quota": null}},
+          "compute": {"vcpu": 4, "memory": 16, "unit": "GB"},
+          "other_limits": [{"name": "string", "value": "string", "description": "string"}]
+        },
+        "features": {
+          "categories": [
+            {
+              "name": "string",            // Feature category
+              "features": [
+                {"name": "string", "description": "string", "included": true, "limit": "string"}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "discounts": [
+      {
+        "type": "string",                  // e.g., "annual", "volume"
+        "amount": "string",                // e.g., "20%", "10 USD"
+        "description": "string",
+        "conditions": "string",
+        "valid_until": "ISO8601"
+      }
+    ],
+    "enterprise": {
+      "available": true,
+      "contact_sales": true,
+      "minimum_seats": 10,
+      "custom_features": ["string"]
+    },
+    "ml_metadata": {
+      "embeddings": {"model": "Llama-3.1-70B", "version": "v1", "vectors": [0.1, 0.2]},
+      "confidence_scores": {
+        "pricing_accuracy": 0.95,
+        "feature_accuracy": 0.90
+      },
+      "last_validated": "ISO8601"
+    },
+    "agent_metadata": {
+      "agent_name": "string",
+      "agent_version": "1.0",
+      "execution_time_seconds": 10.5,
+      "fallback_used": false,
+      "comments": "string"
+    }
+  }
+  

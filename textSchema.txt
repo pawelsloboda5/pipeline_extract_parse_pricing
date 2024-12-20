@@ -1,0 +1,134 @@
+You must extract and format the content into the following JSON schema. Adhere to the exact structure below. Use null for missing values and ensure all data is correctly nested.
+
+---
+
+Schema Format:
+
+{
+  "service": {
+    "name": "string",                     // Service name, e.g., "Airtable"
+    "url": "string",                      // Pricing page URL
+    "logo_url": "string",                 // URL to service logo
+    "description": "string",              // Brief service description
+    "category": {
+      "primary": "string",                // Primary category, e.g., "Infrastructure"
+      "secondary": "string",              // Secondary category, e.g., "Database"
+      "tags": ["string"]                  // List of category tags
+    },
+    "business_model": {
+      "type": ["string"],                 // List of pricing models: "fixed", "usage_based", "tiered", "hybrid"
+      "description": "string"             // Description of the pricing model
+    }
+  },
+
+  "pricing_metadata": {
+    "last_updated": "string",             // ISO8601 timestamp, e.g., "2024-06-10T12:34:56Z"
+    "currency": "string",                 // Base currency, e.g., "USD"
+    "regions": ["string"],                // Regions covered
+    "billing_cycles": {
+      "available": ["string"],            // Options: "monthly", "annual", "custom"
+      "default": "string"                 // Default billing cycle
+    },
+    "custom_pricing_available": true/false,
+    "free_tier_available": true/false,
+    "versioning": {
+      "current": "string",                // Current schema version, e.g., "v1.0"
+      "history": ["string"]               // Previous version history
+    }
+  },
+
+  "plans": [
+    {
+      "name": "string",                   // Plan name, e.g., "Free"
+      "slug": "string",                   // URL-friendly version of the name
+      "description": "string",            // Plan description
+      "highlight_features": ["string"],   // Key features
+      "is_popular": true/false,           // Whether this plan is popular
+      "pricing": {
+        "base": {
+          "amount": number,               // Price as a number
+          "amount_range": { "min": number, "max": number },  // Min and max pricing range
+          "period": "string",             // Billing period: "monthly", "annual", or "custom"
+          "currency": "string",           // Pricing currency
+          "is_per_user": true/false       // Whether price is per user
+        },
+        "usage_based": [
+          {
+            "name": "string",             // Component name, e.g., "API Calls"
+            "type": "string",             // Component type: "api", "storage", etc.
+            "unit": "string",             // Unit of measurement, e.g., "requests"
+            "tiers": [
+              {
+                "range": { "min": number, "max": number },
+                "unit_price": number,     // Price per unit
+                "flat_fee": number/null   // Flat fee if applicable
+              }
+            ]
+          }
+        ]
+      },
+      "limits": {
+        "users": { "min": number, "max": number },
+        "storage": { "amount": number, "unit": "string" },
+        "api": { "requests": { "rate": number, "period": "string", "quota": number/null } },
+        "compute": { "vcpu": number, "memory": number, "unit": "string" },
+        "other_limits": [
+          { "name": "string", "value": "string", "description": "string" }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "string",             // Feature category name
+            "features": [
+              {
+                "name": "string",         // Feature name
+                "description": "string",  // Feature description
+                "included": true/false,   // Whether the feature is included
+                "limit": "string"         // Any specific limits
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+
+  "discounts": [
+    {
+      "type": "string",                   // Type of discount, e.g., "annual", "volume"
+      "amount": "string",                 // Discount amount, e.g., "10%"
+      "description": "string",            // Description of discount
+      "conditions": "string",             // Conditions for eligibility
+      "valid_until": "string"             // Expiration date in ISO format
+    }
+  ],
+
+  "enterprise": {
+    "available": true/false,
+    "contact_sales": true/false,
+    "minimum_seats": number/null,
+    "custom_features": ["string"]         // List of enterprise-specific features
+  },
+
+  "ml_metadata": {
+    "embeddings": {
+      "model": "string",                  // Embedding model name
+      "version": "string",                // Embedding model version
+      "vectors": [number]                 // List of embedding vector values
+    },
+    "confidence_scores": {
+      "pricing_accuracy": number,         // Confidence score for pricing accuracy
+      "feature_accuracy": number          // Confidence score for feature extraction
+    },
+    "last_validated": "string"            // Last validation timestamp in ISO format
+  },
+
+  "agent_metadata": {
+    "agent_name": "string",               // Name of the parsing agent
+    "agent_version": "string",            // Version of the parsing agent
+    "execution_time_seconds": number,     // Time taken to extract the data
+    "fallback_used": true/false,          // Whether a fallback method was used
+    "comments": "string"                  // Additional comments or observations
+  }
+}

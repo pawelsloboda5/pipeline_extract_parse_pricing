@@ -1,0 +1,140 @@
+Extract all pricing information from the following content. Include:
+1. Plan names and descriptions
+2. Pricing details (amounts, billing periods)
+3. All features and limits for each plan
+4. Any additional information about enterprise options
+
+Format the output in a clear, readable way.
+
+Content:
+Introducing Airtable ProductCentral See it in action Airtable home or view your bases Platform Solutions Resources Enterprise Pricing Contact Sales Sign up for free Sign in A plan for every organization's needs Free For individuals or very small teams just getting started with Airtable Free Try for free Free includes: Unlimited bases 1,000 records per base Up to 5 editors 1 GB of attachments per base 100 automation runs Interface Designer ALL FEATURES Most popular Team For teams building apps to collaborate on shared workflows $20 per seat /month billed annually Try for free Everything in Free, plus: 50,000 records per base 25,000 automation runs 20 GB of attachments per base Standard sync integrations Extensions Gantt and timeline view Expanded color, formatting, and calendar options ALL FEATURES Business For teams and departments who need advanced features and basic administration $45 per seat /month billed annually Get started Everything in Team, plus: 125,000 records per base 100,000 automation runs 100 GB of attachments per base Premium sync integrations Verified data Two-way sync Admin panel SAML-based single sign-on App Sandbox ALL FEATURES Enterprise Scale For organizations looking to build scalable, flexible apps with powerful governance and administration Contact Sales Everything in Business, plus: 500,000 records per base 500,000 automation runs 1,000 GB of attachments per base On-premises sync integrations App Library HyperDB Enterprise Hub Enhanced security and admin controls Enterprise API Extension and integration management Audit logs and DLP ALL FEATURES Add-on Airtable AI Harness the power of AI and incorporate it directly into your workflows. Try it out for free, or get started with standard access beginning at $6 per seat/month. Summarize and extract insights from meeting notes, articles, etc. Categorize feedback and assets Route tasks to the right people Generate draft content Translate text Get Pricing Available for Team, Business, or Enterprise Scale plans Solution ProductCentral Accelerate digital product development. Get visibility into product investments at every altitude, from strategy to tickets. Infuse AI into every stage of product operations. Synthesize customer insights Align roadmap to strategy Sync with engineering Contact Sales Available for Business or Enterprise Scale plans Trusted by 500,000+ forward-thinking companies worldwide Have additional questions? BILLING / PRICING Billing FAQ SPECIAL PLANS FOR Nonprofits or Education ENTERPRISE PLANS Contact Sales Frequently asked questions How does Airtable's pricing work? How does Airtable's Business and Enterprise Scale pricing work? Is Airtable free to use? How much does Airtable cost? What are my payment options? What happens when I hit my usage limits? I am currently on Airtable’s legacy Enterprise plan — where can I see a list of my current features? Airtable home Platform Solutions Resources Enterprise Pricing Contact Sales Facebook Linkedin Twitter Instagram Youtube Platform Platform Overview Integrations Extensions App Building AI Connected Data See more Solutions Product Marketing Operations Human Resources Sales Finance See more Learn Learning Center Events Video Center Demos Customer Stories Webinars See more Resources Partners Services Developers Community Templates Airtable Universe See more Company About Careers POPULAR Blog Status Newsroom Try Airtable for free Security API Sitemap Privacy Terms Do Not Sell/Share My Info Cookie Preferences Download on the App Store Get it on Google Play This website uses cookies and other tracking technologies to collect, store, and monitor your information, which we may share with our third-party partners, as further described in ourCookie Policy. By continuing to use this site, you agree to our use of these tracking technologies in accordance with ourPrivacy Policy andCookie Policy, and accept ourTerms of Service. Cookie Preferences
+
+Output the information in this format:
+SERVICE INFORMATION
+- Name:
+- Description:
+- Business Model:
+
+PRICING DETAILS
+- Currency:
+- Billing Cycles:
+- Free Tier Available:
+- Custom Pricing Available:
+
+PLANS
+[For each plan]:
+Plan: [name]
+Description: [description]
+Price: [amount] [period]
+Popular: [yes/no]
+Key Features:
+- [feature 1]
+- [feature 2]
+...
+Limits:
+- [limit 1]
+- [limit 2]
+...
+
+ENTERPRISE INFORMATION
+[Any enterprise-specific details]
+
+SERVICE INFORMATION
+- Name: Airtable ProductCentral
+- Description: See it in action Airtable home or view your bases Platform Solutions Resources Enterprise Pricing Contact Sales Sign up for free Sign in
+- Business Model: Subscription
+
+PRICING DETAILS
+- Currency: USD
+- Billing Cycles: Monthly, Annually
+- Free Tier Available: Yes
+- Custom Pricing Available: Contact Sales
+
+PLANS
+- Plan: Free
+  Description: A plan for every organization's needs Free For individuals or very small teams just getting started with Airtable
+  Price: Free
+  Popular: Yes
+  Key Features:
+    - Unlimited bases
+    - 1,000 records per base
+    - Up to 5 editors
+    - 1 GB of attachments per base
+    - 100 automation runs
+    - Interface Designer
+    - ALL FEATURES
+  Limits:
+    - N/A
+
+- Plan: Team
+  Description: For teams building apps to collaborate on shared workflows
+  Price: $20 per seat /month billed annually
+  Popular: Yes
+  Key Features:
+    - Everything in Free, plus:
+      - 50,000 records per base
+      - 25,000 automation runs
+      - 20 GB of attachments per base
+      - Standard sync integrations
+      - Extensions
+      - Gantt and timeline view
+      - Expanded color, formatting, and calendar options
+      - ALL FEATURES
+  Limits:
+    - N/A
+
+- Plan: Business
+  Description: For teams and departments who need advanced features and basic administration
+  Price: $45 per seat /month billed annually
+  Popular: N/A
+  Key Features:
+    - Everything in Team, plus:
+      - 125,000 records per base
+      - 100,000 automation runs
+      - 100 GB of attachments per base
+      - Premium sync integrations
+      - Verified data
+      - Two-way sync
+      - Admin panel
+      - SAML-based single sign-on
+      - App Sandbox
+      - ALL FEATURES
+  Limits:
+    - N/A
+
+- Plan: Enterprise Scale
+  Description: For organizations looking to build scalable, flexible apps with powerful governance and administration
+  Price: Contact Sales
+  Popular: N/A
+  Key Features:
+    - Everything in Business, plus:
+      - 500,000 records per base
+      - 500,000 automation runs
+      - 1,000 GB of attachments per base
+      - On-premises sync integrations
+      - App Library
+      - HyperDB Enterprise Hub
+      - Enhanced security and admin controls
+      - Enterprise API
+      - Extension and integration management
+      - Audit logs and DLP
+      - ALL FEATURES
+  Limits:
+    - N/A
+
+- Plan: Add-on Airtable AI
+  Description: Harness the power of AI and incorporate it directly into your workflows.
+  Price: Starting at $6 per seat/month
+  Popular: N/A
+  Key Features:
+    - Summarize and extract insights from meeting notes, articles, etc.
+    - Categorize feedback and assets
+    - Route tasks to the right people
+    - Generate draft content
+    - Translate text
+    - Get Pricing
+  Limits:
+    - N/A
+
+ENTERPRISE INFORMATION
+- Additional Information: Contact Sales for more details about enterprise options.

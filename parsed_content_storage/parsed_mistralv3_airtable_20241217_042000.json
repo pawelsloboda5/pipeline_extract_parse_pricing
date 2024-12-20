@@ -1,0 +1,117 @@
+{
+  "service": {
+    "name": "Airtable ProductCentral",
+    "url": "https://airtable.com/pricing",
+    "logo_url": "https://www.airtable.com/img/logos/productcentral.svg",
+    "description": "Accelerate digital product development.",
+    "category": {
+      "primary": "Product Development",
+      "secondary": null,
+      "tags": [
+        "Product Management",
+        "Digital Transformation"
+      ]
+    },
+    "business_model": {
+      "type": [
+        "Subscription"
+      ],
+      "description": "Monthly subscription plans."
+    }
+  },
+  "pricing_metadata": {
+    "last_updated": "2022-09-01T12:00:00Z",
+    "currency": "USD",
+    "regions": [
+      "Global"
+    ],
+    "billing_cycles": {
+      "available": [
+        "Monthly"
+      ],
+      "default": "Monthly"
+    },
+    "custom_pricing_available": false,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "Free",
+      "history": []
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "For individuals or very small teams just getting started with Airtable",
+      "highlight_features": [],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": null,
+          "amount_range": null,
+          "period": "Monthly",
+          "currency": "USD",
+          "is_per_user": false
+        }
+      },
+      "usage_based": null
+    },
+    {
+      "name": "Team",
+      "slug": "team",
+      "description": "For teams building apps to collaborate on shared workflows",
+      "highlight_features": [],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 20,
+          "amount_range": null,
+          "period": "Monthly",
+          "currency": "USD",
+          "is_per_user": true
+        }
+      },
+      "usage_based": null
+    },
+    {
+      "name": "Business",
+      "slug": "business",
+      "description": "For teams and departments who need advanced features and basic administration",
+      "highlight_features": [],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 45,
+          "amount_range": null,
+          "period": "Monthly",
+          "currency": "USD",
+          "is_per_user": true
+        }
+      },
+      "usage_based": null
+    },
+    {
+      "name": "Enterprise Scale",
+      "slug": "enterprise-scale",
+      "description": "For organizations looking to build scalable, flexible apps with powerful governance and administration",
+      "highlight_features": [],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": null,
+          "amount_range": null,
+          "period": "Custom",
+          "currency": "USD",
+          "is_per_user": false
+        }
+      }
+    }
+  ],
+  "agent_metadata": {
+    "agent_name": "mistral-7b-instruct-v0.3",
+    "agent_version": "1.0",
+    "execution_time_seconds": 148.59,
+    "fallback_used": false,
+    "comments": ""
+  }
+}

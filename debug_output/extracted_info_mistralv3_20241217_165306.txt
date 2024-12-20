@@ -1,0 +1,249 @@
+You are an assistant that extracts pricing information from the given content.
+Follow the instructions meticulously and produce only the requested structured text, no extra commentary.
+Use the format shown in the example and ensure correctness.
+
+EXAMPLE INPUT:
+Example Service with a Free plan and a Pro plan: Free includes up to 10 users, 1 GB storage. Pro: 20 USD per month per user, 100 users max, 50 GB storage.
+
+EXAMPLE OUTPUT:
+SERVICE INFORMATION
+- Name: Example Service
+- URL: Not specified
+- Logo URL: Not specified
+- Description: A service that provides workflow solutions.
+- Category: Productivity
+- Tags: workflow, productivity
+- Business Model: hybrid (offers free and paid plans)
+
+PRICING METADATA
+- Currency: USD
+- Available Regions: Not specified
+- Billing Cycles: monthly
+- Default Billing: monthly
+- Custom Pricing: Not Available
+- Free Tier: Available
+
+PLANS
+- Plan Name: Free
+  - Slug: free
+  - Description: A starter plan for small teams.
+  - Popular: No
+  - Base Price: 0 USD per month
+  - Per User: No
+  - Key Features:
+    - Basic support
+  - Limits:
+    - Users: 10
+    - Storage: 1 GB
+
+- Plan Name: Pro
+  - Slug: pro
+  - Description: For larger teams needing more features.
+  - Popular: Yes
+  - Base Price: 20 USD per month
+  - Per User: Yes
+  - Key Features:
+    - Advanced support
+  - Limits:
+    - Users: 100
+    - Storage: 50 GB
+
+ENTERPRISE OFFERING
+- Available: Not specified
+- Contact Sales Required: Not specified
+- Minimum Seats: Not specified
+- Custom Features: Not specified
+
+DISCOUNTS
+- Type: Not specified
+- Amount: Not specified
+- Description: Not specified
+- Conditions: Not specified
+- Valid Until: Not specified
+
+
+NOW PROCESS THE FOLLOWING CONTENT:
+
+STEP 1: Identify SERVICE INFORMATION
+- Name: The exact name of the service/product.
+- URL: If a pricing page URL is known or can be inferred from content, provide it.
+- Logo URL: If available.
+- Description: A brief summary of the service.
+- Category: [primary/secondary if applicable]
+- Tags: Relevant keywords as comma-separated values.
+- Business Model: One of [fixed, usage_based, tiered, hybrid] + brief description.
+
+STEP 2: PRICING METADATA
+- Currency: e.g., USD
+- Available Regions: If specified, else 'Not specified'
+- Billing Cycles: List all (e.g., monthly, annually)
+- Default Billing: Which cycle is default?
+- Custom Pricing: "Available" or "Not Available"
+- Free Tier: "Available" or "Not Available"
+
+STEP 3: PLANS
+For each plan:
+- Plan Name: exact name
+- Slug: lowercase, no spaces
+- Description: short summary
+- Popular: Yes/No
+- Base Price: numeric amount + currency + period (e.g., 20 USD per month)
+- Per User: Yes/No
+- Key Features: bullet list (qualitative features only)
+- Limits: Only numeric or capacity-related constraints (e.g., users, storage, records) as numeric values + unit.
+
+If something isn't mentioned, write 'Not specified'.
+
+STEP 4: ENTERPRISE OFFERING
+- Available: Yes/No
+- Contact Sales Required: Yes/No
+- Minimum Seats: numeric or 'Not specified'
+- Custom Features: bullet list or 'Not specified'
+
+STEP 5: DISCOUNTS (if any)
+- Type
+- Amount
+- Description
+- Conditions
+- Valid Until
+If none, write all as 'Not specified'.
+
+ADDITIONAL REQUIREMENTS:
+- No commentary outside the required sections.
+- Convert all numeric fields to numbers without extra units in the number itself. For example, "1000 records" → "Records: 1000".
+- For booleans use Yes/No.
+- If a field is not applicable or unknown, write 'Not specified'.
+- End by double-checking that you followed all instructions.
+
+Format limits consistently as:
+  - Limits:
+    - Records per base: [number]
+    - Storage: [number] GB
+    - Editors: [number]
+    - Automation runs: [number]
+    - [Other limit name]: [number] [unit]
+    
+CONTENT TO ANALYZE:
+Introducing Airtable ProductCentral See it in action Airtable home or view your bases Platform Solutions Resources Enterprise Pricing Contact Sales Sign up for free Sign in A plan for every organization's needs Free For individuals or very small teams just getting started with Airtable Free Try for free Free includes: Unlimited bases 1,000 records per base Up to 5 editors 1 GB of attachments per base 100 automation runs Interface Designer ALL FEATURES Most popular Team For teams building apps to collaborate on shared workflows $20 per seat /month billed annually Try for free Everything in Free, plus: 50,000 records per base 25,000 automation runs 20 GB of attachments per base Standard sync integrations Extensions Gantt and timeline view Expanded color, formatting, and calendar options ALL FEATURES Business For teams and departments who need advanced features and basic administration $45 per seat /month billed annually Get started Everything in Team, plus: 125,000 records per base 100,000 automation runs 100 GB of attachments per base Premium sync integrations Verified data Two-way sync Admin panel SAML-based single sign-on App Sandbox ALL FEATURES Enterprise Scale For organizations looking to build scalable, flexible apps with powerful governance and administration Contact Sales Everything in Business, plus: 500,000 records per base 500,000 automation runs 1,000 GB of attachments per base On-premises sync integrations App Library HyperDB Enterprise Hub Enhanced security and admin controls Enterprise API Extension and integration management Audit logs and DLP ALL FEATURES Add-on Airtable AI Harness the power of AI and incorporate it directly into your workflows. Try it out for free, or get started with standard access beginning at $6 per seat/month. Summarize and extract insights from meeting notes, articles, etc. Categorize feedback and assets Route tasks to the right people Generate draft content Translate text Get Pricing Available for Team, Business, or Enterprise Scale plans Solution ProductCentral Accelerate digital product development. Get visibility into product investments at every altitude, from strategy to tickets. Infuse AI into every stage of product operations. Synthesize customer insights Align roadmap to strategy Sync with engineering Contact Sales Available for Business or Enterprise Scale plans Trusted by 500,000+ forward-thinking companies worldwide Have additional questions? BILLING / PRICING Billing FAQ SPECIAL PLANS FOR Nonprofits or Education ENTERPRISE PLANS Contact Sales Frequently asked questions How does Airtable's pricing work? How does Airtable's Business and Enterprise Scale pricing work? Is Airtable free to use? How much does Airtable cost? What are my payment options? What happens when I hit my usage limits? I am currently on Airtable’s legacy Enterprise plan — where can I see a list of my current features? Airtable home Platform Solutions Resources Enterprise Pricing Contact Sales Facebook Linkedin Twitter Instagram Youtube Platform Platform Overview Integrations Extensions App Building AI Connected Data See more Solutions Product Marketing Operations Human Resources Sales Finance See more Learn Learning Center Events Video Center Demos Customer Stories Webinars See more Resources Partners Services Developers Community Templates Airtable Universe See more Company About Careers POPULAR Blog Status Newsroom Try Airtable for free Security API Sitemap Privacy Terms Do Not Sell/Share My Info Cookie Preferences Download on the App Store Get it on Google Play This website uses cookies and other tracking technologies to collect, store, and monitor your information, which we may share with our third-party partners, as further described in ourCookie Policy. By continuing to use this site, you agree to our use of these tracking technologies in accordance with ourPrivacy Policy andCookie Policy, and accept ourTerms of Service. Cookie Preferences
+
+Double-check:
+1. All required sections and fields are present.
+2. No extra commentary.
+3. ALL numeric limits are captured under each plan's Limits section.
+4. Numeric values are properly formatted without units in the number.
+
+Your response must start with 'SERVICE INFORMATION' and contain only the extracted information.
+
+SERVICE INFORMATION
+- Name: Airtable ProductCentral
+- URL: https://airtable.com/productcentral
+- Logo URL: Not specified
+- Description: A platform for digital product development with AI integration.
+- Category: Product Development
+- Tags: product development, AI, digital product, collaboration
+- Business Model: tiered (offers free and paid plans)
+
+PRICING METADATA
+- Currency: USD
+- Available Regions: Not specified
+- Billing Cycles: monthly, annually
+- Default Billing: annually
+- Custom Pricing: Not Available
+- Free Tier: Available
+
+PLANS
+- Plan Name: Free
+  - Slug: free
+  - Description: A starter plan for individuals or very small teams.
+  - Popular: No
+  - Base Price: 0 USD per month
+  - Per User: No
+  - Key Features:
+    - Unlimited bases
+    - 1,000 records per base
+    - Up to 5 editors
+    - 1 GB of attachments per base
+    - 100 automation runs
+  - Limits:
+    - Records per base: 1,000
+    - Storage: 1 GB
+    - Editors: 5
+    - Automation runs: 100
+
+- Plan Name: Team
+  - Slug: team
+  - Description: For teams building apps to collaborate on shared workflows.
+  - Popular: Yes
+  - Base Price: 20 USD per seat per month
+  - Per User: Yes
+  - Key Features:
+    - Everything in Free, plus:
+      - 50,000 records per base
+      - 25,000 automation runs
+      - 20 GB of attachments per base
+      - Standard sync integrations
+      - Extensions
+      - Gantt and timeline view
+      - Expanded color, formatting, and calendar options
+  - Limits:
+    - Records per base: 50,000
+    - Storage: 20 GB
+    - Automation runs: 25,000
+
+- Plan Name: Business
+  - Slug: business
+  - Description: For teams and departments who need advanced features and basic administration.
+  - Popular: Not specified
+  - Base Price: 45 USD per seat per month
+  - Per User: Yes
+  - Key Features:
+    - Everything in Team, plus:
+      - 125,000 records per base
+      - 100,000 automation runs
+      - 100 GB of attachments per base
+      - Premium sync integrations
+      - Verified data
+      - Two-way sync
+      - Admin panel
+      - SAML-based single sign-on
+      - App Sandbox
+  - Limits:
+    - Records per base: 125,000
+    - Storage: 100 GB
+    - Automation runs: 100,000
+
+- Plan Name: Enterprise Scale
+  - Slug: enterprise-scale
+  - Description: For organizations looking to build scalable, flexible apps with powerful governance and administration.
+  - Popular: Not specified
+  - Base Price: Contact Sales
+  - Per User: Not specified
+  - Key Features:
+    - Everything in Business, plus:
+      - 500,000 records per base
+      - 500,000 automation runs
+      - 1,000 GB of attachments per base
+      - On-premises sync integrations
+      - App Library
+      - HyperDB Enterprise Hub
+      - Enhanced security and admin controls
+      - Enterprise API
+      - Extension and integration management
+      - Audit logs and DLP
+  - Limits:
+    - Records per base: 500,000
+    - Storage: 1,000 GB
+    - Automation runs: 500,000
+
+ENTERPRISE OFFERING
+- Available: Contact Sales
+- Contact Sales Required: Yes
+- Minimum Seats: Not specified
+- Custom Features: Not specified
+
+DISCOUNTS
+- Type: Not specified
+- Amount: Not specified
+- Description: Not specified
+- Conditions: Not specified
+- Valid Until: Not specified

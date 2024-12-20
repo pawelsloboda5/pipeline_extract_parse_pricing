@@ -1,0 +1,17 @@
+{
+  "amount": null,
+  "amount_range": null,
+  "period": null,
+  "currency": null,
+  "is_per_user": false,
+  "agent_metadata": {
+    "agent_name": "mistral-7b-instruct-v0.3",
+    "agent_version": "1.0",
+    "execution_time_seconds": 130.45,
+    "fallback_used": false,
+    "comments": ""
+  },
+  "service": {
+    "url": "https://airtable.com/pricing"
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "type": "object",
+  "properties": {
+    "service": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "logo_url": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "category": {
+          "type": "object",
+          "properties": {
+            "primary": {
+              "type": "string"
+            },
+            "secondary": {
+              "type": "string"
+            },
+            "tags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "business_model": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "description": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "name",
+        "url"
+      ]
+    },
+    "pricing_metadata": {
+      "type": "object",
+      "properties": {
+        "last_updated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "regions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "billing_cycles": {
+          "type": "object",
+          "properties": {
+            "available": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "default": {
+              "type": "string"
+            }
+          }
+        },
+        "custom_pricing_available": {
+          "type": "boolean"
+        },
+        "free_tier_available": {
+          "type": "boolean"
+        },
+        "versioning": {
+          "type": "object",
+          "properties": {
+            "current": {
+              "type": "string"
+            },
+            "history": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "plans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "highlight_features": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "is_popular": {
+            "type": "boolean"
+          },
+          "pricing": {
+            "type": "object",
+            "properties": {
+              "base": {
+                "type": "object",
+                "properties": {
+                  "amount": {
+                    "type": "number"
+                  },
+                  "amount_range": {
+                    "type": "object",
+                    "properties": {
+                      "min": {
+                        "type": "number"
+                      },
+                      "max": {
+                        "type": "number"
+                      }
+                    }
+                  },
+                  "period": {
+                    "type": "string"
+                  },
+                  "currency": {
+                    "type": "string"
+                  },
+                  "is_per_user": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "usage_based": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "unit": {
+                      "type": "string"
+                    },
+                    "tiers": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "range": {
+                            "type": "object",
+                            "properties": {
+                              "min": {
+                                "type": "number"
+                              },
+                              "max": {
+                                "type": "number"
+                              }
+                            }
+                          },
+                          "unit_price": {
+                            "type": "number"
+                          },
+                          "flat_fee": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "limits": {
+            "type": "object",
+            "properties": {
+              "users": {
+                "type": "object",
+                "properties": {
+                  "min": {
+                    "type": "number"
+                  },
+                  "max": {
+                    "type": "number"
+                  }
+                }
+              },
+              "storage": {
+                "type": "object",
+                "properties": {
+                  "amount": {
+                    "type": "number"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                }
+              },
+              "api": {
+                "type": "object",
+                "properties": {
+                  "requests": {
+                    "type": "object",
+                    "properties": {
+                      "rate": {
+                        "type": "number"
+                      },
+                      "period": {
+                        "type": "string"
+                      },
+                      "quota": {
+                        "type": [
+                          "number",
+                          "null"
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "compute": {
+                "type": "object",
+                "properties": {
+                  "vcpu": {
+                    "type": "number"
+                  },
+                  "memory": {
+                    "type": "number"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                }
+              },
+              "other_limits": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "features": {
+            "type": "object",
+            "properties": {
+              "categories": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "features": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "name": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string"
+                          },
+                          "included": {
+                            "type": "boolean"
+                          },
+                          "limit": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "name",
+          "slug"
+        ]
+      }
+    },
+    "discounts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "amount": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "conditions": {
+            "type": "string"
+          },
+          "valid_until": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "enterprise": {
+      "type": "object",
+      "properties": {
+        "available": {
+          "type": "boolean"
+        },
+        "contact_sales": {
+          "type": "boolean"
+        },
+        "minimum_seats": {
+          "type": "number"
+        },
+        "custom_features": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ml_metadata": {
+      "type": "object",
+      "properties": {
+        "embeddings": {
+          "type": "object",
+          "properties": {
+            "model": {
+              "type": "string"
+            },
+            "version": {
+              "type": "string"
+            },
+            "vectors": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "confidence_scores": {
+          "type": "object",
+          "properties": {
+            "pricing_accuracy": {
+              "type": "number"
+            },
+            "feature_accuracy": {
+              "type": "number"
+            }
+          }
+        },
+        "last_validated": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "agent_metadata": {
+      "type": "object",
+      "properties": {
+        "agent_name": {
+          "type": "string"
+        },
+        "agent_version": {
+          "type": "string"
+        },
+        "execution_time_seconds": {
+          "type": "number"
+        },
+        "fallback_used": {
+          "type": "boolean"
+        },
+        "comments": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "service",
+    "plans"
+  ],
+  "agent_metadata": {
+    "agent_name": "mistral-7b-instruct-v0.3",
+    "agent_version": "1.0",
+    "execution_time_seconds": 128.85,
+    "fallback_used": false,
+    "comments": ""
+  },
+  "service": {
+    "url": "https://airtable.com/pricing"
+  }
+}

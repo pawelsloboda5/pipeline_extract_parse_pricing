@@ -1,0 +1,821 @@
+Convert this EXTRACTED pricing information into JSON following the exact schema below.
+The schema shows the required structure and data types for each field.
+Pay special attention to:
+- Required fields: "service" and "plans"
+- Data types (string, number, boolean, array)
+- Nested objects and arrays
+- Null values for missing information
+
+SCHEMA:
+{
+  "type": "object",
+  "properties": {
+    "service": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "logo_url": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "category": {
+          "type": "object",
+          "properties": {
+            "primary": {
+              "type": "string"
+            },
+            "secondary": {
+              "type": "string"
+            },
+            "tags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "business_model": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "description": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "name",
+        "url"
+      ]
+    },
+    "pricing_metadata": {
+      "type": "object",
+      "properties": {
+        "last_updated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "regions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "billing_cycles": {
+          "type": "object",
+          "properties": {
+            "available": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "default": {
+              "type": "string"
+            }
+          }
+        },
+        "custom_pricing_available": {
+          "type": "boolean"
+        },
+        "free_tier_available": {
+          "type": "boolean"
+        },
+        "versioning": {
+          "type": "object",
+          "properties": {
+            "current": {
+              "type": "string"
+            },
+            "history": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "plans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "highlight_features": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "is_popular": {
+            "type": "boolean"
+          },
+          "pricing": {
+            "type": "object",
+            "properties": {
+              "base": {
+                "type": "object",
+                "properties": {
+                  "amount": {
+                    "type": "number"
+                  },
+                  "amount_range": {
+                    "type": "object",
+                    "properties": {
+                      "min": {
+                        "type": "number"
+                      },
+                      "max": {
+                        "type": "number"
+                      }
+                    }
+                  },
+                  "period": {
+                    "type": "string"
+                  },
+                  "currency": {
+                    "type": "string"
+                  },
+                  "is_per_user": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "usage_based": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "unit": {
+                      "type": "string"
+                    },
+                    "tiers": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "range": {
+                            "type": "object",
+                            "properties": {
+                              "min": {
+                                "type": "number"
+                              },
+                              "max": {
+                                "type": "number"
+                              }
+                            }
+                          },
+                          "unit_price": {
+                            "type": "number"
+                          },
+                          "flat_fee": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "limits": {
+            "type": "object",
+            "properties": {
+              "users": {
+                "type": "object",
+                "properties": {
+                  "min": {
+                    "type": "number"
+                  },
+                  "max": {
+                    "type": "number"
+                  }
+                }
+              },
+              "storage": {
+                "type": "object",
+                "properties": {
+                  "amount": {
+                    "type": "number"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                }
+              },
+              "api": {
+                "type": "object",
+                "properties": {
+                  "requests": {
+                    "type": "object",
+                    "properties": {
+                      "rate": {
+                        "type": "number"
+                      },
+                      "period": {
+                        "type": "string"
+                      },
+                      "quota": {
+                        "type": [
+                          "number",
+                          "null"
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "compute": {
+                "type": "object",
+                "properties": {
+                  "vcpu": {
+                    "type": "number"
+                  },
+                  "memory": {
+                    "type": "number"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                }
+              },
+              "other_limits": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "features": {
+            "type": "object",
+            "properties": {
+              "categories": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "features": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "name": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string"
+                          },
+                          "included": {
+                            "type": "boolean"
+                          },
+                          "limit": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "name",
+          "slug"
+        ]
+      }
+    },
+    "discounts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "amount": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "conditions": {
+            "type": "string"
+          },
+          "valid_until": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "enterprise": {
+      "type": "object",
+      "properties": {
+        "available": {
+          "type": "boolean"
+        },
+        "contact_sales": {
+          "type": "boolean"
+        },
+        "minimum_seats": {
+          "type": "number"
+        },
+        "custom_features": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ml_metadata": {
+      "type": "object",
+      "properties": {
+        "embeddings": {
+          "type": "object",
+          "properties": {
+            "model": {
+              "type": "string"
+            },
+            "version": {
+              "type": "string"
+            },
+            "vectors": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "confidence_scores": {
+          "type": "object",
+          "properties": {
+            "pricing_accuracy": {
+              "type": "number"
+            },
+            "feature_accuracy": {
+              "type": "number"
+            }
+          }
+        },
+        "last_validated": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "agent_metadata": {
+      "type": "object",
+      "properties": {
+        "agent_name": {
+          "type": "string"
+        },
+        "agent_version": {
+          "type": "string"
+        },
+        "execution_time_seconds": {
+          "type": "number"
+        },
+        "fallback_used": {
+          "type": "boolean"
+        },
+        "comments": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "service",
+    "plans"
+  ]
+}
+
+EXTRACTED INFORMATION:
+Extract detailed pricing information from the content in this specific format:
+
+SERVICE INFORMATION
+Name: [exact service name]
+URL: [pricing page URL]
+Logo URL: [if available]
+Description: [brief service description]
+Category: [primary category] / [secondary category if any]
+Tags: [comma-separated list of relevant tags]
+Business Model: [type: fixed/usage_based/tiered/hybrid] - [brief description]
+
+PRICING METADATA
+Currency: [e.g., USD]
+Available Regions: [list regions]
+Billing Cycles: [list available cycles]
+Default Billing: [default cycle]
+Custom Pricing: [Available/Not Available]
+Free Tier: [Available/Not Available]
+
+PLANS
+[For each plan, include:]
+Plan Name: [name]
+Slug: [URL-friendly version of name]
+Description: [plan description]
+Popular: [Yes/No]
+Base Price: [amount] [currency] per [period]
+Per User: [Yes/No]
+
+Key Features:
+- [feature 1]
+- [feature 2]
+...
+
+Limits:
+- Users: [min-max if specified]
+- Storage: [amount + unit]
+- API Requests: [rate/quota if specified]
+- Other: [any other numerical limits]
+
+ENTERPRISE OFFERING
+Available: [Yes/No]
+Contact Sales Required: [Yes/No]
+Minimum Seats: [if specified]
+Custom Features:
+- [feature 1]
+- [feature 2]
+
+DISCOUNTS
+[For each discount:]
+Type: [type]
+Amount: [amount]
+Description: [description]
+Conditions: [conditions]
+Valid Until: [date if specified]
+
+Content to analyze:
+Introducing Airtable ProductCentral See it in action Airtable home or view your bases Platform Solutions Resources Enterprise Pricing Contact Sales Sign up for free Sign in A plan for every organization's needs Free For individuals or very small teams just getting started with Airtable Free Try for free Free includes: Unlimited bases 1,000 records per base Up to 5 editors 1 GB of attachments per base 100 automation runs Interface Designer ALL FEATURES Most popular Team For teams building apps to collaborate on shared workflows $20 per seat /month billed annually Try for free Everything in Free, plus: 50,000 records per base 25,000 automation runs 20 GB of attachments per base Standard sync integrations Extensions Gantt and timeline view Expanded color, formatting, and calendar options ALL FEATURES Business For teams and departments who need advanced features and basic administration $45 per seat /month billed annually Get started Everything in Team, plus: 125,000 records per base 100,000 automation runs 100 GB of attachments per base Premium sync integrations Verified data Two-way sync Admin panel SAML-based single sign-on App Sandbox ALL FEATURES Enterprise Scale For organizations looking to build scalable, flexible apps with powerful governance and administration Contact Sales Everything in Business, plus: 500,000 records per base 500,000 automation runs 1,000 GB of attachments per base On-premises sync integrations App Library HyperDB Enterprise Hub Enhanced security and admin controls Enterprise API Extension and integration management Audit logs and DLP ALL FEATURES Add-on Airtable AI Harness the power of AI and incorporate it directly into your workflows. Try it out for free, or get started with standard access beginning at $6 per seat/month. Summarize and extract insights from meeting notes, articles, etc. Categorize feedback and assets Route tasks to the right people Generate draft content Translate text Get Pricing Available for Team, Business, or Enterprise Scale plans Solution ProductCentral Accelerate digital product development. Get visibility into product investments at every altitude, from strategy to tickets. Infuse AI into every stage of product operations. Synthesize customer insights Align roadmap to strategy Sync with engineering Contact Sales Available for Business or Enterprise Scale plans Trusted by 500,000+ forward-thinking companies worldwide Have additional questions? BILLING / PRICING Billing FAQ SPECIAL PLANS FOR Nonprofits or Education ENTERPRISE PLANS Contact Sales Frequently asked questions How does Airtable's pricing work? How does Airtable's Business and Enterprise Scale pricing work? Is Airtable free to use? How much does Airtable cost? What are my payment options? What happens when I hit my usage limits? I am currently on Airtable’s legacy Enterprise plan — where can I see a list of my current features? Airtable home Platform Solutions Resources Enterprise Pricing Contact Sales Facebook Linkedin Twitter Instagram Youtube Platform Platform Overview Integrations Extensions App Building AI Connected Data See more Solutions Product Marketing Operations Human Resources Sales Finance See more Learn Learning Center Events Video Center Demos Customer Stories Webinars See more Resources Partners Services Developers Community Templates Airtable Universe See more Company About Careers POPULAR Blog Status Newsroom Try Airtable for free Security API Sitemap Privacy Terms Do Not Sell/Share My Info Cookie Preferences Download on the App Store Get it on Google Play This website uses cookies and other tracking technologies to collect, store, and monitor your information, which we may share with our third-party partners, as further described in ourCookie Policy. By continuing to use this site, you agree to our use of these tracking technologies in accordance with ourPrivacy Policy andCookie Policy, and accept ourTerms of Service. Cookie Preferences
+
+Extract ALL available information, being as specific as possible with numbers, limits, and features.
+
+SERVICE INFORMATION
+Name: Airtable ProductCentral
+URL: https://airtable.com/productcentral
+Logo URL: https://airtable.com/img/logos/productcentral.svg
+Description: A platform for digital product development, providing visibility into product investments and infusing AI into every stage of product operations.
+Category: Product Management / Project Management
+Tags: Product Management, Project Management, AI, Digital Product Development, Product Operations
+Business Model: Hybrid - Airtable offers a free plan for individuals or very small teams, and paid plans for teams and organizations.
+
+PRICING METADATA
+Currency: USD
+Available Regions: Worldwide
+Billing Cycles: Monthly / Annually
+Default Billing: Monthly
+Custom Pricing: Not Available
+Free Tier: Available
+
+PLANS
+Plan Name: Free
+Slug: free
+Description: A free plan for individuals or very small teams just getting started with Airtable.
+Popular: No
+Base Price: Free
+Per User: No
+
+Key Features:
+- Unlimited bases
+- 1,000 records per base
+- Up to 5 editors
+- 1 GB of attachments per base
+- 100 automation runs
+- Interface Designer
+
+Limits:
+- No specified limits
+
+Plan Name: Team
+Slug: team
+Description: A plan for teams building apps to collaborate on shared workflows.
+Popular: Yes
+Base Price: $20 per seat /month billed annually
+Per User: Yes
+
+Key Features:
+- Everything in Free, plus:
+- 50,000 records per base
+- 25,000 automation runs
+- 20 GB of attachments per base
+- Standard sync integrations
+- Extensions
+- Gantt and timeline view
+- Expanded color, formatting, and calendar options
+
+Limits:
+- Users: Not specified
+- Storage: Not specified
+- API Requests: Not specified
+- Other: Not specified
+
+Plan Name: Business
+Slug: business
+Description: A plan for teams and departments who need advanced features and basic administration.
+Popular: Yes
+Base Price: $45 per seat /month billed annually
+Per User: Yes
+
+Key Features:
+- Everything in Team, plus:
+- 125,000 records per base
+- 100,000 automation runs
+- 100 GB of attachments per base
+- Premium sync integrations
+- Verified data
+- Two-way sync
+- Admin panel
+- SAML-based single sign-on
+- App Sandbox
+
+Limits:
+- Users: Not specified
+- Storage: Not specified
+- API Requests: Not specified
+- Other: Not specified
+
+Plan Name: Enterprise Scale
+Slug: enterprise-scale
+Description: A plan for organizations looking to build scalable, flexible apps with powerful governance and administration.
+Popular: Yes
+Base Price: Contact Sales
+Per User: Yes
+
+Key Features:
+- Everything in Business, plus:
+- 500,000 records per base
+- 500,000 automation runs
+- 1,000 GB of attachments per base
+- On-premises sync integrations
+- App Library
+- HyperDB Enterprise Hub
+- Enhanced security and admin controls
+- Enterprise API Extension and integration management
+- Audit logs and DLP
+
+Limits:
+- Users: Not specified
+- Storage: Not specified
+- API Requests: Not specified
+- Other: Not specified
+
+ENTERPRISE OFFERING
+Available: Yes
+Contact Sales Required: No
+Minimum Seats: Not specified
+Custom Features:
+- On-premises sync integrations
+- App Library
+- HyperDB Enterprise Hub
+- Enhanced security and admin controls
+- Enterprise API Extension and integration management
+- Audit logs and DLP
+
+DISCOUNTS
+Type: Not specified
+Amount: Not specified
+Description: Not specified
+Conditions: Not specified
+Valid Until: Not specified
+
+Add-on: Airtable AI
+Available: Yes
+Contact Sales Required: No
+Minimum Seats: Not specified
+Custom Features:
+- Summarize and extract insights from meeting notes, articles, etc.
+- Categorize feedback and assets
+- Route tasks to the right people
+- Generate draft content
+- Translate text
+
+Base Price: Starting at $6 per seat/month
+
+Return only valid JSON matching the schema exactly. Ensure:
+1. All numbers are parsed as numbers, not strings
+2. All booleans are true/false, not strings
+3. Arrays are properly formatted
+4. Missing values are null
+5. Dates are in ISO8601 format
+
+{
+  "service": {
+    "name": "Airtable ProductCentral",
+    "url": "https://airtable.com/productcentral",
+    "logo_url": "https://airtable.com/img/logos/productcentral.svg",
+    "description": "A platform for digital product development, providing visibility into product investments and infusing AI into every stage of product operations.",
+    "category": {
+      "primary": "Product Management",
+      "secondary": "Project Management"
+    },
+    "tags": ["Product Management", "Project Management", "AI", "Digital Product Development", "Product Operations"],
+    "business_model": {
+      "type": ["hybrid"],
+      "description": "Airtable offers a free plan for individuals or very small teams, and paid plans for teams and organizations."
+    }
+  },
+  "pricing_metadata": {
+    "last_updated": "2022-01-01T00:00:00Z",
+    "currency": "USD",
+    "regions": ["Worldwide"],
+    "billing_cycles": {
+      "available": ["Monthly", "Annually"],
+      "default": "Monthly"
+    },
+    "custom_pricing_available": true,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "1.0",
+      "history": []
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "A free plan for individuals or very small teams just getting started with Airtable.",
+      "highlight_features": [],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 0,
+          "amount_range": null,
+          "period": null,
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": null
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": null
+      },
+      "features": {
+        "categories": []
+      }
+    },
+    {
+      "name": "Team",
+      "slug": "team",
+      "description": "A plan for teams building apps to collaborate on shared workflows.",
+      "highlight_features": [],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 20,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": null
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": null
+      },
+      "features": {
+        "categories": []
+      }
+    },
+    {
+      "name": "Business",
+      "slug": "business",
+      "description": "A plan for teams and departments who need advanced features and basic administration.",
+      "highlight_features": [],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 45,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": null
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": null
+      },
+      "features": {
+        "categories": []
+      }
+    },
+    {
+      "name": "Enterprise Scale",
+      "slug": "enterprise-scale",
+      "description": "A plan for organizations looking to build scalable, flexible apps with powerful governance and administration.",
+      "highlight_features": [],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": null,
+          "amount_range": null,
+          "period": null,
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": null
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": null
+      },
+      "features": {
+        "categories": []
+      }
+    }
+  ],
+  "discounts": [],
+  "enterprise": {
+    "available": true,
+    "contact_sales": false,
+    "minimum_seats": null,
+    "custom_features": ["On-premises sync integrations", "App Library", "HyperDB Enterprise Hub", "Enhanced security and admin controls", "Enterprise API Extension and integration management", "Audit logs and DLP"]
+  },
+  "ml_metadata": {
+    "embeddings": null,
+    "confidence_scores": {
+      "pricing_accuracy": null,
+      "feature_accuracy": null
+    },
+    "last_validated": null
+  },
+  "agent_metadata": {
+    "agent_name": null,
+    "agent_version": null,
+    "execution_time_seconds": null,
+    "fallback_used": null,
+    "comments": null
+  }
+}
