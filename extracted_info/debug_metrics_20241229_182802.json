@@ -1,0 +1,34 @@
+{
+  "input_file": "extracted_info\\extraction_calendly_20241229_182741.json",
+  "timestamp": "20241229_182802",
+  "metrics": {
+    "token_usage": {
+      "completion_tokens": 1788,
+      "prompt_tokens": 11710,
+      "total_tokens": 13498,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "execution_time": 20.99056887626648,
+    "cost": 0.17074,
+    "quality_metrics": {
+      "plans_with_limits": 4,
+      "plans_with_features": 4,
+      "plans_with_popularity": 1,
+      "total_plans": 4
+    }
+  },
+  "extraction_summary": {
+    "num_plans": 4,
+    "has_enterprise": true,
+    "num_discounts": 1
+  }
+}

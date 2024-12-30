@@ -1,0 +1,90 @@
+You are an AI assistant extracting pricing info. Fill the structure below with REAL data from the content.
+Use "Not specified" only if truly missing. Be thorough and accurate.
+SERVICE INFORMATION
+  - Name: Plans & Pricing | Zapier
+  - URL: https: //zapier.com/pricing
+  - Logo URL: [if available]
+  - Description: [brief description]
+  - Summary: [comprehensive service summary]
+  - Category: 
+  - Primary: [main category]
+  - Secondary: [sub- category]
+  - Tags: [comma- separated list of all relevant tags]
+  - Business Model: 
+  - Type: [list all that apply: subscription, usage- based, flat- rate, etc.]
+  - Description: [explain the pricing model]
+PRICING METADATA
+  - Currency: [primary currency code]
+  - Regions: [list all available regions]
+  - Billing Cycles: 
+  - Available: [list all cycles]
+  - Default: [primary billing cycle]
+  - Custom Pricing Available: [Yes/No]
+  - Free Tier Available: [Yes/No]
+PLANS
+  - For each plan found, provide: 
+  - Name: 
+  - Slug: [kebab- case]
+  - Description: 
+  - Is Popular: 
+  - Highlight Features: 
+  - Pricing: 
+  - Base: 
+  - Amount: 
+  - Period: 
+  - Currency: 
+  - Is Per User: 
+  - Usage Based Components: 
+  - Name: 
+  - Type: 
+  - Unit: 
+  - Tiers: 
+  - Range: 
+  - Unit Price: 
+  - Flat Fee: 
+  - Limits: 
+  - Users: 
+  - Minimum: 
+  - Maximum: 
+  - Storage: 
+  - Amount: 
+  - Unit: 
+  - API: 
+  - Requests: 
+  - Rate: 
+  - Period: 
+  - Quota: 
+  - Compute: 
+  - VCPU: 
+  - Memory: 
+  - Unit: 
+  - Other Limits: 
+  - Name: 
+  - Value: 
+  - Description: 
+  - Features: 
+  - (Group by category if possible)
+ADD- ONS
+  - Name: 
+  - Price: 
+  - Description: 
+  - Features: 
+  - Availability: 
+  - Requirements: 
+  - Limitations: 
+ENTERPRISE
+  - Available: 
+  - Contact Sales Required: 
+  - Minimum Seats: 
+  - Custom Features: 
+DISCOUNTS
+  - Type: 
+  - Amount: 
+  - Description: 
+  - Conditions: 
+  - Valid Until: 
+
+ADD-ONS
+- Name: Not specified
+- Price: Not specified
+- Description: Not specified

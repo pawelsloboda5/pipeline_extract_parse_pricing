@@ -1,0 +1,470 @@
+{
+  "service": {
+    "name": "Frame.io",
+    "url": "https://frame.io/pricing",
+    "logo_url": null,
+    "description": "Frame.io is the world's leading creative review and collaboration platform. Share media, collect feedback, manage reviews, and deliver finished work faster \u2014 from anywhere in the world.",
+    "category": {
+      "primary": "Creative Collaboration",
+      "secondary": "Media Management",
+      "tags": [
+        "Video Production",
+        "Collaboration",
+        "Media Review"
+      ]
+    },
+    "business_model": {
+      "type": [
+        "Subscription",
+        "Freemium"
+      ],
+      "description": "Frame.io offers a freemium model with advanced features in paid subscription plans. Pricing is per member with options for Free, Pro, Team, and Enterprise plans."
+    }
+  },
+  "pricing_metadata": {
+    "last_updated": "2023-10-05",
+    "currency": "USD",
+    "regions": [
+      "Global"
+    ],
+    "billing_cycles": {
+      "available": [
+        "monthly",
+        "annually"
+      ],
+      "default": "monthly"
+    },
+    "custom_pricing_available": true,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "v2024",
+      "history": [
+        "v2023",
+        "v2022"
+      ]
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "Start experiencing Frame.io right now. No credit card required.",
+      "highlight_features": [
+        "Up to 2 members",
+        "2GB storage",
+        "Up to 2 projects",
+        "Camera to Cloud"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 0.0,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 2.0
+        },
+        "storage": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Projects",
+            "value": "2",
+            "description": "Maximum number of projects included."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Core Features",
+            "features": [
+              {
+                "name": "Camera to Cloud",
+                "description": "Instantly upload takes from the set as they happen.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Workflow Management",
+                "description": "Manage workflows efficiently.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "File Management",
+                "description": "Organize and manage files.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Share & Present",
+                "description": "Share and present work.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Security & Integration",
+            "features": [
+              {
+                "name": "Premiere Pro Integration",
+                "description": "Integrate with Adobe Premiere Pro.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pro",
+      "slug": "pro",
+      "description": "Share and present securely, easily, and beautifully.",
+      "highlight_features": [
+        "Up to 5 members",
+        "2TB storage",
+        "Unlimited projects",
+        "Custom-branded shares"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 15.0,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 5.0
+        },
+        "storage": {
+          "amount": 2000.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Projects",
+            "value": "Unlimited",
+            "description": "Unlimited number of projects."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Core Features",
+            "features": [
+              {
+                "name": "Everything in Free",
+                "description": "All features included in the Free plan are also in the Pro plan.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Custom-branded shares",
+                "description": "Create custom-branded shares.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Team",
+      "slug": "team",
+      "description": "Remove blockers to create and deliver high-quality content faster.",
+      "highlight_features": [
+        "Up to 15 members",
+        "3TB storage",
+        "Restricted projects",
+        "Internal comments"
+      ],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 25.0,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 15.0
+        },
+        "storage": {
+          "amount": 3000.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Projects",
+            "value": "Unlimited",
+            "description": "Unlimited number of projects."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Core Features",
+            "features": [
+              {
+                "name": "Everything in Pro",
+                "description": "All features included in the Pro plan are also in the Team plan.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Internal comments",
+                "description": "Separate internal comments from external.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "description": "Industry-leading security, scalability, and admin controls.",
+      "highlight_features": [
+        "Custom members and storage",
+        "Single sign-on",
+        "Multiple team workspaces"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": null,
+          "amount_range": null,
+          "period": "custom",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Projects",
+            "value": "Unlimited",
+            "description": "Unlimited number of projects."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Enterprise Features",
+            "features": [
+              {
+                "name": "Priority support",
+                "description": "Get enhanced support with enterprise-level SLA.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Storage Connect",
+                "description": "Connect your own AWS-S3 bucket directly to Frame.io.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Security",
+            "features": [
+              {
+                "name": "Single sign-on",
+                "description": "Access via SAML2-based single sign-on.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Workspaces",
+            "features": [
+              {
+                "name": "Multiple team workspaces",
+                "description": "Create separate, private Frame.io workspaces.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise Prime",
+      "slug": "enterprise-prime",
+      "description": "Advanced customizable features for large enterprises.",
+      "highlight_features": [
+        "Exclusive to Enterprise Prime",
+        "Session-based watermarking",
+        "Custom security settings"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": null,
+          "amount_range": null,
+          "period": "custom",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": null,
+      "features": {
+        "categories": [
+          {
+            "name": "Prime Features",
+            "features": [
+              {
+                "name": "Session-based watermarking",
+                "description": "Advanced watermarking features for enhanced security.",
+                "included": false,
+                "limit": "Available as paid add-on to Enterprise Select package."
+              },
+              {
+                "name": "Custom security settings",
+                "description": "Customizable security settings for enterprise needs.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "add_ons": [
+    {
+      "name": "Extra Storage",
+      "description": "Add additional storage to your plan.",
+      "pricing": {
+        "period": "monthly",
+        "currency": "USD",
+        "is_per_user": 0.0
+      }
+    },
+    {
+      "name": "Session-based Watermarking",
+      "description": "Available as add-on for enhanced security.",
+      "pricing": {
+        "period": "monthly",
+        "currency": "USD",
+        "is_per_user": 0.0
+      }
+    }
+  ],
+  "use_cases": [
+    {
+      "use_case": "Basic Media Sharing",
+      "target_user": "Individual Creators",
+      "pain_points_solved": [
+        "Limited sharing capabilities",
+        "Basic media management"
+      ],
+      "key_benefits": [
+        "Free access",
+        "Basic features included"
+      ],
+      "recommended_plan": "Free",
+      "roi_potential": "N/A"
+    },
+    {
+      "use_case": "Professional Media Projects",
+      "target_user": "Professional Creators",
+      "pain_points_solved": [
+        "Limited storage for high-volume projects",
+        "Need for custom branding"
+      ],
+      "key_benefits": [
+        "Affordable professional plan",
+        "Includes custom branding"
+      ],
+      "recommended_plan": "Pro",
+      "roi_potential": "Medium"
+    },
+    {
+      "use_case": "Team Collaboration",
+      "target_user": "Small Teams",
+      "pain_points_solved": [
+        "Coordination issues",
+        "Multiple member collaboration"
+      ],
+      "key_benefits": [
+        "Includes restricted projects",
+        "Supports larger teams"
+      ],
+      "recommended_plan": "Team",
+      "roi_potential": "High"
+    },
+    {
+      "use_case": "Scalable Enterprise Solutions",
+      "target_user": "Large Enterprises",
+      "pain_points_solved": [
+        "Need for scalable solutions",
+        "Advanced security requirements"
+      ],
+      "key_benefits": [
+        "Custom member limits",
+        "Enterprise-level support"
+      ],
+      "recommended_plan": "Enterprise",
+      "roi_potential": "Very High"
+    }
+  ],
+  "discounts": null,
+  "enterprise": {
+    "available": true,
+    "contact_sales": true,
+    "minimum_seats": null,
+    "custom_features": [
+      "Priority in-app support",
+      "Storage Connect",
+      "Custom security settings",
+      "Multiple workspaces"
+    ]
+  },
+  "ml_metadata": null,
+  "agent_metadata": null
+}

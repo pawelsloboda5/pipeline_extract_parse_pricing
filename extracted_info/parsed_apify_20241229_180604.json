@@ -1,0 +1,303 @@
+{
+  "service": {
+    "name": "Apify",
+    "url": "https://apify.com/pricing",
+    "logo_url": null,
+    "description": "Extract value from the web with Apify. Flexible platform \u2014 flexible pricing. Free plan available, no credit card required.",
+    "category": null,
+    "business_model": null
+  },
+  "pricing_metadata": {
+    "last_updated": "2024-05-01",
+    "currency": "USD",
+    "regions": [
+      "global"
+    ],
+    "billing_cycles": {
+      "available": [
+        "monthly",
+        "yearly"
+      ],
+      "default": "monthly"
+    },
+    "custom_pricing_available": true,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "v1.0",
+      "history": [
+        "v0.9",
+        "v0.8"
+      ]
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "Free plan to use most of the features of the Apify platform with certain limits. No credit card required.",
+      "highlight_features": [
+        "$5 free usage"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 0.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Actor runs",
+            "value": "Limited",
+            "description": "Limited to $5 free usage"
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "General",
+            "features": [
+              {
+                "name": "Proxy",
+                "description": "Limited to use within the platform",
+                "included": true,
+                "limit": "Platform-only"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Starter",
+      "slug": "starter",
+      "description": "Starter plan with pay-as-you-go options.",
+      "highlight_features": null,
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 49.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Max concurrent runs",
+            "value": "25",
+            "description": ""
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Support level",
+                "description": "Priority chat support",
+                "included": true,
+                "limit": "1 hour / quarter"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scale",
+      "slug": "scale",
+      "description": "Scale plan offering extended resources.",
+      "highlight_features": null,
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 499.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Max concurrent runs",
+            "value": "32",
+            "description": ""
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Support level",
+                "description": "Priority chat support",
+                "included": true,
+                "limit": "1 hour / month"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Business",
+      "slug": "business",
+      "description": "Business plan with advanced features and support.",
+      "highlight_features": null,
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 999.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Max concurrent runs",
+            "value": "128",
+            "description": ""
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Support level",
+                "description": "Account manager included",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "description": "Custom enterprise solutions with tailored features.",
+      "highlight_features": null,
+      "is_popular": null,
+      "pricing": {
+        "base": {
+          "amount": null,
+          "amount_range": null,
+          "period": "/",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Max concurrent runs",
+            "value": "Unlimited",
+            "description": ""
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Support level",
+                "description": "SLA / Custom contract",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "discounts": [
+    {
+      "type": "percentage",
+      "amount": "10%",
+      "description": "10% off for yearly billing.",
+      "conditions": "When billed annually",
+      "valid_until": ""
+    },
+    {
+      "type": "flat",
+      "amount": "$500",
+      "description": "Special offer for Actors.",
+      "conditions": "$1/month for 6 months with $500 usage credits",
+      "valid_until": ""
+    },
+    {
+      "type": "percentage",
+      "amount": "30%",
+      "description": "Discount for universities and nonprofits.",
+      "conditions": "For academic institutions and nonprofits",
+      "valid_until": ""
+    },
+    {
+      "type": "percentage",
+      "amount": "30%",
+      "description": "Discount for startups on Scale plan.",
+      "conditions": "Available for startups",
+      "valid_until": ""
+    }
+  ],
+  "enterprise": {
+    "available": true,
+    "contact_sales": true,
+    "minimum_seats": null,
+    "custom_features": [
+      "Custom support levels",
+      "Custom usage limits"
+    ]
+  },
+  "ml_metadata": null,
+  "agent_metadata": null
+}

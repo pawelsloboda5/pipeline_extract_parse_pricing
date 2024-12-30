@@ -1,0 +1,440 @@
+SERVICE INFORMATION
+- Name: Airtable
+- URL: https://airtable.com/pricing
+- Logo URL: Not specified
+- Description: A next-gen app-building platform that connects data from apps, workflows, and tools to create a source of truth.
+- Summary: Airtable is a versatile platform that enables teams to build custom business apps, integrate with popular tools, and leverage AI to streamline workflows.
+- Category: Productivity
+- Tags: app-building, data-integration, AI
+- Business Model: hybrid (offers free and paid plans)
+
+PRICING METADATA
+- Currency: USD
+- Available Regions: Not specified
+- Billing Cycles: monthly, annually
+- Default Billing: monthly
+- Custom Pricing: Available
+- Free Tier: Available
+
+PLANS
+- Plan Name: Free
+  - Slug: free
+  - Description: For individuals or very small teams just getting started with Airtable.
+  - Popular: Yes
+  - Base Price: 0 USD per seat/month
+  - Per User: No
+  - Key Features:
+    - Unlimited bases
+    - 1,000 records per base
+    - Up to 5 editors
+    - 1 GB of attachments per base
+    - 100 automation runs
+    - Interface Designer
+  - Limits:
+    - Records per base: 1,000
+    - Storage: 1 GB
+    - Editors: 5
+    - Automation runs: 100
+
+- Plan Name: Team
+  - Slug: team
+  - Description: For teams building apps to collaborate on shared workflows.
+  - Popular: Yes
+  - Base Price: 20 USD per seat/month billed annually
+  - Per User: Yes
+  - Key Features:
+    - Everything in Free, plus:
+      - 50,000 records per base
+      - 25,000 automation runs
+      - Standard sync integrations
+      - Extensions
+      - Gantt and timeline view
+      - Expanded color, formatting, and calendar options
+  - Limits:
+    - Records per base: 50,000
+    - Storage: Not specified
+    - Editors: Not specified
+    - Automation runs: 25,000
+
+- Plan Name: Business
+  - Slug: business
+  - Description: For teams and departments who need advanced features and basic administration.
+  - Popular: Yes
+  - Base Price: 45 USD per seat/month billed annually
+  - Per User: Yes
+  - Key Features:
+    - Everything in Team, plus:
+      - 125,000 records per base
+      - 100,000 automation runs
+      - Premium sync integrations
+      - Verified data
+      - Two-way sync
+      - Admin panel
+      - SAML-based single sign-on
+      - App Sandbox
+  - Limits:
+    - Records per base: 125,000
+    - Storage: Not specified
+    - Editors: Not specified
+    - Automation runs: 100,000
+
+- Plan Name: Enterprise Scale
+  - Slug: enterprise-scale
+  - Description: For organizations looking to build scalable, flexible apps with powerful governance and administration.
+  - Popular: No
+  - Base Price: Custom pricing
+  - Per User: Yes
+  - Key Features:
+    - Everything in Business, plus:
+      - 500,000 records per base
+      - 500,000 automation runs
+      - On-premises sync integrations
+      - App Library
+      - HyperDB Enterprise Hub
+      - Enhanced security and admin controls
+      - Enterprise API Extension and integration management
+      - Audit logs and DLP
+  - Limits:
+    - Records per base: 500,000
+    - Storage: Not specified
+    - Editors: Not specified
+    - Automation runs: 500,000
+
+ENTERPRISE OFFERING
+- Available: Yes
+- Contact Sales Required: Yes
+- Minimum Seats: Not specified
+- Custom Features: Not specified
+
+DISCOUNTS
+- Type: Not specified
+- Amount: Not specified
+- Description: Not specified
+- Conditions: Not specified
+- Valid Until: Not specified
+
+USE CASES
+- Use Case: Small Business Automation
+  - Target User: Small business owners with limited technical knowledge
+  - Pain Points Solved:
+    - Need to organize customer data without complex databases
+    - Want to automate repetitive tasks without coding
+    - Require easy-to-use interface for team collaboration
+  - Key Benefits:
+    - Visual automation builder
+    - Pre-built templates for common business processes
+    - Integrates with common small business tools
+  - Recommended Plan: Team
+  - ROI Potential: High for businesses spending 10+ hours/week on manual data entry
+
+- Use Case: Product Development Tracking
+  - Target User: Product managers and development teams
+  - Pain Points Solved:
+    - Scattered product requirements and feedback
+    - Difficulty tracking development progress
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized product documentation
+    - Custom views for different stakeholders
+    - Integration with development tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for teams of 10+ members
+
+- Use Case: API Integration Hub
+  - Target User: Automation specialists and citizen developers
+  - Pain Points Solved:
+    - Need to connect multiple SaaS applications
+    - Complex data transformation requirements
+    - Audit trail requirements
+  - Key Benefits:
+    - Rich API integration capabilities
+    - Advanced automation features
+    - Detailed logging and monitoring
+  - Recommended Plan: Enterprise Scale
+  - ROI Potential: Very High for organizations with 100+ automation workflows
+
+- Use Case: Marketing Campaign Management
+  - Target User: Marketing teams
+  - Pain Points Solved:
+    - Difficulty managing multiple marketing campaigns
+    - Need for real-time collaboration and tracking
+    - Requirement for customizable views and reporting
+  - Key Benefits:
+    - Centralized marketing campaign management
+    - Customizable views and reporting
+    - Integration with marketing tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for marketing teams managing 5+ campaigns
+
+- Use Case: Sales CRM
+  - Target User: Sales teams
+  - Pain Points Solved:
+    - Scattered sales data and leads
+    - Difficulty tracking sales progress
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized sales data and leads management
+    - Customizable views and reporting
+    - Integration with sales tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for sales teams managing 10+ leads
+
+- Use Case: HR Employee Onboarding
+  - Target User: HR teams
+  - Pain Points Solved:
+    - Inefficient employee onboarding process
+    - Difficulty tracking onboarding progress
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized employee onboarding management
+    - Customizable views and reporting
+    - Integration with HR tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for HR teams managing 5+ onboarding processes
+
+- Use Case: Finance Budgeting and Reporting
+  - Target User: Finance teams
+  - Pain Points Solved:
+    - Inefficient budgeting and reporting process
+    - Difficulty tracking financial data
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized budgeting and reporting management
+    - Customizable views and reporting
+    - Integration with finance tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for finance teams managing 5+ budgets
+
+- Use Case: Operations Workflow Management
+  - Target User: Operations teams
+  - Pain Points Solved:
+    - Inefficient workflow management
+    - Difficulty tracking workflow progress
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized workflow management
+    - Customizable views and reporting
+    - Integration with operations tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for operations teams managing 5+ workflows
+
+- Use Case: Content Operations
+  - Target User: Content teams
+  - Pain Points Solved:
+    - Inefficient content operations management
+    - Difficulty tracking content progress
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized content operations management
+    - Customizable views and reporting
+    - Integration with content tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for content teams managing 5+ content pieces
+
+- Use Case: Project Management
+  - Target User: Project managers
+  - Pain Points Solved:
+    - Inefficient project management
+    - Difficulty tracking project progress
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized project management
+    - Customizable views and reporting
+    - Integration with project management tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for project managers managing 5+ projects
+
+- Use Case: Customer Support Ticketing System
+  - Target User: Customer support teams
+  - Pain Points Solved:
+    - Inefficient customer support ticketing system
+    - Difficulty tracking support tickets
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized customer support ticketing system
+    - Customizable views and reporting
+    - Integration with customer support tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for customer support teams managing 5+ tickets
+
+- Use Case: Inventory Management
+  - Target User: Inventory teams
+  - Pain Points Solved:
+    - Inefficient inventory management
+    - Difficulty tracking inventory levels
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized inventory management
+    - Customizable views and reporting
+    - Integration with inventory tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for inventory teams managing 5+ inventory items
+
+- Use Case: Event Planning
+  - Target User: Event planning teams
+  - Pain Points Solved:
+    - Inefficient event planning process
+    - Difficulty tracking event details
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized event planning management
+    - Customizable views and reporting
+    - Integration with event planning tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for event planning teams managing 5+ events
+
+- Use Case: Research Data Management
+  - Target User: Research teams
+  - Pain Points Solved:
+    - Inefficient research data management
+    - Difficulty tracking research data
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized research data management
+    - Customizable views and reporting
+    - Integration with research tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for research teams managing 5+ research projects
+
+- Use Case: IT Asset Management
+  - Target User: IT teams
+  - Pain Points Solved:
+    - Inefficient IT asset management
+    - Difficulty tracking IT assets
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized IT asset management
+    - Customizable views and reporting
+    - Integration with IT asset management tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for IT teams managing 5+ IT assets
+
+- Use Case: Quality Assurance Testing
+  - Target User: Quality assurance teams
+  - Pain Points Solved:
+    - Inefficient quality assurance testing process
+    - Difficulty tracking testing results
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized quality assurance testing management
+    - Customizable views and reporting
+    - Integration with quality assurance testing tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for quality assurance teams managing 5+ testing cases
+
+- Use Case: Compliance Management
+  - Target User: Compliance teams
+  - Pain Points Solved:
+    - Inefficient compliance management
+    - Difficulty tracking compliance status
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized compliance management
+    - Customizable views and reporting
+    - Integration with compliance management tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for compliance teams managing 5+ compliance items
+
+- Use Case: Risk Management
+  - Target User: Risk management teams
+  - Pain Points Solved:
+    - Inefficient risk management process
+    - Difficulty tracking risk factors
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized risk management management
+    - Customizable views and reporting
+    - Integration with risk management tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for risk management teams managing 5+ risk factors
+
+- Use Case: Knowledge Management
+  - Target User: Knowledge management teams
+  - Pain Points Solved:
+    - Inefficient knowledge management process
+    - Difficulty tracking knowledge assets
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized knowledge management management
+    - Customizable views and reporting
+    - Integration with knowledge management tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for knowledge management teams managing 5+ knowledge assets
+
+- Use Case: Content Strategy
+  - Target User: Content strategy teams
+  - Pain Points Solved:
+    - Inefficient content strategy process
+    - Difficulty tracking content strategy items
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized content strategy management
+    - Customizable views and reporting
+    - Integration with content strategy tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for content strategy teams managing 5+ content strategy items
+
+- Use Case: Product Strategy
+  - Target User: Product strategy teams
+  - Pain Points Solved:
+    - Inefficient product strategy process
+    - Difficulty tracking product strategy items
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized product strategy management
+    - Customizable views and reporting
+    - Integration with product strategy tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for product strategy teams managing 5+ product strategy items
+
+- Use Case: Customer Feedback Management
+  - Target User: Customer feedback teams
+  - Pain Points Solved:
+    - Inefficient customer feedback management process
+    - Difficulty tracking customer feedback
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized customer feedback management
+    - Customizable views and reporting
+    - Integration with customer feedback tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for customer feedback teams managing 5+ customer feedback items
+
+- Use Case: Employee Feedback Management
+  - Target User: Employee feedback teams
+  - Pain Points Solved:
+    - Inefficient employee feedback management process
+    - Difficulty tracking employee feedback
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized employee feedback management
+    - Customizable views and reporting
+    - Integration with employee feedback tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for employee feedback teams managing 5+ employee feedback items
+
+- Use Case: Employee Onboarding and Offboarding
+  - Target User: HR teams
+  - Pain Points Solved:
+    - Inefficient employee onboarding and offboarding process
+    - Difficulty tracking onboarding and offboarding progress
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized employee onboarding and offboarding management
+    - Customizable views and reporting
+    - Integration with HR tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for HR teams managing 5+ onboarding and offboarding processes
+
+- Use Case: Employee Performance Management
+  - Target User: HR teams
+  - Pain Points Solved:
+    - Inefficient employee performance management process
+    - Difficulty tracking employee performance
+    - Need for real-time collaboration
+  - Key Benefits:
+    - Centralized employee performance management
+    - Customizable views and reporting
+    - Integration with HR tools
+  - Recommended Plan: Business
+  - ROI Potential: Medium-High for HR teams managing 5+ employee performance items

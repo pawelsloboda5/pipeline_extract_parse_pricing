@@ -1,0 +1,34 @@
+{
+  "input_file": "extracted_info\\extraction_bigmailer_20241229_180621.json",
+  "timestamp": "20241229_180623",
+  "metrics": {
+    "token_usage": {
+      "completion_tokens": 109,
+      "prompt_tokens": 3994,
+      "total_tokens": 4103,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "execution_time": 2.040144443511963,
+    "cost": 0.04321,
+    "quality_metrics": {
+      "plans_with_limits": 0,
+      "plans_with_features": 0,
+      "plans_with_popularity": 0,
+      "total_plans": 0
+    }
+  },
+  "extraction_summary": {
+    "num_plans": 0,
+    "has_enterprise": false,
+    "num_discounts": 0
+  }
+}

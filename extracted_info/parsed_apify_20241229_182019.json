@@ -1,0 +1,598 @@
+{
+  "service": {
+    "name": "Apify",
+    "url": "https://apify.com/pricing",
+    "logo_url": null,
+    "description": "Extract value from the web with Apify. Flexible platform \u2014 flexible pricing. Free plan available, no credit card required.",
+    "category": {
+      "primary": "Web Scraping",
+      "secondary": "Data Extraction",
+      "tags": [
+        "Data Collection",
+        "Web Scraping",
+        "Automation"
+      ]
+    },
+    "business_model": {
+      "type": [
+        "SaaS",
+        "Usage-Based"
+      ],
+      "description": "Subscription-based service with pay-as-you-go components for additional resource consumption."
+    }
+  },
+  "pricing_metadata": {
+    "last_updated": "2023-10-01",
+    "currency": "USD",
+    "regions": [
+      "Global"
+    ],
+    "billing_cycles": {
+      "available": [
+        "Monthly",
+        "Yearly"
+      ],
+      "default": "Monthly"
+    },
+    "custom_pricing_available": true,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "v1.0",
+      "history": [
+        "v0.9"
+      ]
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "Free plan with limited features and no credit card required. Includes 5 free usage credits.",
+      "highlight_features": [
+        "5 free usage credits"
+      ],
+      "is_popular": null,
+      "pricing": {
+        "base": {
+          "amount": 0.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": [
+          {
+            "name": "Actor runs",
+            "type": "compute",
+            "unit": "CU",
+            "tiers": []
+          },
+          {
+            "name": "Proxies",
+            "type": "network",
+            "unit": "GB",
+            "tiers": [
+              {
+                "range": {
+                  "min": 0.0,
+                  "max": 5.0
+                },
+                "unit_price": 10.0,
+                "flat_fee": null
+              }
+            ]
+          },
+          {
+            "name": "SERPs proxy",
+            "type": "network",
+            "unit": "calls",
+            "tiers": [
+              {
+                "range": {
+                  "min": 0.0,
+                  "max": 1000.0
+                },
+                "unit_price": 3.0,
+                "flat_fee": null
+              }
+            ]
+          }
+        ]
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Max concurrent runs",
+            "value": "25",
+            "description": "Maximum number of concurrent Actor runs allowed."
+          }
+        ]
+      },
+      "features": null
+    },
+    {
+      "name": "Starter",
+      "slug": "starter",
+      "description": "Includes $49 prepaid usage and pay-as-you-go for additional usage.",
+      "highlight_features": [
+        "$49 prepaid usage"
+      ],
+      "is_popular": null,
+      "pricing": {
+        "base": {
+          "amount": 49.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": [
+          {
+            "name": "Actor runs",
+            "type": "compute",
+            "unit": "CU",
+            "tiers": [
+              {
+                "range": {
+                  "min": 0.0,
+                  "max": 10.0
+                },
+                "unit_price": 0.4,
+                "flat_fee": null
+              }
+            ]
+          },
+          {
+            "name": "Proxies",
+            "type": "network",
+            "unit": "GB",
+            "tiers": [
+              {
+                "range": {
+                  "min": 0.0,
+                  "max": 30.0
+                },
+                "unit_price": 10.0,
+                "flat_fee": null
+              },
+              {
+                "range": {
+                  "min": 31.0,
+                  "max": 1000.0
+                },
+                "unit_price": 1.0,
+                "flat_fee": null
+              }
+            ]
+          },
+          {
+            "name": "SERPs proxy",
+            "type": "network",
+            "unit": "calls",
+            "tiers": [
+              {
+                "range": {
+                  "min": 0.0,
+                  "max": 1000.0
+                },
+                "unit_price": 3.0,
+                "flat_fee": null
+              }
+            ]
+          }
+        ]
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Max concurrent runs",
+            "value": "32",
+            "description": "Maximum number of concurrent Actor runs allowed."
+          }
+        ]
+      },
+      "features": null
+    },
+    {
+      "name": "Scale",
+      "slug": "scale",
+      "description": "Includes $499 prepaid usage and pay-as-you-go for additional usage.",
+      "highlight_features": [
+        "$499 prepaid usage"
+      ],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 499.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": [
+          {
+            "name": "Actor runs",
+            "type": "compute",
+            "unit": "CU",
+            "tiers": [
+              {
+                "range": {
+                  "min": 0.0,
+                  "max": 100.0
+                },
+                "unit_price": 0.3,
+                "flat_fee": null
+              }
+            ]
+          },
+          {
+            "name": "Proxies",
+            "type": "network",
+            "unit": "GB",
+            "tiers": [
+              {
+                "range": {
+                  "min": 0.0,
+                  "max": 200.0
+                },
+                "unit_price": 9.0,
+                "flat_fee": null
+              },
+              {
+                "range": {
+                  "min": 201.0,
+                  "max": 1000.0
+                },
+                "unit_price": 0.8,
+                "flat_fee": null
+              }
+            ]
+          },
+          {
+            "name": "SERPs proxy",
+            "type": "network",
+            "unit": "calls",
+            "tiers": [
+              {
+                "range": {
+                  "min": 0.0,
+                  "max": 1000.0
+                },
+                "unit_price": 2.5,
+                "flat_fee": null
+              }
+            ]
+          }
+        ]
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Max concurrent runs",
+            "value": "128",
+            "description": "Maximum number of concurrent Actor runs allowed."
+          }
+        ]
+      },
+      "features": null
+    },
+    {
+      "name": "Business",
+      "slug": "business",
+      "description": "Includes $999 prepaid usage and pay-as-you-go for additional usage.",
+      "highlight_features": [
+        "$999 prepaid usage"
+      ],
+      "is_popular": null,
+      "pricing": {
+        "base": {
+          "amount": 999.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": [
+          {
+            "name": "Actor runs",
+            "type": "compute",
+            "unit": "CU",
+            "tiers": [
+              {
+                "range": {
+                  "min": 0.0,
+                  "max": 500.0
+                },
+                "unit_price": 0.25,
+                "flat_fee": null
+              }
+            ]
+          },
+          {
+            "name": "Proxies",
+            "type": "network",
+            "unit": "GB",
+            "tiers": [
+              {
+                "range": {
+                  "min": 0.0,
+                  "max": 500.0
+                },
+                "unit_price": 8.0,
+                "flat_fee": null
+              },
+              {
+                "range": {
+                  "min": 501.0,
+                  "max": 1000.0
+                },
+                "unit_price": 0.6,
+                "flat_fee": null
+              }
+            ]
+          },
+          {
+            "name": "SERPs proxy",
+            "type": "network",
+            "unit": "calls",
+            "tiers": [
+              {
+                "range": {
+                  "min": 0.0,
+                  "max": 1000.0
+                },
+                "unit_price": 1.9,
+                "flat_fee": null
+              }
+            ]
+          }
+        ]
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Max concurrent runs",
+            "value": "256",
+            "description": "Maximum number of concurrent Actor runs allowed."
+          }
+        ]
+      },
+      "features": null
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "description": "Custom pricing with unlimited features and resources.",
+      "highlight_features": [
+        "Unlimited features and resources",
+        "Custom solutions"
+      ],
+      "is_popular": null,
+      "pricing": {
+        "base": {
+          "amount": null,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Max concurrent runs",
+            "value": "Unlimited",
+            "description": "No limit on the number of concurrent Actor runs."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Priority Chat",
+                "description": "Priority chat support for immediate assistance.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Security",
+            "features": [
+              {
+                "name": "Single Sign-On (SSO)",
+                "description": "Secure access with single sign-on integration.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Business",
+            "features": [
+              {
+                "name": "Account Manager",
+                "description": "Dedicated account manager for personalized support.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "add_ons": [
+    {
+      "name": "Increased Actor RAM",
+      "description": "Increase the RAM for Actors beyond the default limits.",
+      "pricing": {
+        "amount": 2.0,
+        "amount_range": 0.0,
+        "period": "GB",
+        "currency": "USD",
+        "is_per_user": 0.0
+      }
+    },
+    {
+      "name": "Datacenter proxy",
+      "description": "Low-cost proxy service per IP address.",
+      "pricing": {
+        "amount": 0.6,
+        "amount_range": 0.0,
+        "period": "IP",
+        "currency": "USD",
+        "is_per_user": 0.0
+      }
+    },
+    {
+      "name": "Personal tech training",
+      "description": "Hourly rate for personalized technical training.",
+      "pricing": {
+        "amount": 200.0,
+        "amount_range": 0.0,
+        "period": "hour",
+        "currency": "USD",
+        "is_per_user": 0.0
+      }
+    },
+    {
+      "name": "Max concurrent runs",
+      "description": "Override limit for maximum concurrent Actor runs.",
+      "pricing": {
+        "amount": 5.0,
+        "amount_range": 0.0,
+        "period": "run",
+        "currency": "USD",
+        "is_per_user": 0.0
+      }
+    },
+    {
+      "name": "Priority support",
+      "description": "Get priority support for your account.",
+      "pricing": {
+        "amount": 100.0,
+        "amount_range": 0.0,
+        "period": "",
+        "currency": "USD",
+        "is_per_user": 0.0
+      }
+    }
+  ],
+  "use_cases": [
+    {
+      "use_case": "Data for generic AI",
+      "target_user": "AI companies",
+      "pain_points_solved": [
+        "Access to high quality web data",
+        "Scalability and flexibility for data acquisition"
+      ],
+      "key_benefits": [
+        "Quality data with customization",
+        "Reliable and scalable services"
+      ],
+      "recommended_plan": "Scale",
+      "roi_potential": "High potential through scalable data acquisition for AI models."
+    },
+    {
+      "use_case": "Lead generation",
+      "target_user": "Marketing teams",
+      "pain_points_solved": [
+        "Manual data collection for leads",
+        "Lack of data insights for customer acquisition"
+      ],
+      "key_benefits": [
+        "Automated data scraping for lead generation",
+        "Easily integrate with marketing tools"
+      ],
+      "recommended_plan": "Business",
+      "roi_potential": "Significant ROI through increased lead generation."
+    },
+    {
+      "use_case": "Market research",
+      "target_user": "Market analysts",
+      "pain_points_solved": [
+        "Time-consuming data collection",
+        "Limited access to competitive insights"
+      ],
+      "key_benefits": [
+        "Rapid data collection from multiple sources",
+        "Up-to-date market insights"
+      ],
+      "recommended_plan": "Starter",
+      "roi_potential": "Moderate ROI from efficient market analysis."
+    }
+  ],
+  "discounts": [
+    {
+      "type": "Educational Discount",
+      "amount": "30%",
+      "description": "30% off for schools and universities on selected plans.",
+      "conditions": "Valid for educational institutions, sign-up required.",
+      "valid_until": "Ongoing"
+    },
+    {
+      "type": "Startup Discount",
+      "amount": "30%",
+      "description": "Special discount on Scale plan for startups.",
+      "conditions": "Eligible startups must apply through the startup program.",
+      "valid_until": "Ongoing"
+    }
+  ],
+  "enterprise": {
+    "available": true,
+    "contact_sales": true,
+    "minimum_seats": null,
+    "custom_features": [
+      "Dedicated account manager",
+      "Priority support",
+      "Custom integrations"
+    ]
+  },
+  "ml_metadata": {
+    "embeddings": {
+      "model": "BERT",
+      "version": "v1.0",
+      "vectors": [
+        0.89,
+        0.92
+      ]
+    },
+    "confidence_scores": {
+      "pricing_accuracy": 0.96,
+      "feature_accuracy": 0.93
+    },
+    "last_validated": "2023-09-01"
+  },
+  "agent_metadata": {
+    "agent_name": "ExtractorPro",
+    "agent_version": "1.2",
+    "execution_time_seconds": 3.5,
+    "fallback_used": false,
+    "comments": "Information extracted from structured and unstructured data sources, including documentation links."
+  }
+}

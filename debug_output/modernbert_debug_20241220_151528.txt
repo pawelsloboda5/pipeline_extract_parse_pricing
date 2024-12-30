@@ -1,0 +1,55 @@
+Extract basic service information:
+
+        SERVICE INFORMATION
+        - Name: Airtable
+        - URL: https://airtable.com/pricing
+        - Logo URL: Not specified
+        - Description: A next-gen app-building platform that connects data from apps, workflows, and tools
+        - Summary: Airtable enables teams to build custom business apps without code
+        - Category: Productivity
+        - Tags: app-building, data-integration, AI
+        - Business Model: hybrid (free, + paid plans)
+
+Extract pricing metadata:
+
+        PRICING METADATA
+        - Currency: USD
+        - Available Regions: Global
+        - Billing Cycles: monthly, annual
+        - Default Billing: annual
+        - Custom Pricing: Available
+        - Free Tier: Available
+
+Extract detailed plan information:
+
+        PLANS
+        - Plan Name: Free
+          - Slug: free
+          - Description: For individuals or very small teams
+          - Popular: No
+          - Base Price: 0 USD per month
+          - Per User: No
+          - Key Features:
+            - Unlimited bases
+            - Interface Designer
+            - Basic automation
+          - Limits:
+            - Records per base: 1000
+            - Storage: 1
+            - Editors: 5
+            - Automation runs: 100
+
+        - Plan Name: Team
+          - Slug: team
+          - Description: For teams building collaborative apps
+          - Popular: Yes
+          - Base Price: 20 USD per seat/month
+          - Per User: Yes
+          - Key Features:
+            - Everything in Free, plus:
+            - Extended automations
+            - Advanced views
+          - Limits:
+            - Records per base: 50000
+            - Storage: 20
+            - Automation runs: 25000

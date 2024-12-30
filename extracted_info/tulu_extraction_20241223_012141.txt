@@ -1,0 +1,885 @@
+CONTENT:
+Plans & Pricing | Zapier
+===============
+  
+
+🚀 Want a discount with multiple products? Learn more about the new [Pro bundle!](https://zapier.com/l/pro-automation-platform?utm_campaign=pro_bundle_lo_pricing_page_banner&utm_medium=website&utm_source=zapier)
+
+[Skip to content](https://zapier.com/pricing#main)[](https://zapier.com/)
+
+*   Products
+    
+    Zapier Automation Platform
+    
+    No-code automation across 7,000+ apps
+    
+    Products
+    
+    *   [Zaps Do-it-yourself automation for workflows](https://zapier.com/workflows)
+    *   [Tables Databases designed for workflows](https://zapier.com/tables)
+    *   [Interfaces Custom pages to power your workflows](https://zapier.com/interfaces)
+    
+    Capabilities
+    
+    *   [App integrations Explore 7,000+ app connections](https://zapier.com/apps)
+    *   [AI automation 🪄 Cutting-edge AI to upgrade your workflows](https://zapier.com/ai)
+    *   [Security Enterprise-grade security](https://zapier.com/security-compliance)
+    
+    *   [Explore templates](https://zapier.com/templates)
+    *   [Explore use cases](https://zapier.com/use-cases)
+    *   [Join Zapier Early Access](https://zapier.com/early-access)
+    
+    What's new
+    
+    *   [CanvasBeta Plan and map your workflows with AI](https://zapier.com/canvas)
+    *   [ChatbotsBeta Answer customer questions with AI chatbots](https://zapier.com/ai/chatbot)
+    *   [AgentsBeta Create your own AI assistants for any task](https://zapier.com/agents)
+    *   [FunctionsBeta Code your workflows in a web IDE](https://zapier.com/functions)
+    
+*   Solutions
+    
+    Solutions
+    
+    How Zapier can help you automate your work across teams
+    
+    By team
+    
+    *   [RevOps Drive revenue through automation](https://zapier.com/solutions/revops)
+    *   [Marketing Multiply campaign effectiveness and ROI](https://zapier.com/solutions/marketing)
+    *   [IT Better manage systems with automation](https://zapier.com/solutions/it)
+    *   [Sales Close more deals](https://zapier.com/solutions/sales)
+    *   [Customer Support Elevate customer satisfaction](https://zapier.com/solutions/customer-support)
+    *   [Leaders Streamline decision-making processes](https://zapier.com/solutions/leaders)
+    
+    By app
+    
+    *   [NetSuite](https://zapier.com/apps/netsuite/integrations)
+    *   [Salesforce](https://zapier.com/apps/salesforce/integrations)
+    *   [HubSpot](https://zapier.com/apps/hubspot/integrations)
+    *   [Slack](https://zapier.com/apps/slack/integrations)
+    *   [OpenAI](https://zapier.com/apps/openai/integrations)
+    *   [Microsoft Dynamics CRM](https://zapier.com/apps/microsoft-dynamics-crm/integrations)
+    *   [Microsoft Teams](https://zapier.com/apps/microsoft-teams/integrations)
+    *   [Zendesk](https://zapier.com/apps/zendesk/integrations)
+    *   [Jira Software Cloud](https://zapier.com/apps/jira-software-cloud/integrations)
+    *   [View all apps](https://zapier.com/apps)
+    
+    By use case
+    
+    *   [Lead management Automate your way to more conversions](https://zapier.com/lead-management)
+    *   [Sales pipeline Automate handoffs and streamline sales](https://zapier.com/sales-pipeline-management)
+    *   [Marketing campaigns Boost your marketing campaign's impact](https://zapier.com/marketing-campaigns)
+    *   [Customer support Quickly route tickets and responses](https://zapier.com/customer-support-management)
+    *   [Data management Connect app data for more insights](https://zapier.com/data-management)
+    *   [Project management Deliver projects seamlessly](https://zapier.com/project-management)
+    *   [Tickets and incidents Resolve issues and incidents faster](https://zapier.com/ticket-incident-management)
+    
+    *   [Explore templates](https://zapier.com/templates)
+    *   [Explore use cases](https://zapier.com/use-cases)
+    *   [Join Zapier Early Access](https://zapier.com/early-access)
+    
+    [Automation for RevOps See how Zapier can take your RevOps and GTM engine to the next level](https://zapier.com/solutions/revops)
+    
+    Zapier for
+    
+    *   [Startups](https://zapier.com/startups)
+    *   [Small and medium businesses](https://zapier.com/smb)
+    *   [Enterprise](https://zapier.com/enterprise)
+    
+*   Resources
+    
+    Resources
+    
+    Educational resources to move your work forward
+    
+    Automation inspiration
+    
+    *   [5 things to automate today Popular workflows to save time](https://zapier.com/blog/what-you-should-automate/)
+    *   [Create custom chatbots Build an AI chatbot in minutes](https://zapier.com/blog/create-custom-ai-chatbots-with-interfaces/)
+    *   [Webhooks and Zapier Connect your favorite apps with Zapier’s webhooks](https://zapier.com/blog/what-are-webhooks/)
+    *   [Customer stories See how businesses grow with Zapier](https://zapier.com/customer-stories)
+    *   [Blog Read all about apps and automation](https://zapier.com/blog/)
+    *   [Guides Go deep with dedicated guidance](https://zapier.com/resources/guides)
+    
+    Learn to use Zapier
+    
+    *   [Zapier basics Create your first Zap confidently](https://learn.zapier.com/path/zapier-basics-from-a-to-zap)
+    *   [Product tour Take a guided tour of the Zapier platform](https://learn.zapier.com/product-walkthrough-of-zapier)
+    *   [Zapier 101 Get live support as you learn to use Zapier](https://zapier.com/resources/webinar/zapier-101-getting-started)
+    *   [Events and webinars Join live or watch on demand](https://zapier.com/resources/events)
+    *   [Zapier Learn Online courses to learn at your own pace](https://learn.zapier.com/)
+    
+    Get help
+    
+    *   [Help Center Find answers to your questions](https://help.zapier.com/hc/en-us)
+    *   [Hire a Zapier Expert Find a certified consultant to help you do more](https://zapier.com/experts)
+    *   [Zapier Community Connect with and learn from other Zapier users](https://community.zapier.com/)
+    *   [Support Services Support for your automation journey](https://zapier.com/l/support-services)
+    *   [Zapier Support Get help and research support options for every budget](https://zapier.com/l/support)
+    
+    *   [Explore templates](https://zapier.com/templates)
+    *   [Explore use cases](https://zapier.com/use-cases)
+    *   [Join Zapier Early Access](https://zapier.com/early-access)
+    
+    [Zapier quick-start guide Create your first Zap with ease](https://zapier.com/resources/guides/quick-start)
+    
+    Developer resources
+    
+    *   [Developer Platform](https://zapier.com/developer-platform)
+    *   [Build an integration](https://zapier.com/developer-platform/integrations)
+    *   [Embed an integration](https://zapier.com/developer-platform/embed-tools)
+    *   [Integration Partner Program](https://zapier.com/developer-platform/partner-program)
+    *   [Documentation](https://platform.zapier.com/)
+    
+*   [Enterprise](https://zapier.com/enterprise)
+*   [Pricing](https://zapier.com/pricing)
+
+*   [Explore apps](https://zapier.com/apps)
+*   [Contact sales](https://zapier.com/l/contact-sales?demo_source=cs_nav_header_/pricing)
+
+[Log in](https://zapier.com/app/login)[Sign up](https://zapier.com/sign-up)
+
+*   Products
+    
+    Products
+    
+    *   [Zaps](https://zapier.com/workflows)
+    *   [Tables](https://zapier.com/tables)
+    *   [Interfaces](https://zapier.com/interfaces)
+    
+    Capabilities
+    
+    *   [App integrations](https://zapier.com/apps)
+    *   [AI automation 🪄](https://zapier.com/ai)
+    *   [Security](https://zapier.com/security-compliance)
+    
+    What's new
+    
+    *   [CanvasBeta](https://zapier.com/canvas)
+    *   [ChatbotsBeta](https://zapier.com/ai/chatbot)
+    *   [AgentsBeta](https://zapier.com/agents)
+    *   [FunctionsBeta](https://zapier.com/functions)
+    
+*   Solutions
+    
+    By team
+    
+    *   [RevOps](https://zapier.com/solutions/revops)
+    *   [Marketing](https://zapier.com/solutions/marketing)
+    *   [IT](https://zapier.com/solutions/it)
+    *   [Sales](https://zapier.com/solutions/sales)
+    *   [Customer Support](https://zapier.com/solutions/customer-support)
+    *   [Leaders](https://zapier.com/solutions/leaders)
+    
+    By app
+    
+    *   [NetSuite](https://zapier.com/apps/netsuite/integrations)
+    *   [Salesforce](https://zapier.com/apps/salesforce/integrations)
+    *   [HubSpot](https://zapier.com/apps/hubspot/integrations)
+    *   [Slack](https://zapier.com/apps/slack/integrations)
+    *   [OpenAI](https://zapier.com/apps/openai/integrations)
+    *   [Microsoft Dynamics CRM](https://zapier.com/apps/microsoft-dynamics-crm/integrations)
+    *   [Microsoft Teams](https://zapier.com/apps/microsoft-teams/integrations)
+    *   [Zendesk](https://zapier.com/apps/zendesk/integrations)
+    *   [Jira Software Cloud](https://zapier.com/apps/jira-software-cloud/integrations)
+    *   [View all apps](https://zapier.com/apps)
+    
+    By use case
+    
+    *   [Lead management](https://zapier.com/lead-management)
+    *   [Sales pipeline](https://zapier.com/sales-pipeline-management)
+    *   [Marketing campaigns](https://zapier.com/marketing-campaigns)
+    *   [Customer support](https://zapier.com/customer-support-management)
+    *   [Data management](https://zapier.com/data-management)
+    *   [Project management](https://zapier.com/project-management)
+    *   [Tickets and incidents](https://zapier.com/ticket-incident-management)
+    
+    Zapier for
+    
+    *   [Startups](https://zapier.com/startups)
+    *   [Small and medium businesses](https://zapier.com/smb)
+    *   [Enterprise](https://zapier.com/enterprise)
+    
+*   Resources
+    
+    Automation inspiration
+    
+    *   [5 things to automate today](https://zapier.com/blog/what-you-should-automate/)
+    *   [Create custom chatbots](https://zapier.com/blog/create-custom-ai-chatbots-with-interfaces/)
+    *   [Webhooks and Zapier](https://zapier.com/blog/what-are-webhooks/)
+    *   [Customer stories](https://zapier.com/customer-stories)
+    *   [Blog](https://zapier.com/blog/)
+    *   [Guides](https://zapier.com/resources/guides)
+    
+    Learn to use Zapier
+    
+    *   [Zapier basics](https://learn.zapier.com/path/zapier-basics-from-a-to-zap)
+    *   [Product tour](https://learn.zapier.com/product-walkthrough-of-zapier)
+    *   [Zapier 101](https://zapier.com/resources/webinar/zapier-101-getting-started)
+    *   [Events and webinars](https://zapier.com/resources/events)
+    *   [Zapier Learn](https://learn.zapier.com/)
+    
+    Get help
+    
+    *   [Help Center](https://help.zapier.com/hc/en-us)
+    *   [Hire a Zapier Expert](https://zapier.com/experts)
+    *   [Zapier Community](https://community.zapier.com/)
+    *   [Support Services](https://zapier.com/l/support-services)
+    *   [Zapier Support](https://zapier.com/l/support)
+    
+    Developer resources
+    
+    *   [Developer Platform](https://zapier.com/developer-platform)
+    *   [Build an integration](https://zapier.com/developer-platform/integrations)
+    *   [Embed an integration](https://zapier.com/developer-platform/embed-tools)
+    *   [Integration Partner Program](https://zapier.com/developer-platform/partner-program)
+    *   [Documentation](https://platform.zapier.com/)
+    
+*   [Enterprise](https://zapier.com/enterprise)
+*   [Pricing](https://zapier.com/pricing)
+
+*   [Explore apps](https://zapier.com/apps)
+*   [Contact sales](https://zapier.com/l/contact-sales?demo_source=cs_nav_header_/pricing)
+
+[Log in](https://zapier.com/app/login)[Sign up](https://zapier.com/sign-up)
+
+Scalable automation for businesses of all sizes
+===============================================
+
+[Zaps](https://zapier.com/pricing#zaps)[Tables](https://zapier.com/pricing#tables)[Interfaces](https://zapier.com/pricing#interfaces)[ChatbotsBeta](https://zapier.com/pricing#chatbots)
+
+Workflow automation plans
+-------------------------
+
+Zapier plans give businesses—both big and small—all the automation tools needed to build and scale end-to-end workflows.
+
+Pay monthlyPay yearly (Save 33%)
+
+Pay yearly (Save 33%)
+
+USD $
+
+How many tasks per month do you need?
+=====================================
+
+100
+
+2K
+
+10K
+
+100K
+
+1M
+
+2M
+
+Select a task tier
+
+Select a task tier
+
+Learn about tasks
+
+Best for basic use
+
+Free
+----
+
+Automate basic workflows with 100 tasks per month.
+
+$
+
+0
+
+USD per month
+
+Free forever
+
+[Try it free](https://zapier.com/sign-up?from=logged-out-pricing-page-free)
+
+Free plan features:
+
+Zapier automation platform
+
+The Zapier automation platform gives you access to Zaps, Interfaces (Basic), and Tables (Basic). Connect user interfaces, data tables, and Zaps with logic to automate custom workflows—all on Zapier.
+
+Unlimited Zaps
+
+No matter what plan you choose, you can create as many Zaps as your task limit allows.
+
+Two-step Zaps
+
+Two-step Zaps have one trigger (e.g., a new email lead) and one action (e.g., add the lead to my CRM) so you can connect two apps and automatically move data from one to the other.
+
+AI power-ups
+
+Create Zaps with the AI-powered Zap builder. Use AI to customize your Zaps by generating code steps, mapping data fields across apps, writing documentation for Zaps, and troubleshooting Zaps when there's an error.
+
+Best for individuals
+
+Professional
+------------
+
+Automate advanced workflows with the full power of Zapier.
+
+Starting from
+
+$
+
+19
+
+.99
+
+USD per month
+
+Billed annually
+
+[Try it free](https://zapier.com/sign-up?from=logged-out-pricing-page-pro)
+
+Everything in Free, plus:
+
+Multi-step Zaps
+
+Create Zaps that perform as many actions as you want from a single trigger. Add powerful workflow features to your Zaps like conditional paths, data formatting, trigger scheduling, and more.
+
+[Unlimited Premium apps](https://zapier.com/apps?filter=premium)
+
+Premium apps are select apps exclusively available to users on paid plans.
+
+Webhooks
+
+Build powerful, custom integrations that connect any app with Webhooks by Zapier.
+
+Email support
+
+Connect with our technical support team through email.
+
+Best for teams
+
+Team
+----
+
+Build and manage automated workflows with your team.
+
+Starting from
+
+$
+
+69
+
+USD per month
+
+Billed annually
+
+[Try it free](https://zapier.com/sign-up?from=logged-out-pricing-page-team&currency=USD&next=%2Fapp%2Fteam-account-setup)
+
+[Contact Sales](https://zapier.com/l/contact-sales?demo_source=pricing-logged-out_teams)
+
+Everything in Professional, plus:
+
+Unlimited users
+
+A user can build and edit a Zap.
+
+Shared workspaces
+
+Share access to your Zaps with your team, create folders, and customize permissions.
+
+Shared app connections
+
+Connect your team’s favorite tools so everyone can use them in their workflows without needing to share passwords and API keys.
+
+Premier Support
+
+Get faster, prioritized responses from our dedicated Premier Support team.
+
+[SSO add-on (contact us)](https://zapier.com/l/contact-sales?demo_source=pricing-logged-out_teams_sso)
+
+Add SAML single sign-on (SSO) to your Team plan to ensure secure access to your account. Contact Sales to purchase.
+
+Best for organizations
+
+Enterprise
+----------
+
+Scale automation across multiple departments.
+
+Contact for pricing
+
+[Contact Sales](https://zapier.com/l/contact-sales?demo_source=pricing-logged-out_gated_enterprise)
+
+Everything in Team, plus:
+
+Advanced admin permissions and app controls
+
+Ensure that only the right people have access to sensitive apps, Zaps and more. Get as granular as which actions can be used for what apps.
+
+Annual task limits
+
+Instead of tasks expiring monthly, they’ll expire annually, so you don’t need to worry about budgeting tasks.
+
+Observability
+
+Get a 360° view of your account. See what users are building and which apps they’re using with Analytics, export activity to a SIEM tool with our Zap Runs API, and more.
+
+SAML SSO
+
+Ensure secure access for your team using SAML 2.0 identity and access management (IAM) providers.
+
+Technical Account Manager
+
+Get a Technical Account Manager who’s intimately familiar with your account to help field questions from your team and make strategy recommendations.
+
+[More about Enterprise](https://zapier.com/enterprise)
+
+What you get with all paid plans
+--------------------------------
+
+### The full building power of Zapier
+
+Visual no-code editor
+
+Unlimited app integrations
+
+All built-in data and AI workflow tools
+
+### Advanced Zap management capabilities
+
+Zap version control
+
+Custom error notifications
+
+Advanced Zap settings
+
+### Basic access to the Zapier automation platform
+
+Zapier Tables
+
+Zapier Interfaces
+
+Zapier Chatbots
+
+See all features
+
+Build end-to-end solutions with Zapier add-ons
+----------------------------------------------
+
+### Tables Pro add-on
+
+Store, edit, share, and automate your data—all in one place. Free to try.
+
+Pro starts at
+
+$
+
+20
+
+[See plans](https://zapier.com/pricing#tables)
+
+[Get started](https://zapier.com/sign-up?next=https://tables.zapier.com?utm_campaign=zpr-gbl-exp-evr-tables_logged_out_pricing_page-prd&utm_medium=website&utm_source=zapier)
+
+### Interfaces Pro add-on
+
+Build custom forms, web pages, and apps to power your workflows—no code required. Free to try.
+
+Pro starts at
+
+$
+
+20
+
+[See plans](https://zapier.com/pricing#interfaces)
+
+[Get started](https://zapier.com/sign-up?next=https://interfaces.zapier.com?utm_campaign=zpr-gbl-exp-evr-interfaces_logged_out_pricing_page-prd&utm_medium=website&utm_source=zapier)
+
+### Chatbots Pro add-on (Beta)
+
+Create advanced, AI-powered chatbots and take action with built-in automation. Free to try.
+
+Pro starts at
+
+$
+
+20
+
+[See plans](https://zapier.com/pricing#chatbots)
+
+[Get started](https://zapier.com/sign-up?next=/app/chatbots?utm_campaign=zpr-gbl-exp-evr-chatbots_logged_out_pricing_page-prd&utm_medium=website&utm_source=zapier)
+
+Our commitment to flexible, risk-free pricing
+---------------------------------------------
+
+### Your plan, your way
+
+Pick any task tier, and if you reach your limit, you can switch to pay-as-you-go until you’re ready for a higher tier.  
+
+### More valuable as you grow
+
+The higher the task tier, the lower the cost per task. No matter which plan you choose, you'll get more value the more you use Zapier.  
+
+### Commit and save
+
+Commit to annual payments for a lower monthly fee. Or talk with our Sales team for access to deeper discounts on our Enterprise plan.  
+
+Trusted by companies large and small
+
+Join 2.2 million businesses using Zapier to grow their business
+---------------------------------------------------------------
+
+Frequently asked questions
+--------------------------
+
+### Zapier overview
+
+Do I need to know how to code?
+
+Nope! Zapier makes it easy for you to move data between your apps without being a developer. We may need you to locate information for certain accounts, but we'll guide you through any additional steps. Our Support champions are also here to help you via email should you need assistance.
+
+What are apps?
+
+An app is a web service or application, such as [Google Docs](https://zapier.com/apps/google-docs/integrations), [Evernote](https://zapier.com/apps/evernote/integrations), or [Salesforce](https://zapier.com/apps/salesforce/integrations). Zapier offers integrations for more than 7,000 apps and helps you easily move data between them to automate repetitive tasks. [Premium apps](https://zapier.com/apps?filter=premium) are select apps exclusively available to users on paid Zapier plans.
+
+What is a Zap?
+
+A Zap is an automated workflow that connects your apps and services together. Each Zap consists of a trigger and one or more actions. When you turn your Zap on, it will run the action steps every time the trigger event occurs.
+
+What are tasks?
+
+A task is counted every time a Zap successfully moves data or completes an action for you automatically. For example, if your Zap has an action to create new Google Contacts, each contact created will use one task. If the action isn't successfully completed, it doesn't count against your task limit.
+
+What is a trigger?
+
+A trigger is an event that starts a Zap. Once you turn on a Zap, Zapier will monitor for that trigger event. For example, if you create a Zap that sends a message to a rep each time you get a new lead, the trigger is a new lead entering your lead management app. Triggers don't count toward your task limit.
+
+What's the difference between Zaps, triggers, actions, and tasks?
+
+Zap is our term for the automated workflows you set up to connect your apps. A trigger is the event that starts your Zap. Actions are events that happen automatically after your Zap is triggered. For example, in a Zap that sends a message to a Sales rep each time you get a new lead, the trigger is the new lead entering your lead management app, and the action is the Slack notification sent with the new lead's info.
+
+When Zapier performs an action successfully, it counts as a task. Each successful action in a Zap counts as a separate task.
+
+Does checking (or polling) for new data use tasks?
+
+Zapier never charges you a task to check for new data—only when a Zap successfully completes an action for you.
+
+For instance, say you want an automated workflow to check—or poll—your Dropbox account every five minutes for new files. Then, if a new file appears, the workflow will send you a Slack message. In this case, sending the Slack message about the new Dropbox file counts as a task.
+
+How many tasks do I need?
+
+The number of tasks you need depends on the number of active Zaps you have and how frequently those Zaps run to automate your work. The more actions your Zaps complete, the more tasks you'll need.
+
+But don't worry! When you reach your plan’s task limit, we'll notify you via email. When you reach your plan’s task limit, we'll also switch you to [pay-per-task billing](https://help.zapier.com/hc/en-us/articles/15279018245901#h_01HKCH7TXPGX4SZBRP521QYY5Y).
+
+What happens if I hit my task limit?
+
+We'll email you when you reach your plan's task limit. Once you've reached that limit, we'll switch you to pay-per-task billing at a rate of 1.25x the cost of a base task on your subscription so your Zaps continue running.
+
+When you're on pay-per-task billing, we’ll email you if you’re close to your plan’s maximum task limit (3x your task subscription) and then again when you reach it. Once you’ve reached your maximum task limit, your Zaps will pause until the start of your next pay period.
+
+You can [learn more about task overages here](https://help.zapier.com/hc/en-us/articles/15279018245901-Metered-tasks-in-Zapier). Our [Sales team](https://zapier.com/l/contact-sales?demo_source=pricing-logged-out_faq_section) is also available to help you choose the right plan for your business.
+
+Will I be charged a task for any of Zapier’s built-in data tools?
+
+Zapier offers a variety of [built-in data tools in the App Directory](https://zapier.com/apps/categories/zapier-tools) that help you add conditional filter and path logic, and format data. The following steps don't count as a task:
+
+*   Zapier Tables
+*   Zapier Interfaces
+*   Filter by Zapier
+*   Formatter by Zapier
+*   Path by Zapier
+*   Delay, Looping, Sub-Zap, Digest, Zapier Manager, Storage
+
+How many connections does Zapier support?
+
+Zapier connects to 7,000+ apps, more than any other automation tool. If you want to connect your internal tools, you can build your own private integration with our easy-to-use [developer platform](https://developer.zapier.com/).
+
+### Plans and payments
+
+Should I use the Team or Enterprise plan?
+
+The Team plan provides features that facilitate collaboration on automation across several groups or teams. These features include shared app connections and a shared workspace. The Company plan makes it easy for your entire distributed organization to use Zapier, and includes advanced security, governance, and monitoring features such as advanced admin permissions, single sign-on, and custom data retention.
+
+The Enterprise plan enables your entire team to use Zapier, with advanced security features, governance, and monitoring features such as advanced admin permissions, single sign-on, and custom data retention. Enterprise allows you to empower all of your employees while providing safeguards you need to protect sensitive data and critical workflows.
+
+Which plans allow for unlimited users?
+
+Unlimited users are available on Team and Enterprise plans.
+
+Do you have a free trial of your premium features?
+
+Yes! When you create a new Zapier account, you're instantly enrolled in a [free 14-day trial](https://zapier.com/help/account/billing-pricing/understand-your-free-zapier-trial) of the Zapier Professional plan. No credit card required.
+
+Please [contact our Sales team](https://zapier.com/l/contact-sales?demo_source=pricing-logged-out_faq_section) if you want to enroll in a free trial of the Zapier Team and Enterprise plans to experience our most advanced collaboration features and admin controls.
+
+Can I change my plan later?
+
+Yes, you can upgrade or downgrade at any time. If you upgrade, the change happens immediately, and you'll only pay a prorated amount for the rest of the billing cycle. If you choose to downgrade, it'll take effect at the end of that billing cycle.
+
+What if I decide to cancel?
+
+If you no longer wish to use Zapier, you may cancel at any time. You'll still have access to your paid plan for the remainder of your billing cycle. See also our [refund policy](https://help.zapier.com/hc/en-us/articles/8496260621197-Zapier-s-refund-policy) here.
+
+Do you offer any discounts?
+
+Yes! When you choose to pre-pay for a year of service, you'll receive a discount compared to monthly payments. Please see the pricing details above.
+
+We also offer an additional 15% discount for non-profits. Learn more [here](https://zapier.com/non-profits/).
+
+Can you charge me in my local currency?
+
+Yes, we currently accept payment in multiple currencies with more currencies being added soon. You can see a list all of our accepted payment methods and currencies [here](https://zapier.com/help/account/billing-pricing/charging-in-local-currency).
+
+Can I pay via invoice or wire transfer?
+
+You can pay via invoice or wire transfer on the **latest annual** Team or Enterprise plan. To request invoicing for your account, visit the [Pay by Invoice](https://zapier.com/l/pay-by-invoice) page.
+
+### Sales and support
+
+Do you have a Sales team?
+
+Yes, you can [contact our Sales team](https://zapier.com/l/contact-sales?demo_source=pricing-logged-out_faq_section) to book a demo for our Professional, Team, and Enterprise plans.
+
+What level of support do Team and Enterprise plans get?
+
+Team and Enterprise plans get Premier Support, which provides faster, prioritized responses from our dedicated Premier Support team.
+
+On top of Premier Support, the Enterprise plan gives you Designated Technical Support, an Onboarding Manager, an Account Manager, and a Solutions Engineer to help answer questions and work with your team in building advanced workflows.
+
+What if I have more questions?
+
+Try searching for what you need in our [Help and Support](https://zapier.com/support/) site. If you don't find what you're looking for, you can [get help](https://zapier.com/app/get-help?topic=account&from_url=https%3A%2F%2Fzapier.com%2Fpricing) here.
+
+Follow us
+
+*   [](http://www.facebook.com/ZapierApp?utm_source=zapier.com&amp;utm_medium=referral&amp;utm_campaign=zapier)
+*   [](https://www.linkedin.com/company/zapier/?utm_source=zapier.com&amp;utm_medium=referral&amp;utm_campaign=zapier)
+*   [](https://x.com/?utm_source=zapier.com&amp;utm_medium=referral&amp;utm_campaign=zapier#!/zapier)
+*   [](https://www.youtube.com/user/ZapierApp/videos?utm_source=zapier.com&amp;utm_medium=referral&amp;utm_campaign=zapier)
+*   [](https://zapier.com/blog/feeds/latest/)
+
+*   [Pricing](https://zapier.com/pricing)
+*   [Help](https://help.zapier.com/hc/en-us)
+*   [Developer Platform](https://zapier.com/platform)
+*   [Press](https://zapier.com/press)
+*   [Jobs](https://zapier.com/jobs)
+*   [Enterprise](https://zapier.com/enterprise)
+*   [Templates](https://zapier.com/templates)
+*   [App Integrations](https://zapier.com/apps)
+
+[](https://zapier.com/)
+
+© 2024 Zapier Inc.
+
+Manage cookies
+
+*   [Legal](https://zapier.com/legal)
+*   [Privacy](https://zapier.com/privacy)
+
+You are an AI assistant that extracts pricing information from any SaaS pricing page. 
+Please output ONLY the extracted data in this exact structure. 
+If data is missing, use "Not specified". 
+DO NOT add extra commentary.
+
+FORMAT:
+
+SERVICE INFORMATION
+- Name: Plans & Pricing | Zapier
+- URL: https://zapier.com/pricing
+- Logo URL: [if available]
+- Description: [short description]
+- Summary: [long summary or overview]
+- Category:
+  - Primary: [main category or domain]
+  - Secondary: [secondary category if any]
+  - Tags: [comma-separated relevant tags]
+- Business Model:
+  - Type: [subscription, usage-based, flat-rate, etc.]
+  - Description: [details if any]
+
+PRICING METADATA
+- Currency: 
+- Regions: 
+- Billing Cycles:
+  - Available: 
+  - Default: 
+- Custom Pricing Available: [Yes/No]
+- Free Tier Available: [Yes/No]
+
+PLANS
+For each plan found, list:
+- Name: 
+- Slug: 
+- Description: 
+- Is Popular: [Yes/No or Not specified]
+- Highlight Features: [list of bullet points if any]
+- Pricing:
+  - Base:
+    - Amount:
+    - Period:
+    - Currency:
+    - Is Per User:
+  - Usage Based Components:
+    - Name:
+    - Type:
+    - Unit:
+    - Tiers:
+      - Range:
+      - Unit Price:
+      - Flat Fee:
+- Limits:
+  - Users (min/max):
+  - Storage (amount/unit):
+  - API (requests quota):
+  - Compute (vcpu, memory, etc):
+  - Other Limits:
+- Features: [list or categories of features]
+
+ADD-ONS
+- Name:
+- Price:
+- Description:
+- Features:
+- Availability:
+- Requirements:
+- Limitations:
+
+ENTERPRISE
+- Available: [Yes/No]
+- Contact Sales Required: [Yes/No]
+- Minimum Seats: 
+- Custom Features: 
+
+DISCOUNTS
+- Type:
+- Amount:
+- Description:
+- Conditions:
+- Valid Until: (if applicable)
+
+SPECIAL OFFERS
+Any special offers, promotions, or bundles:
+
+SALES EMAIL SIGN-UP
+Offer to sign up for sales emails:
+
+TECHNOLOGIES
+List of technologies or programming languages used:
+
+SUPPORT
+Available Support Channels:
+
+TERMS AND CONDITIONS
+Link to terms and conditions:
+
+PRIVACY POLICY
+Privacy policy link:
+
+LEGAL
+Legal information:
+
+COPYRIGHT
+Copyright notice:
+
+END OF EXTRACTED DATA MARKER
+
+---
+
+**Service Information**
+- **Name**: Plans \& Pricing \| Zapian
+**URL**: [Not provided]
+**Logo URL**: 
+**Description**: Not available.
+**Summary**: Overview of pricing and plans offered by Zapien for automation and integration services.
+- ***Category***
+  ***Primary***: Automation and Integration Services
+***Secondary***:
+***Tags***:
+
+**Business Model**
+***Type**: Subscription, Usage-based (tasks)
+***Description**:
+
+***PRicing Metadata***
+**Currency**: USD, GBP, EUR, AUD, CAD, CHF, DKK, HKD, JPY, MXN, NOK, SEK, SGD, NZD (more currencies coming soon)
+**Regions**: Global (varies by currency)
+Billing cycles: Monthly, Yearly
+Custom Pricing: Yes
+Free Tier: No
+
+**Plans**
+* **Free**
+  **Slug**: free
+  *Description*: Basic automation plan with limited features.
+    ***Is Popular**: No
+    **Highlight Features**:
+        * Basic workflows
+      * Two-step zaps
+     * AI Power-ups
+   * **Base Pricing**: $0/month
+       **Period**: Monthly
+        **Is per User**: N/A
+         **Usage-Based Components**: Tasks (100/month)
+           **Tiers**: Free
+             **Range**: 0-100
+              **Unit Price**: \$0
+               **Flat Fee**: None
+           *Limits*:
+             * Users: Not Specified
+            * Storage: 5GB
+          * API: Requests not specified
+                * Compute: vCPU, Memory, Etc.: Not provided
+                 * Other limits: Task limit
+                  **Features**: Basic Zap creation and management, two-step workflows, basic AI integration.
+* ***Professional*** 
+   ***Slug**:* professional
+ * Description*: Advanced automation with premium app access and multi-step zap capabilities.
+   **Highlights Features**: Multi-step Zap capabilities, premium apps access, email support.
+ * Base Pricing*: \$19/month (Yearly: \$190/year)
+ * Period*: Monthly/Year
+ **Currency*: USD 
+ * Is per user*: No 
+* Usage based components*: Tasks, Premium app usage
+*Tiers*: Professional (monthly), Professional annual (yearly) 
+***Unit price**: \$.99/month, \$9.90/year
+ ***Flat fee**: none
+*Limits*: 2000 tasks, Unlimited users, 50GB storage, API requests not provided, Compute not available, other limits apply.
+***Features***:* All features of Free plan plus: Unlimited Premium Apps, Webhook support, Email support.
+
+***Team***
+*Slug*: team
+Description: Team collaboration and shared workflows.
+Base pricing: \(\$69/month\) (\$621/year), 
+Period: monthly/yearly, 
+Currency: USD,
+Per user: no,
+Usage-based components: tasks (unlimited), shared apps connections, workspace, users unlimited, storage 150GB, compute, api requests.
+Features: All Free and Professional features plus team collaboration tools.
+
+*Enterprise*
+Available: Contact sales
+Minimum seats: Varies by company size and needs.
+Custom features: Tailored to specific business needs.
+
+**Discounts**
+Type: Annual payment
+Amount: Up to \$33% off
+Conditions: Pay yearly instead of monthly
+Valid until: Ongoing
+
+***Special Offers***
+Promotions or Bundles: Pro bundle offers discounts for multiple product purchases.
+
+Sales email sign-up: Offer to subscribe to sales email updates.
+
+Technologies: JavaScript, Python, Node.js
+
+Support: Email, Phone, Chat
+
+Terms and Conditions: Link to T\&C
+
+Privacy Policy: Privacy Policy link
+
+Legal: Legal information
+
+Copyright: Copyright notice
+
+End of Extracted Data Marker

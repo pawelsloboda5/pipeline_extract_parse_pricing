@@ -1,0 +1,53 @@
+Extract basic service information:
+
+        SERVICE INFORMATION
+        - Name: Airtable
+        - URL: https://airtable.com/pricing
+        - Description: A next-gen app-building platform
+
+Extract pricing metadata:
+
+        PRICING METADATA
+        - Currency: USD
+        - Billing Cycles: monthly, annual
+        - Free Tier: Available
+
+Extract plan information:
+
+        PLANS
+        - Plan Name: Free
+          - Description: For individuals
+          - Base Price: 0 USD
+          - Limits:
+            - Users: 5
+            - Storage: 1GB
+
+Extracts offering information:
+
+        ENTERPRISE OFFERING
+        - Available: Yes
+        - Contact Sales Required: Yes
+        - Minimum Seats: Not specified
+        - Custom Features:
+          - Enhanced security
+          - Advanced admin services
+          - Custom integrations
+
+Extract more information:
+
+        DISCOUNTS
+        - Type: Annual billing
+        - Amount: 20%
+        - Description: Discount for annual billing
+        - Conditions: Must pay annually
+        - Validator: Not specified
+
+Extract use case information:
+
+        USE CASES
+        - Use Case: Small Business Automation
+          - Target User: Small business owners
+          - Pain Points Solved: Manual data entry, workflow management
+          - Key Benefits: Automation, easy setup
+          - Recommended Plan: Team
+          - ROI Potential: High

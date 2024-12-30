@@ -1,0 +1,220 @@
+SERVICE INFORMATION
+- Name: Zendesk for service
+- URL: https://support.zendesk.com/hc/en-us
+- Logo URL: Not available
+- Description: The complete service solution
+- Summary: AI-powered CX solution
+- Category: Customer service software
+- Tags: customer support, help desk, live chat, ticketing system, AI-powered
+- Business Model: Subscription-based, per agent pricing
+
+**PRICING METADATA**
+- Currency: USD
+- Available Regions: Worldwide
+- Billing Cycles: Monthly, annually
+- Default Billing: Annual
+- Custom Pricing: Available
+- Free Tier: Not available (starts at $19/month)
+
+**PLANS**
+### Suite Team
+- Plan Name: Suite Team
+- Slug: suite-team
+- Description: Seamless, conversational service
+- Popular: Yes
+- Base Price: $19
+- Per Agent: Yes
+- Key Features:
+  - Messaging and live chat
+  - AI and automation
+  - Data privacy and protection
+  - Help center
+  - Agent workspace
+  - Voice
+  - Workforce engagement
+- Limits:
+  - Storage: 50MB
+  - Users: Unlimited
+  - API calls: 1,000/month
+  - Other limits: Ticket file attachment size: 50MB
+
+### Suite Growth
+- **Plan Name: Suite Growth**
+- **Slug:** suite-growth
+- **Description:** Boost efficiency, deliver quality service
+- **Popular:** No
+- **Base Price:** $89
+- **Per Agent:** Yes
+- **Key Features:**
+  - Ticketing system
+  - Email
+  - Chat
+  - Social messaging
+  - AI agents
+  - Pre-built analytics dashboards
+  - 1,000+ integrations
+  - Pre-defined responses
+  - Custom business rules
+  - Online support
+  - Digital onboarding
+  - Multiple ticket forms
+  - Light Agents
+  - Service level agreements
+  - Customer satisfaction ratings
+  - Multilingual support
+  - Self-service customer portal
+  - Business hours
+- **Limits:**
+  - Storage: Not specified
+  - Users:
+  - API calls:
+  - Other limits:
+    - Multiple ticket forms
+
+### Suite Professional
+- Plan Name:
+- Slug:
+- Description:
+- Popular:
+- Base Price:
+- Per Agent:
+- Key Features:
+- Limits:
+- Storage:
+- Users:
+- API calls:
+- Other limits:
+- Business hours:
+- Custom and live analytics
+- Side conversations
+- Skills-based routing
+- Integrated community forums
+- Data location options
+- HIPAA enabled
+- Access to Sunshine Conversations
+
+- Suite Enterprise
+- Suite Enterprise Plus
+  - Plan Name:
+  - Slug:
+  - Description:
+  - Popular:
+  - Base Price:
+  - Per Agent:
+  - Key Features:
+    - AI-powered content cues
+    - Content blocks
+    - Custom agent roles
+    - Dynamic, contextual workspaces
+  - Limits:
+    - Storage:
+    - Users:
+    - API calls:
+    - Other limits:
+      - Custom user and organization fields
+      - Custom & group views
+      - Custom Layouts
+      - Dynamic content
+      - Article view permissions
+      - Structured content
+      - Theme customization
+      - Multiple help centers
+      - Search
+      - Flag & create knowledge
+      - Content & revision history
+      - Article lists & labels
+      - Approval and publishing workflows
+      - Scheduled publishing and verification
+      - Content blocks
+      - Advanced AI
+      - Macro insights for admins
+      - Change management
+      - Unified staff management
+      - Audit logs
+      - Standard sandbox
+      - Premium Sandbox
+      - Additional Premium Sandboxes
+      - Reporting & analytics
+      - Data
+        - Data storage
+        - File storage
+        - Custom objects
+        - Zendesk events
+        - External events
+        - Devices data log
+        - Additional data storage
+      - Security and compliance
+        - User authentication options
+        - Secure access options
+        - Agent device management
+        - Data encryption
+        - Host mapping
+        - Disaster recovery
+        - Credit card redaction
+        - Data center location
+        - HIPAA enabled
+        - Access log
+        - Advanced encryption
+        - Advanced data retention policies
+        - Advanced redaction
+      - Sunshine Conversations
+        - Access to conversation tools
+        - Basic Platform Support
+        - Monthly Active Users
+        - Notifications
+        - Channels
+        - Orchestration APIs
+        - Support and services
+        - Digital support
+      - Professional Services
+        - Custom training
+        - Custom certifications
+        - Hands-on help
+
+### Add-ons
+- Advanced AI
+  - Price: $50
+  - Description: Instantly understands common customer issues
+  - Features: Agent copilot, AI-powered workflows, insights and suggestions, generative AI writing tools, AI-powered knowledge
+- Workforce Management
+  - Price:
+  - Description: Ideal scheduling solution
+  - Features:
+- Quality Assurance
+  - Price:$35
+  - Description:
+- Workforce Engagement Bundle
+  - Price
+  - Description
+- Data Privacy and Protection
+  - Price
+
+### Free Trial
+- Duration: 14 days
+- Features: All features on the Suite Professional plan
+
+### Payment Terms
+- Contracts: Month-to-month or annual
+- Refunds: Not available for cancellation or downgrading
+- Payment Methods: Credit card, PayPal
+
+### Support
+- Resources: Online support, Zendesk Help Center
+- Training: On-demand training, guided learning paths
+- Community: Zendesk Community
+- Support Hours: 24/7
+
+### Integration
+- Integrations: Thousands of pre-built apps
+- Developer API: Available for building custom integrations
+
+### Security
+- Security Features: Enterprise-class security
+- Data Protection: Comprehensive audits
+- Compliance: HIPAA enabled
+
+### Pricing Notes
+- Plans start at $19/month (Suite Team)
+- Free trial available
+- Custom pricing available for Enterprise plans
+- Add-ons available for Advanced AI, Workforce Management, Quality Assurance, Workforce Engagement Bundle, and Data Privacy and Protection.

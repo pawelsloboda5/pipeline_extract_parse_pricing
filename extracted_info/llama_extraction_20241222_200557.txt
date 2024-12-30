@@ -1,0 +1,56 @@
+SERVICE INFORMATION
+  - Not specified
+
+PRICING METADATA
+  - Not specified
+
+PLANS
+  - Zapier Automation Platform (Free)
+  - Zapier Automation Professional (Paid)
+  - Zapier Team (Paid)
+  - Enterprise (Paid)
+  - Pro Bundle (Paid)
+  - Canvas Beta (Paid)
+  - Chatbots Beta (Paid)
+  - Name: Zapier Automation Platform | Zapier
+  - Slug: zapier- automation- platform
+  - Description: 
+  - Scalable automation
+  - All the automation tools needed
+  - No- code editor
+  - Unlimited app integrations
+  - Built- in data and AI tools
+  - Is Popular: Yes
+  - Highlight Features: 
+  - Visual no- code editor
+  - *   Zapier Tables (Basic)
+  - *   Zapian Interfaces (Basic)
+  - Unlimited Premium Apps
+  - Webhooks
+  - Email Support
+  - Pricing: 
+  - Base: 
+  - Amount: $0
+  - Period: Monthly
+  - Currency: USD
+  - Is Per User: 
+  - No
+  - Usage- Based Components: 
+  - Name: None
+  - Type: None
+  - *   None
+  - Limits: 
+  - Users: 
+  - Minimum: Not Specified
+  - Maximum: Not Specified
+
+ADD-ONS
+  - Not specified
+
+ENTERPRISE
+  - Not specified
+
+DISCOUNTS
+  - Not specified
+  - Use the exact format specified in the instructions.
+  - Here is the extracted PLAN section: 

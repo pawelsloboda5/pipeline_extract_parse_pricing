@@ -1,0 +1,77 @@
+SERVICE INFORMATION
+  - Not specified
+
+PRICING METADATA
+  - Not specified
+
+PLANS
+  - Name: Pay Monthly
+  - Slug: zapier- pricing- plan- monthly
+  - Description: Automated workflows for individual users.
+  - Is Popular: Yes
+  - Highlight Features: 
+  - • Unlimited Zaps
+  - • Two- step Zaps
+  - *AI power- ups*
+  - • Best for basic use
+  - Pricing: 
+  - • Base: 
+  - • Amount: $0
+  - • Period: Monthly
+  - • Currency: USD
+  - • Is Per User: No
+  - • Usage Based Components: 
+  - • Name: Tasks
+  - • Type: Counted
+  - • Unit: Task
+  - • Tiers: 
+  - • Range: 100- 2000
+  - • Unit Price: $0.00
+  - • Flat Fee: Not Specified
+  - Limits: 
+  - • Users: 
+  - • Minimum: 1
+  - • Maximum: Unspecified
+  - • Storage: 
+  - • Amount: 
+  - • GB: 500
+  - • TB: 500TB
+  - • Unit: GB/TB
+  - • API: 
+  - • Requests: 
+  - • Rate: 100
+  - • Period: Daily
+  - • Quota: 100
+  - • Compute: 
+  - • VCPU: 1
+  - • Amount: 1
+  - • Unit: VCPU
+  - • Memory: 512MB
+  - • Amount: 
+  - * MB: 512MB
+  - • Unit: MB
+  - • Other Limits: 
+  - • Name: None
+  - • Value: None
+  - *Description: *None
+  - Features (Grouped by Category): 
+  - • Category Name: Data Management
+  - • Feature Name: Table
+  - • Description: Store, edit, share data
+  - • Included: Yes
+  - • Limit: None
+  - • Category Name: 
+  - • Feature Name: 
+  - • Description: 
+  - • Included: 
+  - • Limit: 
+  - Note: Some sections were not fully extracted due to incomplete information in the original text.
+
+ADD-ONS
+  - Not specified
+
+ENTERPRISE
+  - Not specified
+
+DISCOUNTS
+  - Not specified

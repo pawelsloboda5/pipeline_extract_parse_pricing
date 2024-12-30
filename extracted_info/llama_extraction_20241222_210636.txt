@@ -1,0 +1,50 @@
+SERVICE INFORMATION
+  - Name: Plans & Pricing | Zapier
+  - URL: https: //zapier.com/pricing
+  - Logo URL: [if available]
+  - Description: [brief description]
+  - Summary: [comprehensive service summary]
+  - Category: 
+  - Primary: [main category]
+  - Secondary: [sub- category]
+  - Tags: [comma- separated list of all relevant tags]
+  - Business Model: 
+  - Type: [list all that apply: subscription, usage- based, flat- rate, etc.]
+  - Description: [explain the pricing model]
+
+PRICING METADATA
+  - Currency: [primary currency code]
+  - Regions: [list all available regions]
+  - Billing Cycles: 
+  - Available: [list all cycles]
+  - Default: [primary billing cycle]
+  - Custom Pricing Available: [Yes/No]
+  - Free Tier Available: [Yes/No]
+
+PLANS
+  - For each plan found: 
+  - Name: ...
+  - Slug: ...
+  - Description: ...
+  - Is Popular: ...
+  - Highlight Features: ...
+  - Pricing: 
+  - Base: 
+  - Amount: 
+  - Period: 
+  - Currency: 
+  - Is Per User: 
+  - Usage Based Components: 
+
+ADD-ONS
+  - Name: 
+  - Price: 
+
+ENTERPRISE
+  - Available: 
+  - Contact Sales Required: 
+
+DISCOUNTS
+  - Type: 
+  - Amount: 
+  - Description:

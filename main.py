@@ -22,6 +22,8 @@ logger = logging.getLogger(__name__)
 # Load environment variables
 load_dotenv()
 
+logging.getLogger('gpt4o_extractor').setLevel(logging.INFO)
+
 class WebExtractor:
     """Base class for web extraction"""
     def __init__(self):
@@ -47,21 +49,38 @@ class JinaExtractorContent(WebExtractor):
         super().__init__()
         self.base_url = 'https://r.jina.ai'
         
-    def extract_content(self, url: str) -> str:
+    def extract_content(self, url: str) -> Dict[str, Union[str, str]]:
         """Extract content using Jina.ai"""
         try:
+            logger.info(f"Making Jina.ai request for URL: {url}")
             response = requests.get(
                 f'{self.base_url}/{url}',
                 headers={
                     **self.headers,
-                    'X-Return-Format': 'text'
+                    'X-Return-Format': 'markdown',
+                    'X-Retain-Images': 'none',
+                    'X-With-Iframe': 'true',
+                    'X-With-Shadow-Dom': 'true',
+                    'Accept': 'application/json'
                 }
             )
             response.raise_for_status()
-            return response.text
+            
+            # Parse JSON response
+            content_data = response.json()
+            logger.info(f"Successfully extracted content from Jina.ai for {url}")
+            logger.debug(f"Response size: {len(str(content_data))} characters")
+            
+            # Extract the actual content from the nested structure
+            return {
+                'content': content_data['data']['content'],
+                'title': content_data['data']['title'],
+                'description': content_data['data']['description'],
+                'url': url
+            }
             
         except requests.RequestException as e:
-            logger.error(f"Jina content extraction failed: {str(e)}")
+            logger.error(f"Jina content extraction failed for {url}: {str(e)}")
             return None
 
 class JinaExtractorLinks(WebExtractor):
@@ -105,42 +124,122 @@ class JinaExtractorLinks(WebExtractor):
                 
         return links
 
-class SeleniumExtractor(WebExtractor):
-    """Selenium-based fallback extraction"""
+class SeleniumExtractor:
+    """Selenium based extraction fallback"""
     def __init__(self):
-        super().__init__()
-        self.options = Options()
-        self.options.add_argument('--headless')
-        self.options.add_argument('--no-sandbox')
-        self.options.add_argument('--disable-dev-shm-usage')
-
+        chrome_options = Options()
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--disable-gpu')
+        self.driver = webdriver.Chrome(options=chrome_options)
+        
     def extract_content(self, url: str) -> Dict[str, Union[str, List[str]]]:
         """Extract content using Selenium"""
         try:
-            driver = webdriver.Chrome(options=self.options)
-            driver.get(url)
-            content = driver.page_source
-            domain = self.extract_domain(url)
+            self.driver.get(url)
+            time.sleep(5)  # Wait for dynamic content to load
             
-            # Extract links using updated Selenium syntax
-            links = []
-            from selenium.webdriver.common.by import By
-            elements = driver.find_elements(By.TAG_NAME, 'a')
-            for element in elements:
-                href = element.get_attribute('href')
-                if href and domain in href:
-                    links.append(href)
-
+            # Get the page title and description
+            title = self.driver.title
+            description = self._get_meta_description()
+            
+            # Extract main content text (avoiding scripts, styles, etc.)
+            content = self._extract_clean_content()
+            
+            # Extract links
+            links = self._extract_links()
+            
+            # Format the response to match Jina.ai structure
             return {
-                'content': content,
-                'links': list(set(links))
+                'content': {
+                    'content': content,
+                    'title': title,
+                    'description': description,
+                    'url': url
+                },
+                'links': links
             }
+            
         except Exception as e:
             logger.error(f"Selenium extraction failed: {str(e)}")
             return None
-        finally:
-            if 'driver' in locals():
-                driver.quit()
+            
+    def _get_meta_description(self) -> str:
+        """Extract meta description"""
+        try:
+            meta = self.driver.find_element('xpath', "//meta[@name='description']")
+            return meta.get_attribute('content')
+        except:
+            return ""
+            
+    def _extract_clean_content(self) -> str:
+        """Extract and clean content text"""
+        try:
+            # Remove unwanted elements
+            for element in self.driver.find_elements('xpath', 
+                "//script | //style | //noscript | //iframe | //svg"):
+                self.driver.execute_script(
+                    "arguments[0].parentNode.removeChild(arguments[0])", element)
+            
+            # Try to find pricing specific content first
+            pricing_content = None
+            for selector in [
+                "//div[contains(@class, 'pricing')]",
+                "//section[contains(@class, 'pricing')]",
+                "//div[contains(@id, 'pricing')]",
+                "//main"
+            ]:
+                elements = self.driver.find_elements('xpath', selector)
+                if elements:
+                    pricing_content = elements[0]
+                    break
+            
+            if pricing_content:
+                content = pricing_content.text
+            else:
+                content = self.driver.find_element('xpath', "//body").text
+            
+            # Clean up the content
+            content = self._clean_text(content)
+            
+            return content
+            
+        except Exception as e:
+            logger.error(f"Content extraction failed: {str(e)}")
+            return ""
+            
+    def _clean_text(self, text: str) -> str:
+        """Clean extracted text"""
+        # Remove excessive whitespace
+        text = re.sub(r'\s+', ' ', text)
+        # Remove non-printable characters
+        text = ''.join(char for char in text if char.isprintable())
+        # Remove any remaining HTML tags
+        text = re.sub(r'<[^>]+>', '', text)
+        return text.strip()
+            
+    def _extract_links(self) -> List[Dict[str, str]]:
+        """Extract relevant links"""
+        links = []
+        elements = self.driver.find_elements('xpath', "//a[@href]")
+        for element in elements:
+            try:
+                href = element.get_attribute('href')
+                text = element.text.strip()
+                if href and text and not href.startswith('javascript:'):
+                    links.append({
+                        'text': text,
+                        'url': href
+                    })
+            except:
+                continue
+        return links
+        
+    def __del__(self):
+        """Clean up Selenium driver"""
+        try:
+            self.driver.quit()
+        except:
+            pass
 
 class PricingExtractor:
     """Main class for extracting pricing information"""
@@ -149,14 +248,18 @@ class PricingExtractor:
         self.links_extractor = JinaExtractorLinks()
         self.selenium_extractor = SeleniumExtractor()
         self.pricing_agent = PricingAgent()
-        
-        # Create storage directories
-        self.raw_content_dir = Path("raw_content_storage")
-        self.raw_links_dir = Path("raw_links_storage")
-        self.parsed_content_dir = Path("parsed_content_storage")
+        self.schema_validator = PricingSchemaValidator()
         
         # Create all necessary directories
-        for directory in [self.raw_content_dir, self.raw_links_dir, self.parsed_content_dir]:
+        self.directories = {
+            'raw_content': Path("raw_content"),
+            'raw_links': Path("raw_links"),
+            'parsed_content': Path("parsed_content"),
+            'validated_content': Path("validated_content"),
+            'extracted_info': Path("extracted_info")  # Keep for compatibility
+        }
+        
+        for directory in self.directories.values():
             directory.mkdir(exist_ok=True)
 
     def _get_service_name(self, url: str) -> str:
@@ -164,56 +267,100 @@ class PricingExtractor:
         domain = urlparse(url).netloc
         return domain.split('.')[0] if domain.startswith('www.') else domain.split('.')[0]
 
-    def _generate_filename(self, service_name: str, file_type: str) -> str:
-        """Generate filename with service name and current date"""
-        current_date = datetime.now().strftime("%Y%m%d_%H%M%S")
-        return f"{file_type}_{service_name}_{current_date}"
-
     def extract_and_parse(self, url: str) -> tuple:
-        """Extract content and parse it using the pricing agent"""
+        """Extract content, parse it, and validate the results"""
         if not self.content_extractor.is_valid_url(url):
-            raise ValueError("Invalid URL provided")
+            raise ValueError(f"Invalid URL provided: {url}")
 
         try:
             # Extract raw content
-            logger.info(f"Extracting content from {url}")
+            logger.info(f"Starting extraction process for {url}")
             extracted_data = self.extract(url)
             
-            # Save raw content and links
-            content_path, links_path = self.save_content(extracted_data, url)
-            logger.info(f"Raw content saved to {content_path}")
-            logger.info(f"Links saved to {links_path}")
+            if not extracted_data:
+                logger.error(f"No data extracted from {url}")
+                return None, None, None, None
             
-            # Parse content using pricing agent with the newly saved content
-            logger.info("Parsing content with pricing agent")
-            with open(content_path, 'r', encoding='utf-8') as f:
-                raw_content = f.read()
-                
-            parsed_data = self.pricing_agent.parse_content(
-                raw_content,
-                url=url
-            )
-            
-            # Save parsed data
+            # Save raw content
             service_name = self._get_service_name(url)
-            parsed_filename = self._generate_filename(service_name, "parsed")
-            parsed_path = self.parsed_content_dir / f"{parsed_filename}.json"
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             
-            with open(parsed_path, 'w', encoding='utf-8') as f:
-                json.dump(parsed_data, f, indent=2)
+            # 1. Save raw content
+            raw_content_path = self.save_raw_content(extracted_data, service_name, timestamp)
+            logger.info(f"Raw content saved to: {raw_content_path}")
             
-            logger.info(f"Parsed content saved to {parsed_path}")
+            # 2. Process with GPT-4 extractor
+            logger.info("Starting GPT-4 extraction process...")
+            parsed_path = self.process_with_gpt4(extracted_data, service_name, timestamp)
+            logger.info(f"Parsed content saved to: {parsed_path}")
             
-            # Process content for ML if needed
-            processed_path = self.process_content(extracted_data, url)
-            if processed_path:
-                logger.info(f"Processed content saved to {processed_path}")
+            # 3. Validate and transform
+            logger.info("Validating and transforming parsed data...")
+            validated_path = self.validate_and_transform(parsed_path, service_name, timestamp)
+            logger.info(f"Validated content saved to: {validated_path}")
             
-            return content_path, links_path, parsed_path, processed_path
+            return raw_content_path, parsed_path, validated_path
             
         except Exception as e:
-            logger.error(f"Extraction and parsing failed: {str(e)}")
-            raise
+            logger.error(f"Pipeline failed for {url}: {str(e)}", exc_info=True)
+            return None, None, None
+
+    def save_raw_content(self, extracted_data: dict, service_name: str, timestamp: str) -> Path:
+        """Save raw extracted content"""
+        raw_content_path = self.directories['raw_content'] / f"raw_{service_name}_{timestamp}.json"
+        content_data = {
+            "service_name": service_name,
+            "extraction_date": datetime.now().isoformat(),
+            "content": extracted_data['content'],
+            "links": extracted_data.get('links', [])
+        }
+        
+        with open(raw_content_path, 'w', encoding='utf-8') as f:
+            json.dump(content_data, f, indent=2)
+            
+        return raw_content_path
+
+    def process_with_gpt4(self, extracted_data: dict, service_name: str, timestamp: str) -> Path:
+        """Process content with GPT-4 extractor"""
+        from gpt4o_extractor_agent import process_pricing_json
+        
+        # Prepare data for GPT-4
+        extraction_data = {
+            "data": {
+                "content": extracted_data['content'],
+                "title": extracted_data.get('title', ''),
+                "description": extracted_data.get('description', ''),
+                "url": extracted_data.get('url', '')
+            }
+        }
+        
+        # Save to parsed content directory
+        parsed_path = self.directories['parsed_content'] / f"parsed_{service_name}_{timestamp}.json"
+        
+        # Process with GPT-4
+        result = process_pricing_json(extraction_data)
+        
+        with open(parsed_path, 'w', encoding='utf-8') as f:
+            json.dump(result, f, indent=2)
+            
+        return parsed_path
+
+    def validate_and_transform(self, parsed_path: Path, service_name: str, timestamp: str) -> Path:
+        """Validate and transform parsed data"""
+        validated_path = self.directories['validated_content'] / f"validated_{service_name}_{timestamp}.json"
+        
+        # Validate and transform
+        is_valid, transformed_data, errors = self.schema_validator.validate_and_transform(str(parsed_path))
+        
+        if errors:
+            logger.warning("Validation produced warnings:")
+            for error in errors:
+                logger.warning(f"• {error}")
+        
+        # Save transformed data
+        self.schema_validator.save_transformed(transformed_data, str(validated_path))
+        
+        return validated_path
 
     def extract(self, url: str) -> Dict[str, Union[str, List[str]]]:
         """Extract pricing information with fallback mechanism"""
@@ -237,70 +384,27 @@ class PricingExtractor:
             'links': links
         }
 
-    def save_content(self, content: Dict[str, Union[str, List]], url: str) -> tuple:
-        """Save content and links to respective directories"""
-        service_name = self._get_service_name(url)
-        
-        # Save raw content
-        content_filename = self._generate_filename(service_name, "raw_content")
-        content_path = self.raw_content_dir / f"{content_filename}.txt"
-        with open(content_path, 'w', encoding='utf-8') as f:
-            f.write(content['content'])
-        
-        # Save links
-        links_filename = self._generate_filename(service_name, "raw_links")
-        links_path = self.raw_links_dir / f"{links_filename}.json"
-        links_data = {
-            "service_name": service_name,
-            "extraction_date": datetime.now().isoformat(),
-            "source_url": url,
-            "links": content['links']
-        }
-        with open(links_path, 'w', encoding='utf-8') as f:
-            json.dump(links_data, f, indent=2)
-            
-        return content_path, links_path
-
-    def process_content(self, content: Dict[str, Union[str, List[str]]], url: str) -> tuple:
-        """Process the extracted content"""
-        processor = ContentProcessor()
-        processed_text = processor.extract_text_content(content['content'])
-        
-        if processed_text:
-            # Save processed content
-            service_name = self._get_service_name(url)
-            filename = self._generate_filename(service_name, "processed")
-            processed_path = Path("processed_content_storage") / f"{filename}.txt"
-            processed_path.parent.mkdir(exist_ok=True)
-            
-            with open(processed_path, 'w', encoding='utf-8') as f:
-                f.write(processed_text)
-            
-            return processed_path
-        return None
-
 def main():
     try:
         extractor = PricingExtractor()
         urls = [
-            "https://airtable.com/pricing",
+            "https://apify.com/pricing"
             # Add more URLs as needed
         ]
         
         for url in urls:
             logger.info(f"\nProcessing {url}")
             try:
-                content_path, links_path, parsed_path, processed_path = extractor.extract_and_parse(url)
+                raw_path, parsed_path, validated_path = extractor.extract_and_parse(url)
                 
+                if all(path is None for path in [raw_path, parsed_path, validated_path]):
+                    logger.warning(f"Skipped processing for {url} due to extraction failure")
+                    continue
+                    
                 logger.info(f"Successfully processed {url}")
-                logger.info(f"Raw content: {content_path}")
-                logger.info(f"Links: {links_path}")
-                logger.info(f"Parsed data: {parsed_path}")
-                if processed_path:
-                    logger.info(f"Processed content: {processed_path}")
-                    logger.info(f"Checking JSON: {parsed_path}")
-                    validator = PricingSchemaValidator()
-                    validator.validate_json(parsed_path)
+                logger.info(f"Raw content: {raw_path}")
+                logger.info(f"Parsed content: {parsed_path}")
+                logger.info(f"Validated content: {validated_path}")
                     
             except Exception as e:
                 logger.error(f"Failed to process {url}: {str(e)}")

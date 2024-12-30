@@ -1,0 +1,58 @@
+{
+  "SERVICE_INFORMATION": {
+    "Name": "Zapier",
+    "URL": "https://zapier.com",
+    "Logo_URL": "Not specified",
+    "Description": "exact product description from the text",
+    "Summary": "Not specified",
+    "Category": {
+      "Primary": "Automation",
+      "Secondary": "Integration Platform",
+      "Tags": [
+        "automation",
+        "workflow",
+        "integration",
+        "saas"
+      ]
+    },
+    "Business_Model": {
+      "Type": "subscription",
+      "Description": "Per-seat subscription with usage-based tiers"
+    }
+  },
+  "PRICING_METADATA": {
+    "Currency": "USD",
+    "Regions": "Global",
+    "Billing_Cycles": {
+      "Available": [
+        "monthly",
+        "annual"
+      ],
+      "Default": "annual"
+    },
+    "Custom_Pricing_Available": "No",
+    "Free_Tier_Available": "No"
+  },
+  "PLANS": {},
+  "ADD_ONS": [
+    {
+      "Name": "exact add-on name",
+      "Price": "exact price text",
+      "Description": "exact description text",
+      "Features": [
+        "exact add-on feature 1",
+        "exact add-on feature 2"
+      ],
+      "Availability": "Not specified",
+      "Requirements": "Not specified",
+      "Limitations": "Not specified"
+    }
+  ],
+  "ENTERPRISE": {
+    "Available": "No",
+    "Contact_Sales_Required": "Yes",
+    "Minimum_Seats": "Not specified",
+    "Custom_Features": []
+  },
+  "DISCOUNTS": []
+}

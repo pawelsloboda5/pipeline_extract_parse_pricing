@@ -1,0 +1,2704 @@
+CONTENT:
+Introducing Airtable ProductCentralSee it in action
+Airtable home or view your bases
+
+
+
+
+
+Platform
+
+
+Platform
+
+Platform & Products
+
+
+
+Platform Overview
+Unlock the power of a next-gen app-building platform
+
+
+App Building
+Enable teams to build custom business apps—no code needed
+
+
+AInew
+Embed AI throughout end-to-end workflows
+
+
+Connected Data
+Connect data from apps, workflows, and tools to create a source of truth
+
+
+
+
+
+Platform Features
+Learn about Airtable views, interfaces, automations, and more
+
+
+
+Back
+
+Features
+
+
+
+Automations
+Achieve more in less time via automations
+
+
+Interface Designer
+Create custom interfaces from your data
+
+
+Views
+Tailor data visualizations to your teams’ needs
+
+
+Reporting
+Measure, analyze, and share insights
+
+
+Governance and Scale
+Centrally manage security, permissions and data protection at scale
+
+
+What's New
+See Airtable's latest product updates and features
+
+
+
+Tools
+
+
+
+
+
+
+Integrations
+Integrate with tools like Slack, Google Drive, and Salesforce
+
+
+
+Back
+
+Integrations
+
+
+
+Slack
+Add real-time messaging to your workflows
+
+
+Google Drive
+Sync information and build workflows
+
+
+Salesforce
+Leverage CRM data across teams and tools
+
+
+Jira
+Generate tickets and sync work from Airtable
+
+
+Zendesk
+Simplify and streamline workflows
+
+
+See all integrations
+
+
+
+
+Extension Marketplace
+Explore 1000+ templates, scripts, and apps
+
+
+Download
+Get the Airtable app for desktop and mobile
+
+
+
+
+
+The Airtable Platform
+Propel your business with a next-gen app-building platform. See data move in real-time and securely transform your work with AI.Explore the platform
+
+
+Solutions
+
+
+Solutions
+
+
+
+ProductCentral
+NEW
+Unify your product development cycle with Airtable's new end-to-end solution
+
+Marketing
+Create custom workflows to run campaigns and track successes
+
+Operations
+Bring your data and processes into a single, well-organized place
+
+Project Management
+Keep track of projects and tasks across departments
+
+Human Resources
+Manage and streamline processes from hire to retire
+
+Sales
+Win loyal customers with smarter workflows and connected data
+
+Finance
+Streamline requests, manage budgets, and automate reporting
+
+
+
+
+
+Customer Story
+More money, fewer problems
+How Code and Theory consolidated tooling and saved more than 10,000 hours with Airtable.Learn more
+
+
+Resources
+
+
+Resources
+
+Learn
+
+
+
+
+
+
+By Topic
+
+
+
+Back
+
+Airtable 101
+
+
+
+Learning Center
+Hands-on resources to expand your skills
+
+
+Getting Started
+Begin with Airtable basics and set-up
+
+
+How-To: Tools & Tips
+Learn features, strategies, and flows
+
+
+Product Updates
+Airtable product news and feature releases
+
+Topic
+
+
+
+Strategy and Planning
+Discover the power of real-time data
+
+
+Increase Efficiency
+Streamline and automate any workflow
+
+
+Centralize Data
+Create a source of truth for your organization
+
+
+Teams and Collaboration
+Build best practices that unite teams and data
+
+
+Industry Trends
+See how businesses stay competitive
+
+
+See all resources
+
+
+
+
+
+
+
+By Team
+
+
+
+Back
+
+Team
+
+
+
+Product
+Stay aligned while creating beloved products
+
+
+Marketing
+Create custom workflows to run campaigns
+
+
+See all resources
+
+
+
+
+
+
+
+By Type
+
+
+
+Back
+
+Type
+
+
+
+Webinars
+
+
+Demos
+
+
+Videos
+
+
+eBooks
+
+
+Reports
+
+
+Quick Reads
+
+
+Guides
+
+
+Articles
+
+
+See all resources
+
+
+
+Connect
+
+
+
+Events
+
+
+Partners
+
+
+Services
+
+
+
+
+
+Community
+
+
+
+Back
+
+Community
+
+
+
+Airtable Community
+Welcome to our official community hub
+
+
+Airtable Universe
+User-created templates, bases, and flows
+
+
+
+Explore
+
+
+
+
+
+
+Templates
+
+
+
+Back
+
+Templates
+
+
+
+Project ManagementNew
+
+
+Content Calendar
+
+
+Event Planning
+
+
+Product Roadmap
+
+
+Organizational Chart
+
+
+Resource AllocationNew
+
+
+Social Media Calendar
+
+
+Marketing Campaign Tracker
+
+
+Product Launch
+
+
+Content Strategy
+
+
+Product Strategy
+
+
+Inventory Tracker
+
+
+Product Catalog
+
+
+See all templates
+
+
+
+
+Customer Stories
+
+
+Blog
+
+
+
+
+
+Developers
+
+
+
+Back
+
+Developers
+
+
+
+Dev Community
+Share ideas and find solutions from peers
+
+
+API Docs
+Build with the Airtable API
+
+
+Custom Extensions
+Create real-time, interactive extensions
+
+
+Scripting
+Build something custom with scripts
+
+
+
+Support
+
+
+
+Contact Support
+
+
+Support Docs
+
+
+
+
+
+Resource Center
+Stay one step ahead of the trends
+This content is packed with demos, best practices, industry trends, and more. See how to win in a fast-moving market.Explore all resources
+EnterprisePricing
+Contact SalesSign in
+Contact SalesSign up for freeSign upSign in
+
+
+
+
+
+
+A plan for every organization's needs
+
+
+
+
+
+Most popular
+
+
+
+
+Free
+
+Team
+
+Business
+
+Enterprise Scale
+
+
+For individuals or very small teams just getting started with Airtable
+
+For teams building apps to collaborate on shared workflows
+
+For teams and departments who need advanced features and basic administration
+
+For organizations looking to build scalable, flexible apps with powerful governance and administration
+
+
+
+
+
+
+
+
+
+
+
+
+Free
+
+
+$20
+per seat/month
+billed annually
+
+
+$45
+per seat/month
+billed annually
+
+
+
+
+
+
+
+
+
+$24 billed monthly
+
+
+$54 billed monthly
+
+
+Custom pricing
+
+
+Try for free
+
+Try for free
+
+Get started
+
+
+Contact Sales
+
+
+
+
+
+
+or contact sales
+
+
+
+
+
+
+Free includes:
+
+
+Unlimited bases
+
+1,000 records per base
+
+Up to 5 editors
+
+1 GB of attachments per base
+
+100 automation runs
+
+Interface Designer
+
+
+
+Everything in Free, plus:
+
+
+50,000 records per base
+
+25,000 automation runs
+
+20 GB of attachments per base
+
+Standard sync integrations
+
+Extensions
+
+Gantt and timeline view
+
+Expanded color, formatting, and calendar options
+
+
+
+Everything in Team, plus:
+
+
+125,000 records per base
+
+100,000 automation runs
+
+100 GB of attachments per base
+
+Premium sync integrations
+
+Verified data
+
+Two-way sync
+
+Admin panel
+
+SAML-based single sign-on
+
+App Sandbox
+
+
+
+Everything in Business, plus:
+
+
+500,000 records per base
+
+500,000 automation runs
+
+1,000 GB of attachments per base
+
+On-premises sync integrations
+
+App Library
+
+HyperDB
+
+Enterprise Hub
+
+Enhanced security and admin controls
+
+Enterprise API
+
+Extension and integration management
+
+Audit logs and DLP
+
+
+
+
+Add-on
+Airtable AI
+Harness the power of AI and incorporate it directly into your workflows. Try it out for free, or get started with standard access beginning at $6 per seat/month.
+
+
+Summarize and extract insights from meeting notes, articles, etc.
+
+
+Categorize feedback and assets
+
+
+Route tasks to the right people
+
+
+Generate draft content
+
+
+Translate text
+
+Get Pricing
+Available for Team, Business, or Enterprise Scale plans
+
+
+
+
+Solution
+ProductCentral
+Accelerate digital product development. Get visibility into product investments at every altitude, from strategy to tickets. Infuse AI into every stage of product operations.
+
+
+Synthesize customer insights
+
+
+Align roadmap to strategy
+
+
+Sync with engineering
+
+Contact Sales
+Available for Business or Enterprise Scale plans
+See all features and compare plans
+
+
+
+
+Free
+For individuals or very small teams just getting started with Airtable
+
+Free
+
+Try for free
+
+Free includes:
+
+
+Unlimited bases
+
+1,000 records per base
+
+Up to 5 editors
+
+1 GB of attachments per base
+
+100 automation runs
+
+Interface Designer
+
+
+All features
+
+
+
+Most popular
+
+Team
+For teams building apps to collaborate on shared workflows
+
+$20
+per seat /month
+billed annually
+
+Try for free
+
+Everything in Free, plus:
+
+
+50,000 records per base
+
+25,000 automation runs
+
+20 GB of attachments per base
+
+Standard sync integrations
+
+Extensions
+
+Gantt and timeline view
+
+Expanded color, formatting, and calendar options
+
+
+All features
+
+
+
+Business
+For teams and departments who need advanced features and basic administration
+
+$45
+per seat /month
+billed annually
+
+Get started
+
+Everything in Team, plus:
+
+
+125,000 records per base
+
+100,000 automation runs
+
+100 GB of attachments per base
+
+Premium sync integrations
+
+Verified data
+
+Two-way sync
+
+Admin panel
+
+SAML-based single sign-on
+
+App Sandbox
+
+
+All features
+
+
+
+Enterprise Scale
+For organizations looking to build scalable, flexible apps with powerful governance and administration
+
+
+
+
+Contact Sales
+
+Everything in Business, plus:
+
+
+500,000 records per base
+
+500,000 automation runs
+
+1,000 GB of attachments per base
+
+On-premises sync integrations
+
+App Library
+
+HyperDB
+
+Enterprise Hub
+
+Enhanced security and admin controls
+
+Enterprise API
+
+Extension and integration management
+
+Audit logs and DLP
+
+
+All features
+
+
+
+
+
+Add-on
+Airtable AI
+Harness the power of AI and incorporate it directly into your workflows. Try it out for free, or get started with standard access beginning at $6 per seat/month.
+
+
+Summarize and extract insights from meeting notes, articles, etc.
+
+
+Categorize feedback and assets
+
+
+Route tasks to the right people
+
+
+Generate draft content
+
+
+Translate text
+
+Get Pricing
+Available for Team, Business, or Enterprise Scale plans
+
+
+
+
+Solution
+ProductCentral
+Accelerate digital product development. Get visibility into product investments at every altitude, from strategy to tickets. Infuse AI into every stage of product operations.
+
+
+Synthesize customer insights
+
+
+Align roadmap to strategy
+
+
+Sync with engineering
+
+Contact Sales
+Available for Business or Enterprise Scale plans
+
+Trusted by 500,000+ forward-thinking companies worldwide
+
+
+
+
+
+
+
+
+
+
+
+Compare our plans
+
+
+Free
+
+
+Team
+
+
+Business
+
+
+Enterprise Scale
+
+
+
+Try for free
+
+Try for free
+
+Get started
+
+
+Contact Sales
+
+
+
+
+Fundamentals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bases
+
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+
+
+
+
+
+Records per base
+
+
+1,000
+
+50,000
+
+125,000
+
+500,000
+
+
+
+
+
+
+Workspaces
+
+
+1
+
+1
+
+Unlimited
+
+Unlimited
+
+
+
+
+
+
+Maximum number of editors per workspace
+
+
+5
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+
+
+
+
+
+Maximum number of commenters per workspace
+
+
+50
+
+Unlimited
+
+Unlimited
+
+Unlimited
+
+
+
+
+
+
+Attachment space per base
+
+
+1GB
+
+20GB
+
+100GB
+
+1,000GB
+
+
+
+
+
+
+Revision and snapshot history
+
+
+2-week
+
+1-year
+
+2-year
+
+3+ year
+
+
+
+
+
+
+Realtime collaboration and commenting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+iOS and Android mobile apps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Interface Designer
+
+
+
+
+
+
+
+
+
+
+
+
+
+Visualizations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+List
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Grid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kanban
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Calendar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dashboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gallery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inbox
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Forms
+
+
+
+
+
+
+
+
+
+
+
+
+
+Project Management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gantt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Timeline
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Date dependencies
+
+NEW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Utilization
+
+NEW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conditional filtering in Interface elements
+
+NEW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dynamic filtering for linked records
+
+NEW
+
+
+
+
+
+
+
+
+
+
+
+
+Customization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Page & view sections
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Custom branded forms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Expanded color and formatting options
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Advanced calendar features
+
+
+
+
+
+
+
+
+
+
+
+
+
+Extensions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pre-built extensions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Scripting and custom extensions
+
+
+
+
+
+
+
+
+
+
+
+
+
+Automations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Runs per month
+
+
+100
+
+25,000
+
+100,000
+
+500,000
+
+
+
+
+
+
+Run history
+
+
+2-week
+
+1-year
+
+2-year
+
+3+ year
+
+
+
+
+
+
+Automation integrations
+
+
+
+
+
+
+
+
+
+
+
+
+
+Synced data and integrations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Synced tables per base
+
+
+
+
+10
+
+20
+
+20
+
+
+
+
+
+
+Verified data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Multi-source syncing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Two-way sync
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Standard sync integrations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Premium sync integrations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Enterprise Scale integrations
+
+
+
+
+
+
+
+
+
+
+
+
+
+AI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Airtable AI
+
+NEW
+
+
+
+Add-on
+
+Add-on
+
+Add-on
+
+
+
+
+Advanced permissions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Password and domain-restricted shares
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Field and table editing permissions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal and locked views
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Granular interface permissions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Public read-only interfaces
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+User groups
+
+
+
+
+
+
+
+
+
+
+
+
+
+Advanced App Building
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+App Library
+
+NEW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hyper DB
+
+NEW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+App Sandbox
+
+NEW
+
+
+
+
+
+
+
+
+
+
+
+
+Admin controls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Federated organization with associated domains
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Admin panel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Enterprise Hub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Organizational units
+
+
+
+
+
+
+
+
+Unlimited
+
+
+
+
+
+
+Organization branding
+
+NEW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCIM user provisioning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCIM-synced user groups
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payment by invoice**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Extension and integration management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Admin reports
+
+
+
+
+
+
+
+
+
+
+
+
+
+Security and compliance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SAML-based single sign-on (SSO)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Controlled vendor visibility
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Domain management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data loss prevention (DLP)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Audit logs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eDiscovery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Enterprise Key Management
+
+NEW
+
+
+
+
+
+
+
+Add-on
+
+
+
+
+
+
+Custom retention policies ****
+
+NEW
+
+
+
+
+
+
+
+
+
+
+
+
+European data residency
+
+NEW
+
+
+
+
+
+
+
+
+
+
+
+
+HIPAA Compliance
+
+NEW
+
+
+
+
+
+
+
+
+
+
+
+
+Developer Platform
+
+
+
+
+
+
+
+
+
+
+
+
+Web API
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Enterprise API
+
+
+
+
+
+
+
+
+
+
+
+
+
+API calls per month
+
+
+1,000
+
+100,000
+
+Unlimited
+
+Unlimited
+
+
+
+
+
+
+Service Accounts
+
+NEW
+
+
+
+
+
+
+
+
+
+
+
+
+Support
+
+
+
+
+
+
+
+
+
+
+
+
+Help Center and Community
+
+
+
+
+
+
+
+
+
+
+
+
+
+In-product support
+
+
+
+
+
+
+
+
+
+
+
+
+
+Email support
+
+
+
+
+
+
+
+
+
+
+
+
+
+Professional Services***
+
+
+
+
+
+
+Add-on
+
+Add-on
+
+
+
+
+
+
+
+
+
+
+
+
+* Apps by Airtable are available for new qualified customers on our Business and Enterprise Scale plans who meet specific criteria.
+** Payment by invoice is available to Business customers who purchase through our sales team.
+*** Airtable professional service packages are available for purchase by qualified customers on Business and Enterprise Scale plans. See Airtable Partners for more detail about our partner services.
+**** Enterprise Scale customers can configure custom revision history timeframes.
+If you are an existing customer on our legacy Enterprise plan, please see this help article for a list of the features and functionality included in your subscription.
+
+Have additional questions?
+
+
+Billing / pricingBilling FAQ
+
+Special plans forNonprofits or Education
+
+Enterprise plans
+Contact Sales
+
+Frequently asked questions
+
+
+
+
+How does Airtable's pricing work?
+
+
+
+Airtable plans are charged per seat. If you are on Airtable’s Free plan, all users are free. If you are on a Team or Business plan, you will be charged for all users who have edit permissions for at least one base in the workspace. No charges will apply on a Team or Business plan for read-only collaborators, form submissions, or share links. Charges are prorated: users with edit permissions added partway through the month will only be charged for the days after they were added.
+
+
+How does Airtable's Business and Enterprise Scale pricing work?
+
+
+
+Airtable has two plans geared towards large company usage of Airtable: Business and Enterprise Scale. You can purchase Business either through the plan upgrades page in your workspace settings tab, or by contacting our sales team. To purchase Enterprise Scale, please contact sales. On either plan, you will be charged for all users with edit permissions for at least one base in your organization. As part of the Enterprise Scale plan, an organization has the ability to create unlimited org units, workspaces and bases within their organization. Charges are prorated: collaborators with edit permissions added partway through the billing cycle will only be charged for the months after they were added. For more information on our Business and Enterprise Scale plans, 
+contact sales.
+
+
+Is Airtable free to use?
+
+
+
+Airtable has multiple packages to help teams of all sizes orchestrate their work. Our Free plan is available to teams for no charge and provides the key building blocks to help you build applications. The Free plan is formulated for individual users, very small teams, or those with lightweight needs. Our paid plans offer additional power and scale for teams, departments, and large enterprises.
+
+
+How much does Airtable cost?
+
+
+
+Our Free plan is available at no cost for users just getting started. For teams who like the features of our Free plan but need more capacity, our Team plan is available for $20/user/month when billed annually. Our Business and Enterprise Scale plans include the additional customization, data scale, flexibility, and administrative features that departments and enterprise organizations need. Business is available at $45/user/month when billed annually our Enterprise Scale plan pricing is custom, based on the organization’s needs and scale with Airtable. To learn more about our Enterprise Scale pricing, 
+contact sales.
+
+
+What are my payment options?
+
+
+
+All payments are made via credit card for Team workspaces, and for Business if purchased through your workspace settings tab. For Business and Enterprise Scale accounts purchased through our sales team, we can issue an annual invoice with payment via PO and/or ACH, wire, or check. Please 
+contact sales for more information.
+
+
+What happens when I hit my usage limits?
+
+
+
+If you reach (or are over) our record or attachment limits, you’ll still be able to use your bases and we will never remove your data. We’ll notify you of the overage and you will not be able to add more records or attachments until you upgrade to a new plan. For automations and API limits, you will be capped at the usage limit on your current plan. 
+
+
+I am currently on Airtable’s legacy Enterprise plan — where can I see a list of my current features?
+
+
+
+For existing customers on Airtable’s legacy Enterprise plan, no changes will go into effect until your renewal, at which point your account team will discuss your plan options with you. In the meantime, see this help article for a list of your current features and functionality.
+
+
+
+Airtable home
+
+
+
+Platform
+
+Solutions
+
+Resources
+
+Enterprise
+
+Pricing
+
+Contact Sales
+
+
+Facebook
+Linkedin
+Twitter
+Instagram
+Youtube
+
+
+
+
+
+Platform
+
+Platform
+
+
+
+Platform Overview
+
+Integrations
+
+Extensions
+
+App Building
+
+AI
+
+Connected Data
+
+See more
+
+Governance and Scale
+
+Automations
+
+Interface Designer
+
+Views
+
+Reporting
+
+Connected Apps Platform
+
+Show less
+
+
+Solutions
+
+Solutions
+
+
+
+Product
+
+Marketing
+
+Operations
+
+Human Resources
+
+Sales
+
+Finance
+
+See more
+
+Content Operations
+
+See all Solutions
+
+Show less
+
+
+Learn
+
+Learn
+
+
+
+Learning Center
+
+Events
+
+Video Center
+
+Demos
+
+Customer Stories
+
+Webinars
+
+See more
+
+eBooks
+
+Guides
+
+Articles
+
+Reports
+
+Quick Reads
+
+Show less
+
+
+Resources
+
+Resources
+
+
+
+Partners
+
+Services
+
+Developers
+
+Community
+
+Templates
+
+Airtable Universe
+
+See more
+
+Customer Support
+
+Support Docs
+
+Show less
+
+
+Company
+
+Company
+
+
+
+About
+
+Careers
+popular
+
+Blog
+
+Status
+
+Newsroom
+
+Try Airtable for free
+
+
+
+
+
+
+Security
+
+API
+
+Sitemap
+
+Privacy
+
+Terms
+
+Do Not Sell/Share My Info
+
+Cookie Preferences
+Download on the App StoreGet it on Google Play
+   Marketo Widget - Airtable    
+ 
+   Drift Widget - Airtable    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+This website uses cookies and other tracking technologies to collect, store, and monitor your information, which we may share with our third-party partners, as further described in ourCookie Policy. By continuing to use this site, you agree to our use of these tracking technologies in accordance with ourPrivacy Policy andCookie Policy, and accept ourTerms of Service.
+
+
+ 
+Cookie Preferences
+
+
+
+
+
+
+You are an AI assistant that extracts pricing information from any SaaS pricing page. 
+Please output ONLY the extracted data in this exact structure. 
+If data is missing, use "Not specified". 
+DO NOT add extra commentary.
+
+FORMAT:
+
+SERVICE INFORMATION
+- Name: Zapier
+- URL: https://zapier.com
+- Logo URL: [if available]
+- Description: [short description]
+- Summary: [long summary or overview]
+- Category:
+  - Primary: [main category or domain]
+  - Secondary: [secondary category if any]
+  - Tags: [comma-separated relevant tags]
+- Business Model:
+  - Type: [subscription, usage-based, flat-rate, etc.]
+  - Description: [details if any]
+
+PRICING METADATA
+- Currency: 
+- Regions: 
+- Billing Cycles:
+  - Available: 
+  - Default: 
+- Custom Pricing Available: [Yes/No]
+- Free Tier Available: [Yes/No]
+
+PLANS
+For each plan found, list:
+- Name: 
+- Slug: 
+- Description: 
+- Is Popular: [Yes/No or Not specified]
+- Highlight Features: [list of bullet points if any]
+- Pricing:
+  - Base:
+    - Amount:
+    - Period:
+    - Currency:
+    - Is Per User:
+  - Usage Based Components:
+    - Name:
+    - Type:
+    - Unit:
+    - Tiers:
+      - Range:
+      - Unit Price:
+      - Flat Fee:
+- Limits:
+  - Users (min/max):
+  - Storage (amount/unit):
+  - API (requests quota):
+  - Compute (vcpu, memory, etc):
+  - Other Limits:
+- Features: [list or categories of features]
+
+ADD-ONS
+- Name:
+- Price:
+- Description:
+- Features:
+- Availability:
+- Requirements:
+- Limitations:
+
+ENTERPRISE
+- Available: [Yes/No]
+- Contact Sales Required: [Yes/No]
+- Minimum Seats: 
+- Custom Features: 
+
+DISCOUNTS
+- Type:
+- Amount:
+- Description:
+- Conditions:
+- Valid Until: (if applicable)
+- Expiry Date:
+
+NOTES
+Any additional notes about the service or its pricing model.
+
+END OF EXTRACTED DATA MARKER

@@ -1,0 +1,232 @@
+{
+  "service": {
+    "name": "Calendly",
+    "url": "https://calendly.com/pricing",
+    "logo_url": null,
+    "description": "Calendly is a scheduling automation platform that helps you to streamline your meetings and scheduling workflows.",
+    "category": {
+      "primary": "Software as a Service (SaaS)",
+      "secondary": "Scheduling",
+      "tags": [
+        "Automation",
+        "Calendar"
+      ]
+    },
+    "business_model": {
+      "type": [
+        "Freemium",
+        "Subscription"
+      ],
+      "description": "Calendly offers a free tier as well as subscription-based plans with additional features."
+    }
+  },
+  "pricing_metadata": {
+    "last_updated": "2024-01-01",
+    "currency": "USD",
+    "regions": [
+      "Global"
+    ],
+    "billing_cycles": {
+      "available": [
+        "Monthly",
+        "Yearly"
+      ],
+      "default": "Monthly"
+    },
+    "custom_pricing_available": false,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "v2024",
+      "history": []
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "For individuals starting out with basic scheduling",
+      "highlight_features": [
+        "Unlimited 1-1 meetings",
+        "One event type",
+        "Connect one calendar",
+        "Integrate video conferencing"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 0.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": []
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Core Features",
+            "features": [
+              {
+                "name": "Event types",
+                "description": "Number of event types available per user",
+                "included": true,
+                "limit": "1"
+              },
+              {
+                "name": "Connect Calendars",
+                "description": "Number of calendars you can connect per user",
+                "included": true,
+                "limit": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Standard",
+      "slug": "standard",
+      "description": "For those with more sophisticated scheduling needs",
+      "highlight_features": [
+        "Unlimited event types",
+        "Connect multiple calendars",
+        "HubSpot, Mailchimp integration"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 10.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": null,
+      "features": {
+        "categories": [
+          {
+            "name": "Core Features",
+            "features": [
+              {
+                "name": "Event types",
+                "description": "Number of event types available per user",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Connect Calendars",
+                "description": "Number of calendars you can connect per user",
+                "included": true,
+                "limit": "6"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Teams",
+      "slug": "teams",
+      "description": "For teams who need advanced features such as reporting, meeting distribution, and automations",
+      "highlight_features": [
+        "Send meetings to Salesforce",
+        "Share Round Robin meetings",
+        "Qualify & route prospects"
+      ],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 16.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": null,
+      "features": {
+        "categories": [
+          {
+            "name": "Core Features",
+            "features": [
+              {
+                "name": "Event types",
+                "description": "Number of event types available per user",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "description": "For teams who need more security, admin control, support, and enterprise-grade procurement",
+      "highlight_features": [
+        "Enable SSO & SAML",
+        "Domain control",
+        "Route with Salesforce lookup"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 1250.0,
+          "amount_range": null,
+          "period": "year",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": null,
+      "features": {
+        "categories": [
+          {
+            "name": "Core Features",
+            "features": [
+              {
+                "name": "Event types",
+                "description": "Number of event types available per user",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "add_ons": [
+    {
+      "name": "Single Sign-On (SSO)",
+      "description": "Simplify team access with SAML-based SSO",
+      "pricing": null
+    }
+  ],
+  "use_cases": null,
+  "discounts": [
+    {
+      "type": "Annual Discount",
+      "amount": "20%",
+      "description": "Save up to 20% by choosing the annual billing option",
+      "conditions": "Applicable to Standard and Teams plans",
+      "valid_until": ""
+    }
+  ],
+  "enterprise": null,
+  "ml_metadata": null,
+  "agent_metadata": null
+}

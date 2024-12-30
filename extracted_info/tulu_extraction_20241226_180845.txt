@@ -1,0 +1,106 @@
+{
+  "SERVICE_INFORMATION": {
+    "Name": "Zapier",
+    "URL": "https://zapier.com",
+    "Logo_URL": "Not specified",
+    "Description": "Not specified",
+    "Summary": "Not specified",
+    "Category": {
+      "Primary": "Automation",
+      "Secondary": "Integration Platform",
+      "Tags": [
+        "automation",
+        "workflow",
+        "integration",
+        "saas"
+      ]
+    },
+    "Business_Model": {
+      "Type": "subscription",
+      "Description": "Per-seat subscription with usage-based tiers"
+    }
+  },
+  "PRICING_METADATA": {
+    "Currency": "USD",
+    "Regions": "Global",
+    "Billing_Cycles": {
+      "Available": [
+        "monthly",
+        "annual"
+      ],
+      "Default": "annual"
+    },
+    "Custom_Pricing_Available": "No",
+    "Free_Tier_Available": "Yes"
+  },
+  "PLANS": {
+    "Free": {
+      "Name": "Free",
+      "Slug": "free",
+      "Description": "For individuals getting started",
+      "Is_Popular": "Not specified",
+      "Highlight_Features": [
+        "Feature 1",
+        "Feature 2"
+      ],
+      "Pricing": {
+        "Base": {
+          "Amount": 0,
+          "Period": "monthly",
+          "Currency": "USD",
+          "Is_Per_User": true
+        },
+        "Usage_Based_Components": []
+      },
+      "Limits": {
+        "Users": "Up to 5",
+        "Storage": "1GB",
+        "API": "Not specified",
+        "Compute": "Not specified",
+        "Other_Limits": []
+      },
+      "Features": [
+        "Feature 1",
+        "Feature 2"
+      ]
+    },
+    "Pro": {
+      "Name": "Pro",
+      "Slug": "pro",
+      "Description": "For growing teams",
+      "Is_Popular": "Not specified",
+      "Highlight_Features": [
+        "Feature 1",
+        "Feature 2"
+      ],
+      "Pricing": {
+        "Base": {
+          "Amount": 29,
+          "Period": "monthly",
+          "Currency": "USD",
+          "Is_Per_User": true
+        },
+        "Usage_Based_Components": []
+      },
+      "Limits": {
+        "Users": "Unlimited",
+        "Storage": "Unlimited",
+        "API": "Not specified",
+        "Compute": "Not specified",
+        "Other_Limits": []
+      },
+      "Features": [
+        "Feature 1",
+        "Feature 2"
+      ]
+    }
+  },
+  "ADD_ONS": [],
+  "ENTERPRISE": {
+    "Available": "No",
+    "Contact_Sales_Required": "Yes",
+    "Minimum_Seats": "Not specified",
+    "Custom_Features": []
+  },
+  "DISCOUNTS": []
+}

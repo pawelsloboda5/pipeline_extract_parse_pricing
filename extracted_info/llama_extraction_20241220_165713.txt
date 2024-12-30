@@ -1,0 +1,42 @@
+SERVICE INFORMATION
+- Name: Zendesk for Service
+- URL: 
+- Logo URL:
+- Description:
+- Summary:
+- Category:
+- Tags:
+- Business Model:
+
+PLANS
+- Plan Name:
+- Slug: Suite Team
+- Description: Deliver seamless conversational support across multiple channels at a fraction of the cost.
+- Popular: Yes
+- Base Price:
+- Per User:
+- Key Features: 
+  - Messaging and Live Chat
+  - AI and Automation
+- Limits:
+  - Message Limit: 100 messages per user per month
+- Pricing: $55
+- Additional Features: None
+- Customization: Not available
+- Availability: All plans are available starting at $55 per month billed annually
+- Business Hours: 9am-5pm EST, Monday-Friday
+- Contact Sales: sales@zendesk.com
+- Free Trial: Free trial available for 30 days
+- Startups Get Zendesk Free for 6 Months: Apply here
+- Add-on: Advanced AI, Actionable Insights and Suggestions, Macro Insights for Admins, Change Management, Unified Staff Management, Business Hours, Single, Multiple, Custom Agent Roles, Audit Logs, Standard Sandbox, Premium Sandbox, Partial, Additional Premium Sandbox
+- Reporting & Analytics: Prebuilt Analytics Dashboards, Data Exports, ZenDesk Benchmark, Voice Usage Reporting, Google Analytics for Help Center
+- Support and Services: Digital Support, Digital Onboarding and Adoption Resources, Getting Started on-Demand Training, Guided Learning Paths, Premier Plans - Proactive Support & Engagement, Add-on, Professional Services, Custom Training and Certifications, Hands-on Help with Zendek Assist
+- Security and Compliance: User Authentication Options, Secure Access Options, Agent Device Management, Data Encryption at Rest and in Motion, Host Mapping, Disaster Recovery, Credit Card Redaction, Data Center Location, HIPAA Enabled, Access Log, Advanced Encryption, Advanced Data Retention Policies, Advanced Redaction
+- Integration: Thousands of Pre-Built Apps and Integrations, Developer API, Marketplace
+- Protection: Enterprise-Class Security Features, Comprehensive Audits of Applications, Systems, and Networks, Customer and Business Data Protection
+- Terms of Use: Privacy Notice, Cookie Notice, Trust Center, Terms of Service, End-User License Agreement
+- Privacy Notice: 
+    - Zendesk collects and uses your personal data to provide and improve our services.
+    - By using our services, you consent to the collection, use, and disclosure of your data as described in our Privacy Notice.
+- Cookie Notice: We use cookies to improve your experience on our platform. By continuing to use our platform, you agree to the use of cookies.
+- Trust Center: This Trust Center is intended to provide you with information about Zendesk's privacy and security practices. Please read this Trust Center to learn more about how we protect your data.

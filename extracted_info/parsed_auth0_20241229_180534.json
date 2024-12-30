@@ -1,0 +1,346 @@
+{
+  "service": {
+    "name": "Auth0",
+    "url": "https://auth0.com/pricing/",
+    "logo_url": null,
+    "description": "Powerful authentication and authorization for your apps and APIs. Flexible pricing for developers and enterprises incl. a free forever dev plan.",
+    "category": {
+      "primary": "Authentication",
+      "secondary": "Software as a Service (SaaS)",
+      "tags": [
+        "Identity Management",
+        "Security",
+        "Authorization"
+      ]
+    },
+    "business_model": {
+      "type": [
+        "Subscription",
+        "Usage-Based"
+      ],
+      "description": "Auth0 offers a subscription with usage-based limits on features, scaling based on monthly active users and organizations."
+    }
+  },
+  "pricing_metadata": {
+    "last_updated": "2023-10-01",
+    "currency": "USD",
+    "regions": [
+      "Global"
+    ],
+    "billing_cycles": {
+      "available": [
+        "Monthly",
+        "Yearly"
+      ],
+      "default": "Monthly"
+    },
+    "custom_pricing_available": true,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "1.0.0",
+      "history": [
+        "0.9.9",
+        "0.9.8"
+      ]
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "Start building for free with up to 25,000 monthly active users.",
+      "highlight_features": [
+        "Password Authentication",
+        "Social Authentication",
+        "Branded forms"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 0.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 0.0,
+          "max": 25000.0
+        },
+        "storage": null,
+        "api": {
+          "requests": {
+            "rate": 1000.0,
+            "period": "minute",
+            "quota": null
+          }
+        },
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Organizations",
+            "value": "5",
+            "description": "Maximum number of organizations allowed."
+          },
+          {
+            "name": "Custom Domain",
+            "value": "1",
+            "description": "One free custom domain with credit card verification."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Authentication Features",
+            "features": [
+              {
+                "name": "Password Authentication",
+                "description": "Password authentication with email, username or phone number.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Social Authentication",
+                "description": "Social authentication using Google, Facebook, etc.",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Community Support",
+                "description": "Access to community support forums.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Essentials",
+      "slug": "essentials",
+      "description": "For projects with higher production demands.",
+      "highlight_features": [
+        "Magic Link",
+        "SMS Authentication",
+        "Role-based Access Control"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 35.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 0.0,
+          "max": 500.0
+        },
+        "storage": null,
+        "api": {
+          "requests": {
+            "rate": 2000.0,
+            "period": "minute",
+            "quota": null
+          }
+        },
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Organizations",
+            "value": "10",
+            "description": "Maximum number of organizations allowed."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Authentication Features",
+            "features": [
+              {
+                "name": "Magic Link & SMS Authentication",
+                "description": "Includes Magic Link and SMS authentication methods.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Role-based Access Control",
+                "description": "Role-based access control for applications.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Integrations",
+            "features": [
+              {
+                "name": "Audit Log Streaming",
+                "description": "Stream Auth0 Audit Logs to Datadog, Splunk, AWS, Azure, etc.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Professional",
+      "slug": "professional",
+      "description": "Best for teams and projects that need added security.",
+      "highlight_features": [
+        "Multi-Factor Authentication",
+        "Enhanced Attack Protection"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 240.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 0.0,
+          "max": 1000.0
+        },
+        "storage": null,
+        "api": {
+          "requests": {
+            "rate": 3000.0,
+            "period": "minute",
+            "quota": null
+          }
+        },
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Organizations",
+            "value": "10",
+            "description": "Maximum number of organizations allowed."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Security Features",
+            "features": [
+              {
+                "name": "Multi-Factor Authentication",
+                "description": "Includes OTP-based multi-factor authentication.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Enhanced Attack Protection",
+                "description": "Enhanced protection against various types of attacks.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Database",
+            "features": [
+              {
+                "name": "Use Existing Database",
+                "description": "Use your existing user database for logins.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Add-ons",
+            "features": [
+              {
+                "name": "Service Authorization",
+                "description": "Add-on for service authorization.",
+                "included": false,
+                "limit": "Purchase separately"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "description": "For enterprises that need to scale. Top-tier SLAs, advanced security, white-glove support and more.",
+      "highlight_features": [
+        "Custom User & SSO Tiers",
+        "Enterprise Administration & Support"
+      ],
+      "is_popular": false,
+      "pricing": null,
+      "limits": null,
+      "features": {
+        "categories": [
+          {
+            "name": "Enterprise Features",
+            "features": [
+              {
+                "name": "Custom User & SSO Tiers",
+                "description": "Custom user and SSO tiers available.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Enterprise Rate Limits",
+                "description": "Higher rate limits for enterprise needs.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Add-ons",
+            "features": [
+              {
+                "name": "Private Deployment",
+                "description": "Option for private deployment.",
+                "included": false,
+                "limit": "Purchase separately"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "discounts": null,
+  "enterprise": {
+    "available": true,
+    "contact_sales": true,
+    "minimum_seats": null,
+    "custom_features": [
+      "Custom SLAs",
+      "Advanced Security features",
+      "Private Deployments"
+    ]
+  },
+  "ml_metadata": null,
+  "agent_metadata": null
+}

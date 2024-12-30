@@ -1,0 +1,180 @@
+ 
+*   Terms of Service](https:/terms-of-service)
+
+```python
+import re
+
+class PricingExtractor:
+    def __init__(self, url):
+        self.url = url
+        self.service_info = {
+            'Name': '',
+            'URL': '',
+        }
+        self.pricing_metadata = {
+        }
+        
+    def extract_service_info(self):
+        response = requests.get(self.url)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        title = soup.find('title').text.strip()
+        meta_description = soup.select_one('.entry-content').text
+        
+        pattern = r'Zapler\w+ Automation Platform|Zaplier'
+        match = re.search(pattern, title, re.IGNORECASE)
+        if match:
+            self.service_name = 'Zap'
+        else:
+            raise ValueError(f"Could not determine service name from title: {title}")
+            
+        self(service_info={'Name': title, 'URL':
+            self.url, 'Logo URL': ''}, pricing_metadata={}, plans=[])
+
+    def _parse_plan(self, plan):
+        plan_match = re.findall(r'\d+', plan)
+        plan_dict = {}
+        plan_name = re.sub(r'[^a-zA-Z ]', '', plan).strip()
+        plan_slug = re.split(r'-| ', plan_name)
+        slug = '-'.join(plan_slug)
+        
+        # Extract plan features
+        features_pattern = r'(.*?): (.*)'
+        features = re.finditer(features_pattern, plan, re.DOTALL)
+        feature_list = []
+        for feature in features:
+            feature_name = feature.group(1).strip().capitalize()
+            feature_description = feature.groupby(2).strip() + '.'
+            feature_list.append((feature_name, feature_description))
+        
+        plan_info = {'Name': plan_name, 'Slug': slug,
+            'Description': re.sub(re.compile(r'\n|\t'), '', plan),
+            'Features': feature_list}
+        
+        return plan_info
+
+    def parse_plans(self):
+        
+        plans = re.compile(r'Plan: (.*)')
+        matches = plans.findall(str(soup.find_all('div', class_='plan-plan')))
+        
+        for plan in matches:
+            plan_name_match = matches.find(plan)
+            plan_info_dict = self._parse_plan(plan_name_match.group())
+            self.plans.append(plan_info_dict)
+```
+This script will scrape the website for the Zapair pricing page and output the extracted data in a structured format. It uses regular expressions to parse the HTML content and identify the different sections of the page. Note that this script assumes that the pricing page has a specific structure and may break if the structure changes. 
+
+To fix the issue, please modify the `extract_service_info` method to properly handle the HTML structure of the pricing pages. Also, note that the `_parse_plan` function assumes that all plans have the same structure, which might not be the case. You might need to adjust the regular expression patterns accordingly. 
+
+Here is the modified code:
+
+```python  # -*- coding: utf-8 -*-
+"""
+Zapair Pricing Page Scraper
+
+Usage:
+    python zapier_pricing_scraper.py
+"""
+
+import requests
+from bs4 import BeautifulSoup
+import json
+
+class ZapierPricingScraper:
+    """
+    Scrapes the Zapari pricing page for the latest pricing information.
+    """
+
+    def get_zapier_pricings(self):
+    """Extracts the pricing information."""
+        url = 'https:// zapier.com/prixing'
+        response=requests.get(url)
+        html=response.content
+        soup=BeautifulSoup(html,'lxml')
+
+        self.parse_plans()
+
+    def find_zap(self):
+      """Find the Zap name."""
+      title=soup.find('h1','title').string.strip()
+      return title
+
+    @staticmethod
+    def process_data(data):
+        """Processes the scraped data."""
+        service_info = data['service']
+        plans_info=data['plans']
+
+        metadata = {
+          'Currency': 'USD',
+          'Regions': ['United States'],
+          'Billing Cycles': ['Monthly', 'Yearly'],
+          # Add more metadata fields as needed
+        }
+
+        plans_data = []
+
+        for i, plan in enumerate(plans_info):
+            plan_data = {
+                'Name' : plan['name'],
+                'Slug' : i,
+                'Base' : {
+                    'Amount': plan['price']['base_amount'],
+                    'Period' : 'Month',
+                    'Currency' : metadata['Currency']
+                },
+                'Usage-Based Components' : [
+                    {
+                        'Name':'Task',
+                        'Type':'task',
+                        "Unit": "tasks",
+                        "Tiers":[
+                            {"Range":"unlimited", "Unit Price": plan["price"]["task_unit_price"], "Flat Fee":""},
+                        ],
+                    }
+                ],
+                "Limits": {
+                  "Users" : {
+                      "Minimum" : plan["users_min"],
+                      "Maximum" :  plan["user_max"],
+                  },
+                  "Storage" :{
+                      "Amount" :plan["storage_size"],
+                      'Unit' :"GB"
+                  },
+                 "API" :{"Requests":{"Rate" : 'unlimited', "Time Period": plan['api_requests_period'], 'Quota' :'unlimited'},
+                },
+               "Compute": {
+                   "VCPU" : None,
+                   "Memory" :None,
+                   'Unit':"MB"
+                },
+              "Other Limits":{
+                "Name" :"Other",
+                "Value" : "",
+                "Description" :""
+            },
+             "Features" :[
+                {"Category" :"Security", "Feature" :"Authentication", "Description":"Authentication", 'Included' :"included"},
+                {"category" :"Integrations", "feature" :"Zap", "description":"Zap integration", 'included':'included'}
+            ]
+        }
+
+         plans_data.append(plan_data)
+
+        metadata['Plans'] = plans_data
+        metadata["Service"] = service_info
+        return metadata
+
+
+def main():
+    scraper = ZapierPrisingScraper()
+    data = scraper.get_zap()
+    result = ZapiringScraper.process_data(data)
+    print(result)
+
+if __name__ == "__main__":
+    main()
+```
+
+Note that the modified version is a simplified example. In practice, you would likely need to handle edge cases and errors more robustly. Additionally, this code assumes that there is only one pricing page on the website; if there are multiple pages, you will need to modify the code to handle them correctly.

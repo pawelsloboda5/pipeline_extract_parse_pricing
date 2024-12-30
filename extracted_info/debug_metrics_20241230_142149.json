@@ -1,0 +1,34 @@
+{
+  "input_file": "extracted_info\\extraction_frame_20241230_142120.json",
+  "timestamp": "20241230_142149",
+  "metrics": {
+    "token_usage": {
+      "completion_tokens": 1635,
+      "prompt_tokens": 12328,
+      "total_tokens": 13963,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 12160
+      }
+    },
+    "execution_time": 28.886797666549683,
+    "cost": 0.17232999999999998,
+    "quality_metrics": {
+      "plans_with_limits": 4,
+      "plans_with_features": 5,
+      "plans_with_popularity": 5,
+      "total_plans": 5
+    }
+  },
+  "extraction_summary": {
+    "num_plans": 5,
+    "has_enterprise": true,
+    "num_discounts": 0
+  }
+}

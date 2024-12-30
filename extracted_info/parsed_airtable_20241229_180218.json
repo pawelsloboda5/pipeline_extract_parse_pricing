@@ -1,0 +1,620 @@
+{
+  "service": {
+    "name": "Airtable",
+    "url": "https://airtable.com/pricing",
+    "logo_url": null,
+    "description": "Learn about Airtable's flexible pricing options, from free to enterprise. Browse special plans for nonprofit and education organizations!",
+    "category": null,
+    "business_model": null
+  },
+  "pricing_metadata": {
+    "last_updated": "2023-10-01",
+    "currency": "USD",
+    "regions": [
+      "Global"
+    ],
+    "billing_cycles": {
+      "available": [
+        "Annual",
+        "Monthly"
+      ],
+      "default": "Annual"
+    },
+    "custom_pricing_available": true,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "v1",
+      "history": [
+        "v1"
+      ]
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "For individuals or very small teams just getting started with Airtable",
+      "highlight_features": [
+        "Unlimited bases",
+        "1,000 records per base",
+        "Up to 5 editors",
+        "1 GB of attachments per base",
+        "100 automation runs",
+        "Interface Designer"
+      ],
+      "is_popular": null,
+      "pricing": null,
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 5.0
+        },
+        "storage": {
+          "amount": 1.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Records per base",
+            "value": "1,000",
+            "description": "Number of records per base"
+          },
+          {
+            "name": "Automation runs",
+            "value": "100",
+            "description": "Number of automation runs per month"
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "General",
+            "features": [
+              {
+                "name": "Unlimited bases",
+                "description": "Create an unlimited number of bases",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Data",
+            "features": [
+              {
+                "name": "Records per base",
+                "description": "Number of records allowed per base",
+                "included": true,
+                "limit": "1,000"
+              }
+            ]
+          },
+          {
+            "name": "Collaboration",
+            "features": [
+              {
+                "name": "Editors",
+                "description": "Maximum number of editors per workspace",
+                "included": true,
+                "limit": "5 editors"
+              },
+              {
+                "name": "Commenters",
+                "description": "Maximum number of commenters per workspace",
+                "included": true,
+                "limit": "50 commenters"
+              }
+            ]
+          },
+          {
+            "name": "Storage",
+            "features": [
+              {
+                "name": "Attachment space per base",
+                "description": "Storage space allowed for attachments",
+                "included": true,
+                "limit": "1GB"
+              }
+            ]
+          },
+          {
+            "name": "Automations",
+            "features": [
+              {
+                "name": "Automation runs",
+                "description": "Number of automation runs per month",
+                "included": true,
+                "limit": "100 runs"
+              }
+            ]
+          },
+          {
+            "name": "Integrations",
+            "features": [
+              {
+                "name": "Interface Designer",
+                "description": "Tool to create custom interfaces from your data",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Team",
+      "slug": "team",
+      "description": "For teams building apps to collaborate on shared workflows",
+      "highlight_features": [
+        "50,000 records per base",
+        "25,000 automation runs",
+        "20 GB of attachments per base",
+        "Standard sync integrations",
+        "Extensions",
+        "Gantt and timeline view"
+      ],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 20.0,
+          "amount_range": null,
+          "period": "Monthly",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 100.0
+        },
+        "storage": {
+          "amount": 20.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Records per base",
+            "value": "50,000",
+            "description": "Number of records per base"
+          },
+          {
+            "name": "Automation runs",
+            "value": "25,000",
+            "description": "Number of automation runs per month"
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "General",
+            "features": [
+              {
+                "name": "Unlimited bases",
+                "description": "Create an unlimited number of bases",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Data",
+            "features": [
+              {
+                "name": "Records per base",
+                "description": "Number of records allowed per base",
+                "included": true,
+                "limit": "50,000"
+              }
+            ]
+          },
+          {
+            "name": "Collaboration",
+            "features": [
+              {
+                "name": "Editors",
+                "description": "Unlimited editors per workspace",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Storage",
+            "features": [
+              {
+                "name": "Attachment space per base",
+                "description": "Storage space allowed for attachments",
+                "included": true,
+                "limit": "20GB"
+              }
+            ]
+          },
+          {
+            "name": "Automations",
+            "features": [
+              {
+                "name": "Automation runs",
+                "description": "Number of automation runs per month",
+                "included": true,
+                "limit": "25,000 runs"
+              }
+            ]
+          },
+          {
+            "name": "Integrations",
+            "features": [
+              {
+                "name": "Standard sync integrations",
+                "description": "Standard synchronization integrations with other apps",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Extensions",
+                "description": "Additional tools and extensions available",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Views",
+            "features": [
+              {
+                "name": "Gantt and timeline view",
+                "description": "Advanced visualizations with Gantt and timeline view",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Customization",
+            "features": [
+              {
+                "name": "Expanded color, formatting, and calendar options",
+                "description": "More options for colors, formatting, and calendar settings",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Business",
+      "slug": "business",
+      "description": "For teams and departments who need advanced features and basic administration",
+      "highlight_features": [
+        "125,000 records per base",
+        "100,000 automation runs",
+        "100 GB of attachments per base",
+        "Premium sync integrations",
+        "Admin panel",
+        "SAML-based single sign-on"
+      ],
+      "is_popular": null,
+      "pricing": {
+        "base": {
+          "amount": 45.0,
+          "amount_range": null,
+          "period": "Monthly",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 100.0
+        },
+        "storage": {
+          "amount": 100.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Records per base",
+            "value": "125,000",
+            "description": "Number of records per base"
+          },
+          {
+            "name": "Automation runs",
+            "value": "100,000",
+            "description": "Number of automation runs per month"
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "General",
+            "features": [
+              {
+                "name": "Unlimited bases",
+                "description": "Create an unlimited number of bases",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Data",
+            "features": [
+              {
+                "name": "Records per base",
+                "description": "Number of records allowed per base",
+                "included": true,
+                "limit": "125,000"
+              }
+            ]
+          },
+          {
+            "name": "Collaboration",
+            "features": [
+              {
+                "name": "Editors",
+                "description": "Unlimited editors per workspace",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Storage",
+            "features": [
+              {
+                "name": "Attachment space per base",
+                "description": "Storage space allowed for attachments",
+                "included": true,
+                "limit": "100GB"
+              }
+            ]
+          },
+          {
+            "name": "Automations",
+            "features": [
+              {
+                "name": "Automation runs",
+                "description": "Number of automation runs per month",
+                "included": true,
+                "limit": "100,000 runs"
+              }
+            ]
+          },
+          {
+            "name": "Integrations",
+            "features": [
+              {
+                "name": "Premium sync integrations",
+                "description": "Premium synchronization integrations with other apps",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Security",
+            "features": [
+              {
+                "name": "SAML-based single sign-on",
+                "description": "Single sign-on using SAML protocol",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Administration",
+            "features": [
+              {
+                "name": "Admin panel",
+                "description": "Administrative panel for managing settings",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise Scale",
+      "slug": "enterprise-scale",
+      "description": "For organizations looking to build scalable, flexible apps with powerful governance and administration",
+      "highlight_features": [
+        "500,000 records per base",
+        "500,000 automation runs",
+        "1,000 GB of attachments per base",
+        "On-premises sync integrations",
+        "Enhanced security and admin controls",
+        "Enterprise API"
+      ],
+      "is_popular": null,
+      "pricing": null,
+      "limits": {
+        "users": null,
+        "storage": {
+          "amount": 1000.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Records per base",
+            "value": "500,000",
+            "description": "Number of records per base"
+          },
+          {
+            "name": "Automation runs",
+            "value": "500,000",
+            "description": "Number of automation runs per month"
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "General",
+            "features": [
+              {
+                "name": "Unlimited bases",
+                "description": "Create an unlimited number of bases",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Data",
+            "features": [
+              {
+                "name": "Records per base",
+                "description": "Number of records allowed per base",
+                "included": true,
+                "limit": "500,000"
+              }
+            ]
+          },
+          {
+            "name": "Collaboration",
+            "features": [
+              {
+                "name": "Editors",
+                "description": "Unlimited editors per workspace",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Storage",
+            "features": [
+              {
+                "name": "Attachment space per base",
+                "description": "Storage space allowed for attachments",
+                "included": true,
+                "limit": "1,000GB"
+              }
+            ]
+          },
+          {
+            "name": "Automations",
+            "features": [
+              {
+                "name": "Automation runs",
+                "description": "Number of automation runs per month",
+                "included": true,
+                "limit": "500,000 runs"
+              }
+            ]
+          },
+          {
+            "name": "Integrations",
+            "features": [
+              {
+                "name": "On-premises sync integrations",
+                "description": "Sync integrations available on-premises",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Security",
+            "features": [
+              {
+                "name": "Enhanced security and admin controls",
+                "description": "Advanced security and administrative controls",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Development",
+            "features": [
+              {
+                "name": "Enterprise API",
+                "description": "Access to Enterprise-level API endpoints",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Airtable AI",
+      "slug": "airtable-ai",
+      "description": "Harness the power of AI and incorporate it directly into your workflows",
+      "highlight_features": [
+        "AI-based capabilities for summarizing and analyzing data"
+      ],
+      "is_popular": null,
+      "pricing": {
+        "base": {
+          "amount": 6.0,
+          "amount_range": null,
+          "period": "Monthly",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": null,
+      "features": {
+        "categories": [
+          {
+            "name": "AI",
+            "features": [
+              {
+                "name": "AI Integration",
+                "description": "Integrate AI for summarizing and analyzing data efficiently",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "discounts": [
+    {
+      "type": "Nonprofit",
+      "amount": "Varies",
+      "description": "Discounted pricing for nonprofits and educational organizations",
+      "conditions": "Contact sales for details",
+      "valid_until": ""
+    }
+  ],
+  "enterprise": {
+    "available": true,
+    "contact_sales": true,
+    "minimum_seats": 100.0,
+    "custom_features": [
+      "Enhanced security and admin controls",
+      "Enterprise Hub",
+      "Enterprise API",
+      "Audit logs and DLP"
+    ]
+  },
+  "ml_metadata": null,
+  "agent_metadata": null
+}

@@ -1,0 +1,87 @@
+SERVICE INFORMATION**
+- Name: Zapier
+- URL: https:// zapier.com/pricing
+- Logo URL: Not specified
+- Description: Zapier is a no-code automation platform that helps businesses automate their workflows.
+- Summary: Zapier offers a range of automation tools, including Zaps, Tables, Interfaces, and Chatbots, to help businesses automate repetitive tasks and workflows.
+- Category: No-code automation platform
+- Tags:
+  - Core features: Zaps, Interfaces, Tables
+  - Technical capabilities: API, integrations
+  - Industry focus: Enterprise, SMB
+  - Technology aspects: AI, automation
+  - Compliance features: Not specified
+  - Integration capabilities: Yes
+  - Security features: Enterprise-grade security
+  - Deployment options: Cloud-based
+
+**PRICING METADATA**
+- Currency: USD
+- Available Regions: Worldwide
+- Billing Cycles: Monthly, yearly
+- Default Billing: Yearly
+- Custom Pricing: Yes, for enterprise customers
+- Free Tier: No free tier, but a 14-day free trial is available
+
+**PLANS**
+- Plan Name: Zapier Professional
+- Slug: zapier-professional
+- Description: This plan offers advanced automation features, including multi-step Zaps, premium apps, and webhooks.
+- Popular: Yes
+- Base Price: $19/month (billed annually)
+- Per User: Yes, with a minimum of 1 user
+- Key Features:
+  - Multi-step Zaps
+  - Premium apps
+  - Webhooks
+  - Email support
+- Limits:
+  - Storage/Data limits: 100MB
+  - User limits: 1 user
+  - API:Integration limits: 100 API calls per hour
+  - Feature-specific limits: Not specified
+
+**ADD-ONS**
+- Name: Tables Pro
+- Price: $20/month
+- Description: Tables Pro is an add-on that allows users to store, edit, and share data in one place.
+- Features: Data storage, data editing, data sharing
+- Availability: All plans
+- Requirements: None
+- Limitations: None
+
+**ENTERPRISE OFFERING**
+- Available: Yes
+- Contact Sales Required: Yes
+- Minimum Seats: 10
+- Custom Features: Yes, including security capabilities, compliance features, and custom integrations
+- Customization Options: Yes, including advanced features and support options
+- Enterprise-specific Limits: Yes, including storage/data limits, user limits, and API/integration limits
+
+**DISCOUNTS**
+- Type: Annual payment discount
+- Amount: 15% off
+- Description: Customers who pay annually receive a 15% discount on their subscription
+- Conditions: Annual payment required
+- Valid Until: End of billing cycle
+- Special Programs: None
+- Bundle Discounts: None
+
+**USE CASES**
+- Use Case: Automating workflows for small businesses
+- Target User: Small business owners
+- Industry Focus: SMB
+- Pain Points Solved:
+  - Automating repetitive tasks
+  - Improving productivity
+  - Enhancing customer satisfaction
+- Key Benefits:
+  - Increased productivity
+  - Improved customer satisfaction
+  - Enhanced automation capabilities
+- Recommended Plan: Zapier Professional or Team
+- ROI Potential: High
+- Technical Requirements: Basic computer skills and internet connection
+- Implementation Complexity: Easy to moderate
+
+Note that some information is not available or is not specified in the provided content. This extraction is based on the available information and may not be comprehensive.

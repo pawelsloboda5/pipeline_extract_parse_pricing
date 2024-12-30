@@ -1,0 +1,228 @@
+{
+  "service": {
+    "name": "Airtable",
+    "url": "https://airtable.com",
+    "logo_url": "https://airtable.com/static/logos/logo-airtable.png",
+    "description": "A cloud-based collaboration service combining the features of a database with that of a spreadsheet.",
+    "category": {
+      "primary": "Collaboration",
+      "secondary": "Database",
+      "tags": [
+        "Cloud",
+        "Spreadsheet",
+        "Collaboration"
+      ]
+    },
+    "business_model": {
+      "type": [
+        "SaaS",
+        "Freemium"
+      ],
+      "description": "Airtable follows a tiered pricing model with free and paid options."
+    }
+  },
+  "pricing_metadata": {
+    "last_updated": "2023-10-26",
+    "currency": "USD",
+    "regions": [
+      "Global"
+    ],
+    "billing_cycles": {
+      "available": [
+        "Monthly",
+        "Annually"
+      ],
+      "default": "Annually"
+    },
+    "custom_pricing_available": true,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "v1.0",
+      "history": [
+        "v0.9",
+        "v0.8",
+        "v0.7"
+      ]
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "A free plan for individuals or teams just getting started with Airtable.",
+      "highlight_features": [
+        "Unlimited Bases",
+        "1,200 Records Per Base",
+        "2GB Attachment Space"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 0.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": []
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "General",
+            "features": [
+              {
+                "name": "Unlimited Bases",
+                "description": "Create as many bases as needed.",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Records Per Base",
+                "description": "Maximum number of records allowed per base.",
+                "included": true,
+                "limit": "1,200"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Plus",
+      "slug": "plus",
+      "description": "Ideal for teams who need to create simple but effective collaborative databases.",
+      "highlight_features": [
+        "5,000 Records Per Base",
+        "Priority Support"
+      ],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 10.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": {
+          "amount": 5.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": []
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "General",
+            "features": [
+              {
+                "name": "Records Per Base",
+                "description": "Maximum number of records allowed per base.",
+                "included": true,
+                "limit": "5,000"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pro",
+      "slug": "pro",
+      "description": "Advanced features for businesses that need more storage and increased record limits.",
+      "highlight_features": [
+        "50,000 Records Per Base",
+        "Custom Views"
+      ],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 20.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": {
+          "amount": 20.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": []
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "General",
+            "features": [
+              {
+                "name": "Records Per Base",
+                "description": "Maximum number of records allowed per base.",
+                "included": true,
+                "limit": "50,000"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "description": "For large organizations looking for enhanced security and support.",
+      "highlight_features": null,
+      "is_popular": null,
+      "pricing": null,
+      "limits": null,
+      "features": null
+    }
+  ],
+  "discounts": [
+    {
+      "type": "Promotional Discount",
+      "amount": "20% off",
+      "description": "Discount for annual subscriptions.",
+      "conditions": "Applies only when paying annually.",
+      "valid_until": "2023-12-31"
+    }
+  ],
+  "enterprise": {
+    "available": true,
+    "contact_sales": true,
+    "minimum_seats": null,
+    "custom_features": [
+      "Enhanced Security",
+      "Dedicated Account Support"
+    ]
+  },
+  "ml_metadata": null,
+  "agent_metadata": {
+    "agent_name": "PricingBot",
+    "agent_version": "1.0.0",
+    "execution_time_seconds": 1.45,
+    "fallback_used": false,
+    "comments": "Pricing data extracted successfully from Airtable's public pricing page."
+  }
+}

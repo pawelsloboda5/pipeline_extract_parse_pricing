@@ -1,52 +1,10 @@
 """
-Contains example input and output for the model
-"""
-
-EXAMPLE_INPUT = """
-Acme Workflow Platform - The Ultimate Business Process Automation Solution
-
-Plans & Pricing:
-1. Free Starter
-- $0/month forever
-- Up to 5 team members
-- 5GB storage
-- 100 automation runs/month
-- Basic email support
-- Standard integrations (Gmail, Slack)
-
-2. Business Pro
-- $29/user/month (billed annually) or $35/user/month (billed monthly)
-- Unlimited team members
-- 100GB storage per workspace
-- 10,000 automation runs/month
-- Priority support via chat/email
-- Advanced integrations (Salesforce, SAP)
-- Custom workflows
-- API access
-- SAML SSO
-
-3. Enterprise
-- Custom pricing (contact sales)
-- Unlimited storage
-- Unlimited automation runs
-- Dedicated support team
-- Custom integrations
-- Advanced security features
-- Audit logs
-- Custom contract required
-- Minimum 50 seats
-
-Special Offers:
-- Nonprofit organizations: 50% off any plan
-- Educational institutions: Free Business Pro for up to 50 users
-- Startup Program: 90% off for first year (must be VC funded)
-
-Available worldwide with data centers in US, EU, and APAC regions.
+Contains example output for the model
 """
 
 EXAMPLE_OUTPUT = """SERVICE INFORMATION
-- Name: Acme Workflow Platform
-- URL: Not specified
+- Name: Airtable
+- URL: https://airtable.com/pricing
 - Logo URL: Not specified
 - Description: A business process automation platform with comprehensive workflow capabilities.
 - Summary: Enterprise-grade workflow automation platform that enables organizations to automate business processes, integrate with popular services, and scale operations efficiently. Features include custom workflows, extensive integrations, and robust security controls.
@@ -121,7 +79,7 @@ ENTERPRISE OFFERING
 - Minimum Seats: 50
 - Custom Features:
   - Custom integrations
-  - Advanced security features
+  - Advanced security
   - Audit logs
   - Custom contract terms
   - Dedicated support team

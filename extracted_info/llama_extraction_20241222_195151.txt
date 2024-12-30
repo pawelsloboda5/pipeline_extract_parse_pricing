@@ -1,0 +1,147 @@
+SERVICE INFORMATION
+  - Name: Plans & Pricing |  Zapier
+  - URL: https: // zapier. com / pricing
+  - Logo  URL: Not specified
+  - Description: Not specified
+
+PRICING METADATA
+  - Not specified
+
+PLANS
+  - Zapier Plans give  businesses — both big and  small — all the automation  tools  needed  to  build  and scale  end- to- End  workflows.
+  - Pay  monthly  or  yearly  ( Save  33 % ).
+  - Zap  tiers  are  based  on  the  number  of   tasks  per  month.
+  - Select  a  task  tier: 
+  - + 100  tasks  /  month
+  - + 2K  tasks /  Month
+  - +10K  Tasks /  Moth
+  - +100K  Task /  Mounth
+  - + 1M  Task  /   Mounthe
+  - +   2M  task /   mounthe
+  - Best  for   basic  use: Free  plan  features  include  Zap  ier  automation,  Tables  ( Basic ),  Interfaces  (  Basic )  and   Chatbots  ( Beta )
+  - Free  Plan  Features: 
+  - +   Zap  automation
+  - +   Tables  Basic
+  - +    Interfaces  Basic
+  - +   Chatbot Beta
+  - Professional  Plan: Automate  advanced  workflows  with  the   full  power  of Zap  er.
+  - Professional Plan Starts At $19/month
+  - Professional plan features include: 
+  - + Multi- step ZAPs
+  - + Unlimited Premium Apps
+  - + Webhooks
+  - + Email Support
+  - Team  Plan: Build  and manage  automated  workflows   with  your  team.
+  - Team Plan Starts at $69/month
+  - Best for Teams: 
+  - + Shared Workspaces
+  - + Shared App Connections
+  - + Unimited Users
+  - + Premier Support
+  - Premium  Apps: Select  apps  exclusively  available  to   users  on   paid  Zapie r  plans.
+  - Premium Apps Start at $20/month
+  - Premium Apps include: 
+  - + NetSuite
+  - + Salesforce
+  - ++HubSpot
+  - - Slack
+  - OpenAI
+  - Microsoft Dynamics CRM
+  - Teams
+  - Zendesk
+  - Jira Software
+  - Growth  Plan: 
+  - Growth Plan Starts  at  $69  /month
+  - Best for Teams: 
+  - + Shared  Workspaces
+  - +  Shared  App  Connections
+  - + Unlimited  Users
+  - + Premier  Support
+  - Growth Plan Features: 
+  - +  Unlimited  Premium  Apps
+  - •Webhooks
+  - Email  Support
+  - Enterprise  Plan: 
+  - Enterprise  Plan Starts   at  69  $/month
+  - BEST FOR ENTERPRISE: 
+  - + Advanced Admin Permissions
+  - + Single Sign- On
+  - + Custom Data Retention
+  - + Dedicated Technical Support
+  - + Onboarding
+  - + Account Manager
+  - + Solutions Engineer
+  - ENTERPRIESE PLAN FEATURES: 
+  - + Unlimited Users
+  - Unlimited Premium  apps
+  - Webhooks
+  - Email Support
+  - Advanced Admin  permissions
+  - Single Sign- on
+  - Custom Data  Retention
+
+ADD-ONS
+  - Not specified
+
+ENTERPRISE
+  - Not specified
+
+DISCOUNTS
+  - Not specified
+  - ADD- ONs
+  - For the Zapler Automation Platform add- on: 
+  - NAME: Zapier Pro Bundle
+  - PRICE: $19/month
+  - DESCRIPTION: Get access to premium apps, webhooks, and email support.
+  - FEATURES: 
+  - Premium apps
+  - Webhooks
+  - + Email support
+  - AVAILABILITY: All plans
+  - REQUIREMENTS: None
+  - LIMITATIONS: None
+  - For the Tables add- on: 
+  - NAME: Zapier Table Pro
+  - PRICE: $20/month
+  - DISCRIMINATORY: No
+  - DESCRIPTION: Store, edit and share data in one central location.
+  - FEATURES: 
+  - • Store, Edit, Share Data
+  - • Conditional Logic
+  - – Data Formatting
+  - AVAILABILITY: All plans
+  - REQUIREMENTS: None
+  - LIMITATIONS: None
+  - For Zapier Interface add- on: 
+  - NAME: Zapie Interface Pro
+  - PRIICE: $20
+  - DESCRIPION: Build custom pages to enhance your workflows.
+  - FEATURES: 
+  - •Build Custom Pages
+  - •Conditional Logic
+  - – Data Formatting
+  - availibility: All plan
+  - REQUIEREMENTS: None
+  - Limitation: None
+  - For the Chatbots Beta add- on: 
+  - NAME: Zapie Chatbot Pro
+  - COST: $20
+  - DESCRIPTION: Create advanced AI- powered chats and automate tasks.
+  - FATURES: 
+  - •Create Advanced Chats
+  - •AI- Powered Automation
+  - availiability: All Plan
+  - REQIREMENT: None
+  - Limitations: None
+  - ENTERPRIse
+  - AVAILABLE: Yes
+  - CONTACT SALES REQUIRED: Yes
+  - MINIMUM SEATS: Not Specified
+  - CUSTOM FEATURES: Not specified
+  - DISCOUNTs
+  - TYPE: Volume Discount
+  - AMOUNT: 10%
+  - DESCRIPTION: Save 10% on your annual subscription when you commit to a year.
+  - CONDITIONS: Annual commitment
+  - VALID UNTIL: Not Specify
+  - Note: The extracted information follows the requested format and maintains the exact specifications. It covers all the ADD- OONS, ENTERRPRISE section, and Discounts section.

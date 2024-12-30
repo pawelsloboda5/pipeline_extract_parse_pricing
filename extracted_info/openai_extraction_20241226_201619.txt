@@ -1,0 +1,403 @@
+{
+  "service": {
+    "name": "Zapier",
+    "url": "https://zapier.com/pricing",
+    "logo_url": null,
+    "description": "Zapier provides no-code automation tools that allow users to automate workflows across multiple applications easily.",
+    "category": {
+      "primary": "Automation",
+      "secondary": "Workflow Automation",
+      "tags": [
+        "SaaS",
+        "Integration",
+        "Productivity"
+      ]
+    },
+    "business_model": {
+      "type": [
+        "Subscription"
+      ],
+      "description": "Zapier offers a subscription-based model with tiered pricing based on the number of tasks automated per month."
+    }
+  },
+  "pricing_metadata": {
+    "last_updated": "2023-09-27",
+    "currency": "USD",
+    "regions": [
+      "global"
+    ],
+    "billing_cycles": {
+      "available": [
+        "monthly",
+        "annually"
+      ],
+      "default": "monthly"
+    },
+    "custom_pricing_available": true,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "v1",
+      "history": [
+        "v1"
+      ]
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "Automate basic workflows with 100 tasks per month.",
+      "highlight_features": [
+        "Zapier automation platform",
+        "Unlimited Zaps",
+        "Two-step Zaps",
+        "AI power-ups"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 0.0,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Tasks",
+            "value": "100/month",
+            "description": "Automate up to 100 tasks per month."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Automation",
+            "features": [
+              {
+                "name": "Unlimited Zaps",
+                "description": "Create as many Zaps as task limit allows.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Two-step Zaps",
+                "description": "Connect two apps with a trigger and an action.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "AI power-ups",
+                "description": "Create Zaps with AI-powered Zap builder.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Platform Access",
+            "features": [
+              {
+                "name": "Zapier automation platform",
+                "description": "Access to Zaps, Interfaces (Basic), and Tables (Basic).",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Professional",
+      "slug": "professional",
+      "description": "Automate advanced workflows with the full power of Zapier.",
+      "highlight_features": [
+        "Multi-step Zaps",
+        "Unlimited Premium apps",
+        "Webhooks",
+        "Email support"
+      ],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 19.99,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Tasks",
+            "value": "as per tier",
+            "description": "Varies according to selected tier."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Advanced Automation",
+            "features": [
+              {
+                "name": "Multi-step Zaps",
+                "description": "Perform multiple actions from a single trigger.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Unlimited Premium apps",
+                "description": "Access premium applications.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Webhooks",
+                "description": "Build custom integrations with Webhooks by Zapier.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Email support",
+                "description": "Connect with technical support team through email.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Team",
+      "slug": "team",
+      "description": "Build and manage automated workflows with your team.",
+      "highlight_features": [
+        "Unlimited users",
+        "Shared workspaces",
+        "Shared app connections",
+        "Premier Support"
+      ],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 69.0,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Tasks",
+            "value": "as per tier",
+            "description": "Varies according to selected tier."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Collaboration",
+            "features": [
+              {
+                "name": "Unlimited users",
+                "description": "Each user can build and edit a Zap.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Shared workspaces",
+                "description": "Share access to Zaps with the team and create folders.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Platform Integrations",
+            "features": [
+              {
+                "name": "Shared app connections",
+                "description": "Teams can use favorite tools without sharing credentials.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Premier Support",
+                "description": "Faster, prioritized responses from Premier Support team.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Security",
+            "features": [
+              {
+                "name": "SSO add-on",
+                "description": "Add SAML single sign-on to Team plan.",
+                "included": false,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "description": "Scale automation across multiple departments.",
+      "highlight_features": [
+        "Advanced admin permissions",
+        "Annual task limits",
+        "Observability",
+        "Technical Account Manager"
+      ],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": null,
+          "amount_range": null,
+          "period": "",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Tasks",
+            "value": "as per contract",
+            "description": "Annual task limits are negotiated."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Administration",
+            "features": [
+              {
+                "name": "Advanced admin permissions",
+                "description": "Granular control over app and Zap access.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Observability",
+            "features": [
+              {
+                "name": "Observability",
+                "description": "Gain insights into account usage and activities.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Security",
+            "features": [
+              {
+                "name": "SAML SSO",
+                "description": "SAML 2.0 identity management for secure access.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Technical Account Manager",
+                "description": "Dedicated account manager for strategy recommendations.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "discounts": [
+    {
+      "type": "annual",
+      "amount": "33%",
+      "description": "Save 33% with annual billing.",
+      "conditions": "Applicable to all plans except Free.",
+      "valid_until": ""
+    },
+    {
+      "type": "non-profit",
+      "amount": "15%",
+      "description": "15% discount for non-profits.",
+      "conditions": "Must qualify as a non-profit organization.",
+      "valid_until": ""
+    }
+  ],
+  "enterprise": {
+    "available": true,
+    "contact_sales": true,
+    "minimum_seats": null,
+    "custom_features": [
+      "Advanced admin permissions",
+      "Annual task limits",
+      "Observability",
+      "Technical Account Manager"
+    ]
+  },
+  "ml_metadata": null,
+  "agent_metadata": {
+    "agent_name": "Pricing Data Extraction Agent",
+    "agent_version": "1.0",
+    "execution_time_seconds": 1.2,
+    "fallback_used": false,
+    "comments": "Extracted data focuses on comprehensive feature and pricing data for Zapier plans."
+  }
+}

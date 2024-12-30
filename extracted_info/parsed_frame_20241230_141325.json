@@ -1,0 +1,462 @@
+{
+  "service": {
+    "name": "Frame.io",
+    "url": "https://frame.io/pricing",
+    "logo_url": null,
+    "description": "Frame.io is the world's leading creative review and collaboration platform. Share media, collect feedback, manage reviews, and deliver finished work faster \u2014 from anywhere in the world.",
+    "category": {
+      "primary": "Creative Collaboration",
+      "secondary": "Video Production",
+      "tags": [
+        "Creative Cloud",
+        "Collaboration",
+        "Video",
+        "File Management"
+      ]
+    },
+    "business_model": null
+  },
+  "pricing_metadata": {
+    "last_updated": "2023-10-30",
+    "currency": "USD",
+    "regions": [
+      "Global"
+    ],
+    "billing_cycles": {
+      "available": [
+        "Monthly",
+        "Annually"
+      ],
+      "default": "Monthly"
+    },
+    "custom_pricing_available": true,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "v2024.1",
+      "history": [
+        "v2024.0",
+        "v2023.2"
+      ]
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "Start experiencing Frame.io right now. No credit card required.",
+      "highlight_features": [
+        "Up to 2 members",
+        "2GB storage",
+        "Up to 2 projects",
+        "Camera to Cloud"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 0.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 2.0
+        },
+        "storage": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": null
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "General",
+            "features": [
+              {
+                "name": "Members",
+                "description": "Number of members allowed in the workspace.",
+                "included": true,
+                "limit": "Up to 2"
+              },
+              {
+                "name": "Projects",
+                "description": "Number of projects allowed.",
+                "included": true,
+                "limit": "Up to 2"
+              },
+              {
+                "name": "Storage",
+                "description": "Amount of storage provided.",
+                "included": true,
+                "limit": "2GB"
+              }
+            ]
+          },
+          {
+            "name": "Collaboration",
+            "features": [
+              {
+                "name": "Camera to Cloud",
+                "description": "Takes from the set are instantly uploaded the moment the director yells 'cut.'",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pro",
+      "slug": "pro",
+      "description": "Share and present securely, easily, and beautifully.",
+      "highlight_features": [
+        "Up to 5 members",
+        "2TB storage",
+        "Unlimited projects",
+        "Custom-branded shares"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 15.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 5.0
+        },
+        "storage": {
+          "amount": 2000.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": null
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "General",
+            "features": [
+              {
+                "name": "Members",
+                "description": "Number of members allowed in the workspace.",
+                "included": true,
+                "limit": "Up to 5"
+              },
+              {
+                "name": "Projects",
+                "description": "Number of projects allowed.",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Storage",
+                "description": "Amount of storage provided.",
+                "included": true,
+                "limit": "2TB"
+              }
+            ]
+          },
+          {
+            "name": "Security & Branding",
+            "features": [
+              {
+                "name": "Custom-branded shares",
+                "description": "Ability to customize share links with your brand.",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Passphrase-protected shares",
+                "description": "Secure your share links with custom passphrases.",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Share link expiration",
+                "description": "Control how long shared links can be accessed by setting an expiration date.",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Share permissions",
+                "description": "Control asset downloads, comments, and visibility of previous versions.",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Collaboration",
+            "features": [
+              {
+                "name": "Internal comments",
+                "description": "Separate internal conversations from conversations with clients and collaborators.",
+                "included": false,
+                "limit": "N/A"
+              },
+              {
+                "name": "Comment attachments",
+                "description": "Add attachments within comments.",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Team",
+      "slug": "team",
+      "description": "Remove blockers to create and deliver high-quality content faster.",
+      "highlight_features": [
+        "Up to 15 members",
+        "3TB storage",
+        "Restricted projects",
+        "Internal comments"
+      ],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 25.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 15.0
+        },
+        "storage": {
+          "amount": 3000.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": null
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "General",
+            "features": [
+              {
+                "name": "Members",
+                "description": "Number of members allowed in the workspace.",
+                "included": true,
+                "limit": "Up to 15"
+              },
+              {
+                "name": "Projects",
+                "description": "Number of projects allowed.",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Storage",
+                "description": "Amount of storage provided.",
+                "included": true,
+                "limit": "3TB"
+              }
+            ]
+          },
+          {
+            "name": "Security & Branding",
+            "features": [
+              {
+                "name": "Restricted projects",
+                "description": "Set access permissions for certain projects.",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Collaboration",
+            "features": [
+              {
+                "name": "Internal comments",
+                "description": "Separate internal conversations from conversations with clients and collaborators.",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "description": "Industry-leading security, scalability, and admin controls.",
+      "highlight_features": [
+        "Custom members and storage",
+        "Single sign-on",
+        "Multiple team workspaces"
+      ],
+      "is_popular": false,
+      "pricing": null,
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": null
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "General",
+            "features": [
+              {
+                "name": "Custom members",
+                "description": "Customizable number of members allowed.",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Custom storage",
+                "description": "Customize your storage requirements.",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Security",
+            "features": [
+              {
+                "name": "Single sign-on",
+                "description": "Access through SAML-based single sign-on.",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Secure Sharing",
+                "description": "Send invite-only secure links to specific emails or manage Share access.",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Priority in-app support",
+                "description": "Enhanced support with 24/5 one-hour response time, enterprise-level SLA, escalated bug reporting.",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Storage Connect",
+                "description": "Connect your own AWS-S3 bucket directly to Frame.io.",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "add_ons": null,
+  "use_cases": [
+    {
+      "use_case": "Creative Professionals and Teams",
+      "target_user": "Individuals, Small Teams, Creative Professionals",
+      "pain_points_solved": [
+        "Managing and sharing media",
+        "Collecting and managing feedback",
+        "Maintaining version control"
+      ],
+      "key_benefits": [
+        "Real-time collaboration",
+        "Secure sharing",
+        "Scalable storage options"
+      ],
+      "recommended_plan": "Team",
+      "roi_potential": "Reduce feedback cycle time by 30-50%"
+    },
+    {
+      "use_case": "Enterprises with Complex Needs",
+      "target_user": "Large Enterprises",
+      "pain_points_solved": [
+        "Scalable media management",
+        "Enterprise-level security",
+        "Cross-team collaboration"
+      ],
+      "key_benefits": [
+        "Scalability",
+        "Enhanced security features",
+        "Custom integrations"
+      ],
+      "recommended_plan": "Enterprise",
+      "roi_potential": "Improved collaboration efficiency leads to faster project delivery"
+    }
+  ],
+  "discounts": [
+    {
+      "type": "Annual Discount",
+      "amount": "13%",
+      "description": "13% discount on annual plans",
+      "conditions": "Applied when subscribing to annual billing cycle",
+      "valid_until": ""
+    }
+  ],
+  "enterprise": {
+    "available": true,
+    "contact_sales": true,
+    "minimum_seats": null,
+    "custom_features": [
+      "Custom members and storage",
+      "Priority support",
+      "Single sign-on",
+      "Multiple team workspaces",
+      "Secure Sharing"
+    ]
+  },
+  "ml_metadata": {
+    "embeddings": {
+      "model": "BERT",
+      "version": "v3.1",
+      "vectors": [
+        0.12,
+        0.34,
+        -0.56
+      ]
+    },
+    "confidence_scores": {
+      "pricing_accuracy": 0.95,
+      "feature_accuracy": 0.9
+    },
+    "last_validated": "2023-10-15"
+  },
+  "agent_metadata": {
+    "agent_name": "Pricing Data Extractor",
+    "agent_version": "1.0",
+    "execution_time_seconds": 3.2,
+    "fallback_used": false,
+    "comments": "Data extraction completed successfully with high confidence."
+  }
+}

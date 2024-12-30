@@ -1,0 +1,15 @@
+1. pipeline of extraction of pricing data from the website
+    - Work on a main.py file
+    - Which will firstly extract unstructured data from the website using Jina AI
+    - Then the extracted data will be parsed to the pricing schema
+    - 1 way to do this is to use the gpt4o_extractor_agent.py file to parse straight into json and then save it to a json file
+    - 2 way is to use some agent to parse the data into a structured text format before parsing it to the pricing schema
+    
+
+2. Then the extracted data will be parsed to the pricing schema
+3. Then the extracted data will be stored in a json file
+4. Save the json file to the extracted_info folder
+5. Save the parsed data to our mongodb pricing collection
+6. Which we will then use for our frontend
+
+

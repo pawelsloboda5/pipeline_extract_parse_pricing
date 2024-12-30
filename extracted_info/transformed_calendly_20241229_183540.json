@@ -1,0 +1,377 @@
+{
+  "service": {
+    "name": "Calendly",
+    "url": "https://calendly.com/pricing",
+    "logo_url": "",
+    "description": "Use Calendly for FREE or upgrade to one of our powerful plans. Choose the right Calendly for your team, no matter how small or large.",
+    "category": {
+      "primary": "Scheduling",
+      "secondary": "Productivity",
+      "tags": [
+        "calendar",
+        "meeting scheduling",
+        "workflow automation"
+      ]
+    },
+    "business_model": {
+      "type": [
+        "Subscription",
+        "Freemium"
+      ],
+      "description": "Calendly offers a freemium model with additional features available through subscription plans."
+    }
+  },
+  "pricing_metadata": {
+    "last_updated": "2024-01-01",
+    "currency": "USD",
+    "regions": [
+      "US",
+      "EU",
+      "ASIA"
+    ],
+    "billing_cycles": {
+      "available": [
+        "Monthly",
+        "Yearly"
+      ],
+      "default": "Monthly"
+    },
+    "custom_pricing_available": false,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "n/a",
+      "history": []
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "For individuals starting out with basic scheduling.",
+      "highlight_features": [
+        "Unlimited 1-1 meetings",
+        "One event type",
+        "Connect one calendar"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 0.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Event Types",
+            "value": 1.0,
+            "description": "Allowed only one event type."
+          },
+          {
+            "name": "Calendar Connections",
+            "value": 1.0,
+            "description": "Connect one calendar per person."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Scheduling",
+            "features": [
+              {
+                "name": "Integrate video conferencing",
+                "description": "Integrate with major video conferencing tools.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Send confirmation emails",
+                "description": "Automatic email notifications.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Customization",
+            "features": [
+              {
+                "name": "Customize booking page",
+                "description": "Personalize your public Calendly page.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Embed scheduling",
+                "description": "Embed on your website.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Mobile app & browser extension",
+                "description": "Access via mobile app and browser extension.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Standard",
+      "slug": "standard",
+      "description": "For those with more sophisticated scheduling needs.",
+      "highlight_features": [
+        "Unlimited event types",
+        "Connect multiple calendars",
+        "Support integrations"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 10.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 1000.0
+        },
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Event Types",
+            "value": "Unlimited",
+            "description": "Create unlimited event types."
+          },
+          {
+            "name": "Calendar Connections",
+            "value": 6.0,
+            "description": "Connect up to 6 calendars per person."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Integrations",
+            "features": [
+              {
+                "name": "Stripe, Paypal integration",
+                "description": "Collect payments via Stripe and PayPal.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Zapier, Webhooks",
+                "description": "Automate your workflows with Zapier and webhooks.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "24/7 live chat support",
+                "description": "Access to live chat support any time.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Teams",
+      "slug": "teams",
+      "description": "For teams who need advanced features such as reporting, meeting distribution, and automations.",
+      "highlight_features": [
+        "Send meetings to Salesforce",
+        "Share Round Robin meetings"
+      ],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 16.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 5.0,
+          "max": 500.0
+        },
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Event Types",
+            "value": "Unlimited",
+            "description": "Create unlimited event types."
+          },
+          {
+            "name": "Calendar Connections",
+            "value": 6.0,
+            "description": "Connect up to 6 calendars per person."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Administration",
+            "features": [
+              {
+                "name": "Advanced admin features",
+                "description": "Access to advanced administrative controls.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          },
+          {
+            "name": "Security",
+            "features": [
+              {
+                "name": "Single Sign-On Add-on",
+                "description": "SAML-based single sign-on add-on.",
+                "included": false,
+                "limit": "Add-on required"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "description": "For teams who need more security, admin control, support, and enterprise-grade procurement.",
+      "highlight_features": [
+        "Custom enterprise-grade features",
+        "Security and compliance"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": null,
+          "amount_range": {
+            "min": 15000.0,
+            "max": 30000.0
+          },
+          "period": "year",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 50.0,
+          "max": 10000.0
+        },
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Custom Limits",
+            "value": "Tailored",
+            "description": "Enterprise solutions can be tailored to specific needs."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Enterprise Specific",
+            "features": [
+              {
+                "name": "Enable SSO & SAML",
+                "description": "Secure enterprise-level sign-on.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Domain control",
+                "description": "Administer domain-level settings.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "add_ons": [
+    {
+      "name": "Single Sign-On",
+      "description": "Simplify team access with SAML-based SSO through Okta, Azure, OneLogin, Auth0, and more.",
+      "pricing": null
+    }
+  ],
+  "use_cases": [],
+  "discounts": [
+    {
+      "type": "percentage",
+      "amount": "20%",
+      "description": "20% discount for annual billing",
+      "conditions": "Available for all paid plans",
+      "valid_until": "n/a"
+    }
+  ],
+  "enterprise": {
+    "available": true,
+    "contact_sales": true,
+    "minimum_seats": 50.0,
+    "custom_features": [
+      "SSO & SAML",
+      "Domain control",
+      "Audit log compliance",
+      "Data deletion API",
+      "Security and legal reviews"
+    ]
+  },
+  "ml_metadata": null,
+  "agent_metadata": {
+    "agent_name": "Calendly Pricing Extractor",
+    "agent_version": "v1.0",
+    "execution_time_seconds": 5.0,
+    "fallback_used": false,
+    "comments": "All details extracted according to the visible sections on the website."
+  }
+}

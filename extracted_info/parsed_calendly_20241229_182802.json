@@ -1,0 +1,471 @@
+{
+  "service": {
+    "name": "Calendly",
+    "url": "https://calendly.com/pricing",
+    "logo_url": null,
+    "description": "Use Calendly for FREE or upgrade to one of our powerful plans. Choose the right Calendly for your team, no matter how small or large.",
+    "category": {
+      "primary": "Scheduling",
+      "secondary": "Productivity",
+      "tags": [
+        "Calendar Management",
+        "Team Collaboration",
+        "Meeting Scheduling"
+      ]
+    },
+    "business_model": {
+      "type": [
+        "SaaS"
+      ],
+      "description": "Calendly offers subscription-based plans with optional usage-based components for Enterprise services."
+    }
+  },
+  "pricing_metadata": {
+    "last_updated": "2024-01-01",
+    "currency": "USD",
+    "regions": [
+      "Global"
+    ],
+    "billing_cycles": {
+      "available": [
+        "Monthly",
+        "Yearly"
+      ],
+      "default": "Monthly"
+    },
+    "custom_pricing_available": true,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "2024",
+      "history": [
+        "2023",
+        "2022"
+      ]
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "For individuals starting out with basic scheduling.",
+      "highlight_features": [
+        "Unlimited 1-1 meetings",
+        "One event type",
+        "Connect one calendar"
+      ],
+      "is_popular": null,
+      "pricing": null,
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 1.0
+        },
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Event types",
+            "value": "1",
+            "description": "Only one event type can be created."
+          },
+          {
+            "name": "Calendar connections per person",
+            "value": "1",
+            "description": "One calendar can be connected per user."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Core Features",
+            "features": [
+              {
+                "name": "Unlimited 1-1 meetings",
+                "description": "Schedule unlimited one-to-one meetings.",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "One event type",
+                "description": "Create one type of event.",
+                "included": true,
+                "limit": "1"
+              },
+              {
+                "name": "Connect one calendar",
+                "description": "Connect one calendar to manage your events.",
+                "included": true,
+                "limit": "1"
+              },
+              {
+                "name": "Integrate video conferencing",
+                "description": "Integrate with video conferencing tools.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Customize your booking page",
+                "description": "Personalize your booking page.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Send confirmation emails",
+                "description": "Confirmation emails are sent to attendees.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Embed scheduling on your site",
+                "description": "Embed Calendly on your website.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Mobile app & browser extension",
+                "description": "Use Calendly on mobile devices and as a browser extension.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Standard",
+      "slug": "standard",
+      "description": "For those with more sophisticated scheduling needs.",
+      "highlight_features": [
+        "Unlimited event types",
+        "Connect multiple calendars",
+        "Integrate with Zapier"
+      ],
+      "is_popular": null,
+      "pricing": {
+        "base": {
+          "amount": 10.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 100.0
+        },
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Event types",
+            "value": "Unlimited",
+            "description": "Unlimited event types can be created."
+          },
+          {
+            "name": "Calendar connections per person",
+            "value": "6",
+            "description": "Up to six calendars can be connected per user."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Core Features",
+            "features": [
+              {
+                "name": "Unlimited event types",
+                "description": "Create unlimited event types.",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Connect multiple calendars",
+                "description": "Connect multiple calendars for broader management.",
+                "included": true,
+                "limit": "6"
+              },
+              {
+                "name": "HubSpot, Mailchimp integration",
+                "description": "Integrate with HubSpot and Mailchimp for enhanced CRM management.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Stripe, Paypal integration",
+                "description": "Collect payments through Stripe and Paypal.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Connect with Zapier, Webhooks",
+                "description": "Access over 700 app integrations with Zapier and webhooks.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Google Analytics integration",
+                "description": "Track with Google Analytics.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Schedule as a team",
+                "description": "Collaborative scheduling functionalities.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Automate reminders & more",
+                "description": "Set up reminders and follow-up automation.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Customize Calendly",
+                "description": "Advanced customization options.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "24/7 live chat support",
+                "description": "Access live chat support anytime.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Teams",
+      "slug": "teams",
+      "description": "For teams who need advanced features such as reporting, meeting distribution, and automations.",
+      "highlight_features": [
+        "Share Round Robin meetings",
+        "Qualify & route prospects"
+      ],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 16.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 500.0
+        },
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Event types",
+            "value": "Unlimited",
+            "description": "Unlimited event types can be created."
+          },
+          {
+            "name": "Calendar connections per person",
+            "value": "6",
+            "description": "Up to six calendars can be connected per user."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Core Features",
+            "features": [
+              {
+                "name": "Salesforce integration",
+                "description": "Send meetings to Salesforce.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Share Round Robin meetings",
+                "description": "Share meeting slots in round-robin fashion.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Qualify & route prospects",
+                "description": "Features to qualify prospects and route them accordingly.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Marketo, Pardot integration",
+                "description": "Integrations with Marketo and Pardot for marketing automation.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Advanced admin features",
+                "description": "In-depth admin features for better control and management.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "description": "For teams who need more security, admin control, support, and enterprise-grade procurement.",
+      "highlight_features": [
+        "Enable SSO & SAML",
+        "Domain control"
+      ],
+      "is_popular": null,
+      "pricing": {
+        "base": {
+          "amount": 15000.0,
+          "amount_range": null,
+          "period": "year",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 1000.0
+        },
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Event types",
+            "value": "Unlimited",
+            "description": "Unlimited event types can be created."
+          },
+          {
+            "name": "Calendar connections per person",
+            "value": "6",
+            "description": "Up to six calendars can be connected per user."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Core Features",
+            "features": [
+              {
+                "name": "Enable SSO & SAML",
+                "description": "Security feature to simplify team access using SSO and SAML.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Domain control",
+                "description": "Control and manage domain connections.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Route with Salesforce lookup",
+                "description": "Route meetings via Salesforce lookup to ensure proper distribution.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Audit log compliance",
+                "description": "Maintain compliance with audit log features.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Data deletion API",
+                "description": "Manage data with API-controlled deletion processes.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Customer success representative",
+                "description": "Dedicated customer success representative.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Integrate: Microsoft Dynamics",
+                "description": "Enhanced integration with Microsoft Dynamics for CRM functionalities.",
+                "included": true,
+                "limit": ""
+              },
+              {
+                "name": "Security and legal reviews",
+                "description": "Thorough security and legal review processes for compliance.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "add_ons": [
+    {
+      "name": "Single Sign-On",
+      "description": "SAML-based SSO through Okta, Azure, OneLogin, Auth0.",
+      "pricing": null
+    }
+  ],
+  "use_cases": [
+    {
+      "use_case": "Small Business Appointment Scheduling",
+      "target_user": "Small Business Owners",
+      "pain_points_solved": [
+        "Lack of efficient meeting scheduling",
+        "Difficulty managing multiple calendars"
+      ],
+      "key_benefits": [
+        "Centralized scheduling",
+        "Customizable booking options"
+      ],
+      "recommended_plan": "Standard",
+      "roi_potential": "High due to time savings and customer satisfaction."
+    }
+  ],
+  "discounts": [
+    {
+      "type": "Annual Discount",
+      "amount": "20%",
+      "description": "Save 20% when billed annually",
+      "conditions": "Valid for all plans except Enterprise",
+      "valid_until": "2024-12-31"
+    }
+  ],
+  "enterprise": {
+    "available": true,
+    "contact_sales": true,
+    "minimum_seats": null,
+    "custom_features": [
+      "Custom onboarding",
+      "Advanced integrations",
+      "Priority support"
+    ]
+  },
+  "ml_metadata": null,
+  "agent_metadata": null
+}

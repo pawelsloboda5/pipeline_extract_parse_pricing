@@ -1,0 +1,48 @@
+SERVICE INFORMATION
+  - Name: Plans & Pricing | zapier
+  - URL: https: // zapier. com / pricing
+
+PRICING METADATA
+  - Not specified
+
+PLANS
+  - Free: 
+  - Name: 
+  - Slug: 
+  - Description: 
+  - Is Popular: 
+  - Highlight Features: 
+  - Key features or distinct bullet points
+  - Pricing: 
+  - Base: 
+  - Amount: 
+  - Numeric value
+  - Period: 
+  - Monthly/Yearly/Other
+  - Currency: 
+  - Currency code
+  - Is PerUser: 
+
+ADD-ONS
+  - Add- onName: 
+  - Price: 
+  - All pricing details
+  - Description: 
+  - Features: 
+
+ENTERPRISE
+  - Available: 
+  - ContactSalesRequired: 
+  - MinimumSeats: 
+  - CustomFeatures: 
+  - List of enterprise specific features
+
+DISCOUNTS
+  - DiscountType: 
+  - Amount: 
+  - Value or Percentage
+  - Details: 
+  - Conditions: 
+  - Requirements or constraints
+  - ValidUntil: 
+  - Expiration Date or Not Specified

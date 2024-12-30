@@ -1,0 +1,102 @@
+SERVICE INFORMATION 
+- Name : Plans &amp; Pricing | zapier
+  - URL : https:// zapier. com / pricing
+  -
+    - Logo URL :
+  - 
+    - 
+  -
+
+PRICINGS METADATA 
+- Currency : USD
+- Regions : Worldwide
+- Billing Cycle s :
+  -
+     - Available : Monthly, Yearly
+     - Default : Annual
+  -
+
+CUSTOM PRICING AVAILABLE : Yes
+-FREE TIER AVAILABLE : Not Specified
+
+PLAN S 
+- NAME : Zapier Free
+  SLUG : zapier-free
+  DESCRIPTION : Free plan with limited functionality.
+  IS POPULAR : Not Available
+  HIGHLIGHT FEATURES : Limited to 100 automations per month.
+  Pricin g :
+    - BASE :
+        - AMOUNT : $0
+        - PERIOD : Monthy
+        -
+          - CURRENC Y : USD
+
+- PLAN NAM E : Zapie r Pr ofe ssional
+  S L U G : zap ie r-professional
+  DES CR IP TIO N : Full-func tio nal plan w ith m ore fea tu res.
+  I S PO PLU AR : Not Availabl e
+  HI GH LIGHT FE ATUR ES : Unlimited automatio ns p er mo nth.
+  PR IC ING :
+    -
+      - B AS E :
+          - AM OUNT : $
+         - PER IoD : Annually
+         - CU RREN CY : USD
+
+
+- PLAN NA ME : Zap ier Te am
+  SU LG : zapie r-team
+  DE SCR IPT IO N : Coll abo ration pl ann w ith sh ar ed featur es.
+  ISO PO PL UAR : Not Ava il abl e
+-HIGH LIGHT FEAT UR ES : Unlimite d u se rs.
+  PR ICE IN G :
+    (
+      - BA SE :
+          -
+            - AMOU NT : $
+           - PE RI OD : An nua l ly
+             - CU RR ENCY : USD
+
+
+
+- PLAN NAME : Za pie r En terpri se
+  Su LG : za pie r-enterprise
+  De Scr ip ti on : Ent er pri se pla n f or b ig bu si ne s.
+  Iso Po Plu Ar : Not AV ailab le
+-Highligh t Featu re s : Ad vanc ed sec urity fea tur es.
+-PRICIN G :
+(
+-BASE :
+-
+- AMO UNT : $
+- PE RIOD : An nu al ly
+-CUr ren cy : USD
+
+
+
+
+ADD ON S 
+Name : Zapir Pro Bundle
+Price : Not specifie d
+Description : New pro bundl e feat ure s.
+Features : Not avai lab le
+Availability : All plans
+Requirements : Not availabl e 
+Limitation s : Not ava ilabl e 
+
+
+ENTERPRI SE 
+Availabil ty : Yes 
+Cont act Sa les Requir ed : Yes  
+Min imum Se ats : Not speci fi ed 
+Cu stom Featu res : Not avi la ble 
+
+
+
+DISCOUN TS 
+Type : Volume Discount
+Amount : Not sp ecifi ed
+De sc ri pt io n : Not a va ilabl el
+Con di tions : Not spi cific
+Valid Unti l : Not spe ci fi ed

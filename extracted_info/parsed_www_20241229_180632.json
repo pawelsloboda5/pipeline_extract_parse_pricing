@@ -1,0 +1,22 @@
+{
+  "service": {
+    "name": "BigMailer",
+    "url": "https://www.bigmailer.io",
+    "logo_url": null,
+    "description": null,
+    "category": null,
+    "business_model": null
+  },
+  "pricing_metadata": null,
+  "plans": [],
+  "discounts": null,
+  "enterprise": null,
+  "ml_metadata": null,
+  "agent_metadata": {
+    "agent_name": "Pricing Data Extraction Agent",
+    "agent_version": "1.0",
+    "execution_time_seconds": 0.5,
+    "fallback_used": true,
+    "comments": "The page requested is not found, thus no pricing information could be extracted."
+  }
+}

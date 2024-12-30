@@ -1,0 +1,99 @@
+SERVICE INFORMATION
+  - Name: Plans & Pricing | Zapier
+  - URL: https: //zapier.com/pricing
+  - Logo URL: [if available]
+  - Description: [brief description]
+  - Summary: [comprehensive service summary]
+  - Category: 
+  - Primary: [main category]
+  - Secondary: [sub- category]
+  - Tags: [comma- separated list of all relevant tags]
+  - Business Model: 
+  - Type: [list all that apply: subscription, usage- based, flat- rate, etc.]
+  - Description: [explain the pricing model]
+
+PRICING METADATA
+  - Currency: [primary currency code]
+  - Regions: [list all available regions]
+  - Billing Cycles: 
+  - Available: [list all cycles]
+  - Default: [primary billing cycle]
+  - Custom Pricing Available: [Yes/No]
+  - Free Tier Available: [Yes/No]
+
+PLANS
+  - Extract EVERY plan mentioned in the content. Look for these common plan types: 
+  - Free/Basic/Starter
+  - Team/Professional/Business
+  - Growth/Scale
+  - Enterprise/Custom
+  - For each plan found, provide ALL of these details: 
+  - Name: [exact name]
+  - Slug: [kebab- case- name]
+  - Description: [full description]
+  - Is Popular: [Yes/No]
+  - Highlight Features: [3- 5 key features or distinctive bullet points]
+  - Pricing: 
+  - Base: 
+  - Amount: [numeric value]
+  - Period: [monthly/yearly/other]
+  - Currency: [currency code]
+  - Is Per User: [Yes/No]
+  - Usage Based Components: 
+  - Name: [component name]
+  - Type: [usage type]
+  - Unit: [billing unit]
+  - Tiers: 
+  - Range: [min- max]
+  - Unit Price: [price per unit]
+  - Flat Fee: [if applicable]
+  - Limits: 
+  - Users: 
+  - Minimum: [number]
+  - Maximum: [number]
+  - Storage: 
+  - Amount: [number]
+  - Unit: [GB/TB/etc]
+  - API: 
+  - Requests: 
+  - Rate: [number]
+  - Period: [time period]
+  - Quota: [total limit if specified]
+  - Compute: 
+  - VCPU: [number]
+  - Memory: [amount]
+  - Unit: [GB/TB/etc]
+  - Other Limits: 
+  - Name: [limit name]
+  - Value: [limit value]
+  - Description: [explanation]
+  - Features (Group by category): 
+  - Category Name: [e.g., Security, Integrations, Support, etc.]
+  - Feature Name: [specific feature]
+  - Description: [any detail]
+  - Included: [Yes/No]
+  - Limit: [any usage restrictions]
+
+ADD-ONS
+  - For each add- on product/service found: 
+  - Name: [exact add- on name]
+  - Price: [ALL pricing details]
+  - Description: [complete description]
+  - Features: [ALL included features or bullet points]
+  - Availability: [which plans can use this add- on]
+  - Requirements: [any prerequisites]
+  - Limitations: [any usage or functional restrictions]
+
+ENTERPRISE
+  - Available: [Yes/No]
+  - Contact Sales Required: [Yes/No]
+  - Minimum Seats: [number if specified, otherwise "Not specified"]
+  - Custom Features: [list all enterprise- specific features or capabilities]
+
+DISCOUNTS
+  - For each discount mentioned: 
+  - Type: [discount type, e.g. volume discount, coupon, etc.]
+  - Amount: [value or percentage]
+  - Description: [full details]
+  - Conditions: [requirements or constraints]
+  - Valid Until: [expiration date or "Not specified"]

@@ -1,0 +1,406 @@
+{
+  "service": {
+    "name": "Airtable",
+    "url": "https://airtable.com/pricing",
+    "logo_url": null,
+    "description": "Learn about Airtable's flexible pricing options, from free to enterprise. Browse special plans for nonprofit and education organizations!",
+    "category": null,
+    "business_model": null
+  },
+  "pricing_metadata": null,
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "For individuals or very small teams just getting started with Airtable",
+      "highlight_features": null,
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 0.0,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 0.0,
+          "max": 5.0
+        },
+        "storage": {
+          "amount": 1.0,
+          "unit": "GB"
+        },
+        "api": {
+          "requests": {
+            "rate": 1000.0,
+            "period": "month",
+            "quota": 1000.0
+          }
+        },
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Records per base",
+            "value": "1,000",
+            "description": "Maximum records per base for free plan"
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Basics",
+            "features": [
+              {
+                "name": "Bases",
+                "description": "Unlimited bases",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Collaboration",
+            "features": [
+              {
+                "name": "Editors",
+                "description": "Maximum number of editors per workspace",
+                "included": true,
+                "limit": "5"
+              },
+              {
+                "name": "Commenters",
+                "description": "Maximum number of commenters per workspace",
+                "included": true,
+                "limit": "50"
+              }
+            ]
+          },
+          {
+            "name": "Automation",
+            "features": [
+              {
+                "name": "Runs per month",
+                "description": "Total automation runs allowed per month",
+                "included": true,
+                "limit": "100"
+              }
+            ]
+          },
+          {
+            "name": "Tools",
+            "features": [
+              {
+                "name": "Interface Designer",
+                "description": "Included with free plan",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Team",
+      "slug": "team",
+      "description": "For teams building apps to collaborate on shared workflows",
+      "highlight_features": null,
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 20.0,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 0.0,
+          "max": -1.0
+        },
+        "storage": {
+          "amount": 20.0,
+          "unit": "GB"
+        },
+        "api": {
+          "requests": {
+            "rate": 100000.0,
+            "period": "month",
+            "quota": 100000.0
+          }
+        },
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Records per base",
+            "value": "50,000",
+            "description": "Maximum records per base for team plan"
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Basics",
+            "features": [
+              {
+                "name": "Bases",
+                "description": "Unlimited bases",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Collaboration",
+            "features": [
+              {
+                "name": "Editors",
+                "description": "Unlimited number of editors per workspace",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Commenters",
+                "description": "Unlimited number of commenters per workspace",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Automation",
+            "features": [
+              {
+                "name": "Runs per month",
+                "description": "Total automation runs allowed per month",
+                "included": true,
+                "limit": "25,000"
+              }
+            ]
+          },
+          {
+            "name": "Integrations",
+            "features": [
+              {
+                "name": "Standard sync integrations",
+                "description": "Available integrations with standard plan",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Business",
+      "slug": "business",
+      "description": "For teams and departments who need advanced features and basic administration",
+      "highlight_features": null,
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 45.0,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 0.0,
+          "max": -1.0
+        },
+        "storage": {
+          "amount": 100.0,
+          "unit": "GB"
+        },
+        "api": {
+          "requests": {
+            "rate": 100000.0,
+            "period": "month",
+            "quota": 100000.0
+          }
+        },
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Records per base",
+            "value": "125,000",
+            "description": "Maximum records per base for business plan"
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Basics",
+            "features": [
+              {
+                "name": "Bases",
+                "description": "Unlimited bases",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Collaboration",
+            "features": [
+              {
+                "name": "Editors",
+                "description": "Unlimited number of editors per workspace",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Commenters",
+                "description": "Unlimited number of commenters per workspace",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Automation",
+            "features": [
+              {
+                "name": "Runs per month",
+                "description": "Total automation runs allowed per month",
+                "included": true,
+                "limit": "100,000"
+              }
+            ]
+          },
+          {
+            "name": "Integrations",
+            "features": [
+              {
+                "name": "Premium sync integrations",
+                "description": "Available integrations with premium plan",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise Scale",
+      "slug": "enterprise-scale",
+      "description": "For organizations looking to build scalable, flexible apps with powerful governance and administration",
+      "highlight_features": null,
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": null,
+          "amount_range": null,
+          "period": "custom",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 0.0,
+          "max": -1.0
+        },
+        "storage": {
+          "amount": 1000.0,
+          "unit": "GB"
+        },
+        "api": {
+          "requests": {
+            "rate": 1000000.0,
+            "period": "month",
+            "quota": 1000000.0
+          }
+        },
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Records per base",
+            "value": "500,000",
+            "description": "Maximum records per base for enterprise scale plan"
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Basics",
+            "features": [
+              {
+                "name": "Bases",
+                "description": "Unlimited bases",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Collaboration",
+            "features": [
+              {
+                "name": "Editors",
+                "description": "Unlimited number of editors per workspace",
+                "included": true,
+                "limit": "Unlimited"
+              },
+              {
+                "name": "Commenters",
+                "description": "Unlimited number of commenters per workspace",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          },
+          {
+            "name": "Automation",
+            "features": [
+              {
+                "name": "Runs per month",
+                "description": "Total automation runs allowed per month",
+                "included": true,
+                "limit": "500,000"
+              }
+            ]
+          },
+          {
+            "name": "Integrations",
+            "features": [
+              {
+                "name": "Enterprise scale integrations",
+                "description": "Available integrations with enterprise plan",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "discounts": null,
+  "enterprise": {
+    "available": true,
+    "contact_sales": true,
+    "minimum_seats": null,
+    "custom_features": []
+  },
+  "ml_metadata": null,
+  "agent_metadata": null
+}

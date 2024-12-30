@@ -1,0 +1,9 @@
+and end with ADDED INFORMATION
+
+    ADDED INSTRUCTIONS:
+    Use the provided example as a guide to extract structured pricing and pricing metadata from the content.
+    Ensure all required fields are included in each section.
+    Double-check for accuracy and completeness.
+    Format all numeric values as required.
+    Use consistent formatting throughout the output.
+    Provide clear and concise explanations for each extracted piece of information.

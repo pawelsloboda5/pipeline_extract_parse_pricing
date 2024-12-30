@@ -1,0 +1,154 @@
+SERVICE INFORMATION**
+- Name: Zendesk for Service
+- URL: https://zendesk.com/
+- Logo URL: Not specified
+- Description: The complete service solution
+- Summary: Zendesk for service is a family of products that connect with customers across any channel
+- Category: Customer Service Software
+- Tags: Messaging and live chat, AI and automation, Data privacy and protection, Help center, Agent workspace, Voice, Workforce engagement
+- Business Model: Subscription
+
+**PRICING METADATA**
+- Currency: USD
+- Available Regions: Worldwide
+- Billing Cycles: Month-to-month, Annual
+- Default Billing: Annual
+- Custom Pricing: Not Available
+- Free Tier: Not Available
+
+**PLANS**
+- **Suite Team**
+  - Plan Name: Suite Team
+  - Slug: suite-team
+  - Description: Deliver seamless, conversational services with out-of-box tools
+  - Popular: Yes
+  - Base Price: $19/month billed annually
+  - Per User: No
+  - Key Features:
+    - Ticketing system
+    - Help center
+    - AI agents
+  - Limits:
+    - Storage: 50MB
+    - Users: Unlimited
+    - API calls: Not specified
+    - Other limits: Not specified
+
+- **Suite Growth**
+  -Plan Name: Suite Growth
+  -Slug: suite-growth
+  -Description: Boost efficiency with enhanced self-service and automation capabilities
+  -Popular: Yes
+   -Base Price: $89/month billed annually
+   -Per User: No
+   -Key Features:
+     -Ticketing system
+     -Help center
+     -AI agents
+   -Limits:
+     -Storage: 50MB 
+     -Users: Unlimited
+     -API calls: Not specified 
+     -Other limits: Not specified 
+
+- **Suite Professional**
+   -PlanName: Suite Professional
+   -Slug: suite-professional
+   -Description: Optimize operations with collaboration tools and analytics
+   -Popular: Yes 
+   -BasePrice: $115/month billed annually 
+   -PerUser: No 
+   -KeyFeatures:
+    -Ticketing system 
+    -Help center 
+    -AI agents 
+   -Limits:
+    -Storage:50MB 
+    -Users:Unlimited 
+    -API calls:Not specified 
+    -Other limits:Not specified 
+
+- **Enterprise**
+  -PlanName: Enterprise
+  -Slug:
+  -Description: Deliver personalized experiences at scale
+  -Popular:
+  -BasePrice:
+  -PerUser:
+  -KeyFeatures:
+  -Limits:
+  -Availability: Suite Enterprise
+
+**ADD-ONS**
+- **Advanced AI**
+  -Name: Advanced AI
+  -Price: $50/month billed annually 
+  -Description: Instantly understands common customer issues and routes tickets
+  -Features: AI-powered workflows, Insights and suggestions, Generative AI writing tools, AI-powered knowledge
+  -Availability: Professional and higher plans
+
+- **Workforce Management**
+   -Name: Workforce Management
+   -Price: $25/month billed annually
+    -Description: Ideal scheduling solution for teams in Zendesk
+   -Features:
+    -AI-powered forecasting
+    -Automatic agent scheduling
+   -Availability: All Zendesk plans
+
+- **Quality Assurance**
+   -Name:
+   -Price:
+   -Description:
+   -Features:
+   -Availability:
+   -Availability:
+
+- **Workforce Engagement Bundle**
+  -Name:
+  -Price:
+  -Description:
+  -Features:
+  -Availability:
+
+**ENTERPRISE OFFERING**
+- Available: Yes
+- Contact Sales Required: Yes
+- Minimum Seats: 10
+- Custom Features: Not specified
+
+**DISCOUNTS**
+- Type: None
+- Amount: None
+- Description: None
+- Conditions: None
+- Valid Until: None
+
+**USE CASES**
+- **Use Case 1**
+  -Use Case: Improve customer satisfaction
+  -Target User: Small to medium-sized businesses
+  -Pain Points Solved: Enhance customer experience, Automate routine tasks
+  -Key Benefits: Personalized experiences, Increased efficiency
+  -Recommended Plan: Suite Professional
+  -ROI Potential: High
+
+- **Use Case2**
+  -UseCase: Optimize operations
+  -TargetUser: Medium to large-sized businesses
+   -PainPointsSolved: Automate routine tasks, Enhance customer experience
+   -KeyBenefits: Increased efficiency, Personalized experiences
+   -RecommendedPlan: Suite Enterprise
+   -ROI Potential: Medium
+
+**RULES**
+1. Extract all pricing plans found
+2. Include all features mentioned
+3. Keep exact Pricing and numerical values
+4. Use "not specified" for missing Information
+5. Maintain consistent Formatting
+6. Format limits Consistently under each plan
+7. Include all relevant Add-ons and extensions
+8. Ensure proper Categorization
+9. No Commentary outside the required sections
+10. Format according to the provided template.

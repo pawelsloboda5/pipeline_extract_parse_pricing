@@ -1,0 +1,490 @@
+{
+  "service": {
+    "name": "Airtable",
+    "url": "https://airtable.com/pricing",
+    "logo_url": null,
+    "description": null,
+    "category": null,
+    "business_model": null
+  },
+  "pricing_metadata": {
+    "last_updated": "/",
+    "currency": "USD",
+    "regions": [],
+    "billing_cycles": {
+      "available": [
+        "monthly",
+        "annually"
+      ],
+      "default": ""
+    },
+    "custom_pricing_available": true,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "November 2023",
+      "history": [
+        "October 2023"
+      ]
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": "For individuals or very small teams just getting started with Airtable",
+      "highlight_features": null,
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 0.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 1.0,
+          "max": 5.0
+        },
+        "storage": {
+          "amount": 1.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Records per base",
+            "value": "1000",
+            "description": ""
+          },
+          {
+            "name": "Bases",
+            "value": "unlimited",
+            "description": ""
+          },
+          {
+            "name": "Automation runs",
+            "value": "100",
+            "description": "Runs per month"
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Base Features",
+            "features": [
+              {
+                "name": "Unlimited bases",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              },
+              {
+                "name": "1,000 records per base",
+                "description": "",
+                "included": true,
+                "limit": "1000 records"
+              },
+              {
+                "name": "Up to 5 editors",
+                "description": "",
+                "included": true,
+                "limit": "5 editors"
+              },
+              {
+                "name": "1 GB of attachments per base",
+                "description": "",
+                "included": true,
+                "limit": "1 GB"
+              },
+              {
+                "name": "100 automation runs",
+                "description": "",
+                "included": true,
+                "limit": "100"
+              },
+              {
+                "name": "Interface Designer",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Team",
+      "slug": "team",
+      "description": "For teams building apps to collaborate on shared workflows",
+      "highlight_features": null,
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 20.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 5.0,
+          "max": 0.0
+        },
+        "storage": {
+          "amount": 20.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Records per base",
+            "value": "50000",
+            "description": ""
+          },
+          {
+            "name": "Automation runs",
+            "value": "25000",
+            "description": "Runs per month"
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Base Features",
+            "features": [
+              {
+                "name": "50,000 records per base",
+                "description": "",
+                "included": true,
+                "limit": "50000 records"
+              },
+              {
+                "name": "25,000 automation runs",
+                "description": "",
+                "included": true,
+                "limit": "25000"
+              },
+              {
+                "name": "20 GB of attachments per base",
+                "description": "",
+                "included": true,
+                "limit": "20 GB"
+              }
+            ]
+          },
+          {
+            "name": "Integrations",
+            "features": [
+              {
+                "name": "Standard sync integrations",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              },
+              {
+                "name": "Extensions",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              }
+            ]
+          },
+          {
+            "name": "Views",
+            "features": [
+              {
+                "name": "Gantt and timeline view",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              },
+              {
+                "name": "Expanded color, formatting, and calendar options",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Business",
+      "slug": "business",
+      "description": "For teams and departments who need advanced features and basic administration",
+      "highlight_features": null,
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 45.0,
+          "amount_range": null,
+          "period": "month",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": {
+          "amount": 100.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Records per base",
+            "value": "125000",
+            "description": ""
+          },
+          {
+            "name": "Automation runs",
+            "value": "100000",
+            "description": "Runs per month"
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Base Features",
+            "features": [
+              {
+                "name": "125,000 records per base",
+                "description": "",
+                "included": true,
+                "limit": "125000 records"
+              },
+              {
+                "name": "100,000 automation runs",
+                "description": "",
+                "included": true,
+                "limit": "100000"
+              },
+              {
+                "name": "100 GB of attachments per base",
+                "description": "",
+                "included": true,
+                "limit": "100 GB"
+              }
+            ]
+          },
+          {
+            "name": "Integrations",
+            "features": [
+              {
+                "name": "Premium sync integrations",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              }
+            ]
+          },
+          {
+            "name": "Verification & Admin",
+            "features": [
+              {
+                "name": "Verified data",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              },
+              {
+                "name": "Two-way sync",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              },
+              {
+                "name": "Admin panel",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              },
+              {
+                "name": "SAML-based single sign-on",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              },
+              {
+                "name": "App Sandbox",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise Scale",
+      "slug": "enterprise-scale",
+      "description": "For organizations looking to build scalable, flexible apps with powerful governance and administration",
+      "highlight_features": null,
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": null,
+          "amount_range": null,
+          "period": "/",
+          "currency": "USD",
+          "is_per_user": true
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": {
+          "min": 5.0,
+          "max": 0.0
+        },
+        "storage": {
+          "amount": 1000.0,
+          "unit": "GB"
+        },
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Records per base",
+            "value": "500000",
+            "description": ""
+          },
+          {
+            "name": "Automation runs",
+            "value": "500000",
+            "description": "Runs per month"
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Base Features",
+            "features": [
+              {
+                "name": "500,000 records per base",
+                "description": "",
+                "included": true,
+                "limit": "500000 records"
+              },
+              {
+                "name": "500,000 automation runs",
+                "description": "",
+                "included": true,
+                "limit": "500000"
+              },
+              {
+                "name": "1,000 GB of attachments per base",
+                "description": "",
+                "included": true,
+                "limit": "1,000 GB"
+              }
+            ]
+          },
+          {
+            "name": "Integrations",
+            "features": [
+              {
+                "name": "On-premises sync integrations",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              },
+              {
+                "name": "App Library",
+                "description": "Comprehensive library of pre-built apps",
+                "included": true,
+                "limit": "none"
+              }
+            ]
+          },
+          {
+            "name": "Security & Admin",
+            "features": [
+              {
+                "name": "HyperDB",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              },
+              {
+                "name": "Enterprise Hub",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              },
+              {
+                "name": "Enhanced security and admin controls",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              },
+              {
+                "name": "Enterprise API",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              },
+              {
+                "name": "Extension and integration management",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              },
+              {
+                "name": "Audit logs and DLP",
+                "description": "",
+                "included": true,
+                "limit": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Airtable AI",
+      "slug": "airtable-ai",
+      "description": "Add-on feature to incorporate AI directly into workflows",
+      "highlight_features": null,
+      "is_popular": false,
+      "pricing": null,
+      "limits": null,
+      "features": {
+        "categories": [
+          {
+            "name": "AI Features",
+            "features": [
+              {
+                "name": "AI Generative Content",
+                "description": "Summarize and extract insights, categorize feedback, route tasks, generate content, translate text",
+                "included": true,
+                "limit": "none"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "discounts": null,
+  "enterprise": null,
+  "ml_metadata": null,
+  "agent_metadata": null
+}

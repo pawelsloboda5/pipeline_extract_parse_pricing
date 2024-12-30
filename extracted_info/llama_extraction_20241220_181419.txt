@@ -1,0 +1,161 @@
+SERVICE INFORMATION**
+- Name: Zendesk
+- URL: https://zendeck.com/pricing/
+- Logo URL: Not specified
+- Description: Zendesk is a family of products that help businesses connect with their customers on any channel.
+- Summary: Zendesk offers a range of products to help businesses deliver seamless customer experiences across multiple channels.
+- Category: Customer Service Software
+- Tags:
+  - Core features: ticketing, chat, messaging, help center
+  - Technical capabilities: AI, automation, integrations
+  - Industry focus: enterprise, SMB, retail, financial services
+  - Technology aspects: AI, automation
+  - Compliance features: HIPAA
+  - Integration capabilities: 1,000+ prebuilt apps and integrations, API access
+  - Security features: data encryption, host mapping, disaster recovery
+  - Deployment options: cloud-based, on-premises
+
+**PRICING METADATA**
+- Currency: USD
+- Available Regions: Worldwide
+- Billing Cycles: Month-to-month, annual
+- Default Billing: Annual
+- Custom Pricing: Available for enterprise customers
+- Free Tier: No free tier, but a free trial is available
+
+**PLANS**
+- **Suite Team**
+  - Plan Name: Suite Team
+  - Slug: suite-team
+  - Description: A complete service solution for small businesses
+  - Popular: Yes
+  - Base Price: $19/month billed annually
+  - Per User: No
+  - Key Features:
+    - Ticketing system
+    - Help center
+    - AI agents
+  - Limits:
+    - Storage/Data limits: 50MB
+    - User limits: No limit
+    - API/Integration Limits: No limit
+  - Additional Features:
+    - Pre-chat form
+    - Unlimited concurrent chats
+    - Shortcuts
+    - Automatic translation
+    - Send and receive files
+    - Conversation rating
+    - Transfers between agents and departments
+    - Departments: 2 departments
+    - Rich message types
+    - Conversation history
+    - Re-engagement
+    - Whisper mode
+    - Warm transfer
+    - Send proactive messages
+    - Skills-based routing
+    - Widget unbranding
+    - Social and business channels
+    - Voice
+    - Voicemail
+    - Text messages
+- **Suite Growth**
+- Plan Name: Suite Growth
+- Slug: suite-growth
+- Description: A growth plan for small to medium-sized businesses
+- Popular: Yes
+- Base Price: $89/month billed annually
+- Per User: Yes
+- Key Features:
+  - All features from Suite Team, plus:
+    - Multiple ticket forms
+    - Light Agents
+    - Service level agreements
+    - Customer satisfaction ratings
+    - Multilingual support
+    - Self-service customer portal
+    - Business hours
+    - Custom and live analytics
+    - Side conversations
+    - Integrated community forums
+    - Data location options
+    - HIPAA enabled
+- Limits:
+  - All limits from Suite Team
+- Additional Features:
+  - Custom business rules
+  - Pre-defined responses
+  - Article recommendations
+  - Business rules analysis
+  - Macro insights for admins
+  - Change management
+  - Unified staff management
+  - Business hours
+  - Custom agent roles
+  - Audit logs
+  - Standard sandbox
+  - Premium Sandbox
+  - Additional Premium Sandboxes
+  - Reporting and analytics
+  - Data storage
+  - File storage
+  - Custom objects
+  - Zendesk events
+  - External events
+  - Devices data log
+  - Additional data storage
+- **Suite Professional**
+- **Suite Enterprise**
+- Suite Enterprise Plus
+
+**ADD-ONS**
+- **Advanced AI**
+  - Name: Advanced AI
+  - Price: $50/month billed annually (per agent)
+  - Description: Advanced AI capabilities for Zendesk Suite
+  - Features: Agent copilot, AI-powered workflows, insights and suggestions, generative AI writing tools, AI-powered knowledge
+  - Availability: Suite Professional and higher plans
+  - Requirements: None
+  - Limitations: None
+- **Workforce Management**
+  - **Quality Assurance**
+  - **Workforce Engagement Bundle**
+  - **Advanced Data Privacy**
+  - **Sunshine Conversations**
+
+**ENTERPRISE OFFERING**
+- Available: Yes
+- Contact Sales Required: Yes
+- Minimum Seats: 5
+- Custom Features: Available
+- Customization Options: Available
+- Enterprise-specific Limits: Available
+
+**DISCOUNTS**
+- **Startup Discount**: 10% off for startups
+- **Non-Profit Discount**: 20% off for non-profit organizations
+- **Education Discount**: 15% off for educational institutions
+- **Bundle Discounts**: Available for bundling multiple add-ons
+
+**USE CASES**
+- **Small Business**
+- **Medium-Sized Business**
+- **Enterprise**
+- **Retail**
+- **Financial Services**
+- **Education**
+- **Government**
+- **Transportation**
+- **Manufacturing**
+- **Software**
+- **Healthcare**
+- **Telecommunications**
+- **Media**
+- **Contact Professional Services**
+- **Demo**
+- **Resources**
+- **Blog**
+- **Events and webinars**
+- **Training and certification**
+- **Community**

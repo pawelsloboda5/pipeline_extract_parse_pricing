@@ -1,0 +1,876 @@
+SERVICE INFORMATION
+
+- Name: Airtable
+- URL: https://airtable.com/pricing
+- Logo URL: Not specified
+- Description: A business process automation platform with comprehensive workflow capabilities.
+- Summary: Enterprise-grade workflow automation platform that enables organizations to automate business processes, integrate with popular services, and scale operations efficiently. Features include custom workflows, extensive integrations, and robust security controls.
+- Category: Business Process Automation
+- Tags: workflow automation, business process, integrations, enterprise software, automation platform
+- Business Model: hybrid (combines free tier with user-based pricing and enterprise custom pricing)
+
+PRICING METADATA
+
+- Currency: USD
+- Available Regions: US, EU, APAC
+- Billing Cycles: monthly, annually
+- Default Billing: annually
+- Custom Pricing: Available
+- Free Tier: Available
+
+PLANS
+
+
+- Plan Name: Free Starter
+    - Slug: free-starter
+    - Description: Basic plan for small teams to start with automation
+    - Popular: No
+    - Base Price: 0 USD per month
+    - Per User: No
+    - Key Features:
+    - Basic email support
+    - Standard integrations
+    - Gmail integration
+    - Slack integration
+    - Limits:
+    - Team members: 5
+    - Storage: 5 GB
+    - Automation runs: 100 per month
+
+- Plan Name: Business Pro
+    - Slug: business-pro
+    - Description: Comprehensive solution for growing businesses
+    - Popular: Yes
+    - Base Price: 29 USD per user per month
+    - Per User: Yes
+    - Key Features:
+    - Priority support
+    - Advanced integrations
+    - Salesforce integration
+    - SAP integration
+    - Custom workflows
+    - API access
+    - SAML SSO
+    - Limits:
+    - Team members: Unlimited
+    - Storage: 100 GB
+    - Automation runs: 10,000 per month
+
+- Plan Name: Enterprise
+    - Slug: enterprise
+    - Description: Customizable solution for large organizations
+    - Popular: No
+    - Base Price: Contact Sales
+    - Per User: Yes
+    - Key Features:
+    - Dedicated support team
+    - Custom integrations
+    - Advanced security features
+    - Audit logs
+    - Custom contract options
+    - Limits:
+    - Team members: Unlimited
+    - Storage: Unlimited
+    - Automation runs: Unlimited
+    ENTERPRISE OFFERING
+    - Available: Yes
+    - Contact Sales Required: Yes
+    - Minimum Seats: 50
+    - Custom Features:
+    - Custom integrations
+    - Advanced security
+    - Audit logs
+    - Custom contract terms
+    - Dedicated support team
+    DISCOUNTS
+    - Type: Multiple programs
+    - Amount: Various (50-90% off)
+    - Description: Special pricing for qualified organizations
+    - Conditions:
+    - Nonprofit: 50% off any plan
+    - Education: Free Business Pro (up to 50 users)
+    - Startups: 90% off first year (VC funding required)
+    - Valid Until: Not specified
+    USE CASES
+    - Use Case: Small Business Process Automation
+    - Target User: Small business owners and teams
+    - Pain Points Solved:
+    - Manual repetitive tasks consuming valuable time
+    - Limited budget for automation tools
+    - Need for basic integrations with common tools
+    - Key Benefits:
+    - Free tier to start automation journey
+    - Easy integration with common business tools
+    - No technical expertise required
+    - Recommended Plan: Free Starter
+    - ROI Potential: Medium-High for teams spending 5+ hours/week on manual tasks
+    - Use Case: Mid-Market Business Operations
+    - Target User: Operations managers and department heads
+    - Pain Points Solved:
+    - Complex workflows across departments
+    - Need for advanced integrations
+    - Security and compliance requirements
+    - Key Benefits:
+    - Custom workflow creation
+    - Advanced integration capabilities
+    - SAML SSO for security
+    - Recommended Plan: Business Pro
+    - ROI Potential: High for organizations with 10+ team members and multiple workflows
+    - Use Case: Enterprise Digital Transformation
+    - Target User: Enterprise IT and Operations leaders
+    - Pain Points Solved:
+    - Large-scale automation needs
+    - Complex security requirements
+    - Custom integration requirements
+    - Audit and compliance needs
+    - Key Benefits:
+    - Unlimited scalability
+    - Custom security controls
+    - Dedicated support
+    - Audit capabilities
+    - Recommended Plan: Enterprise
+    - ROI Potential: Very High for organizations with 50+ users and complex workflows
+    Now extract similar information from this content:
+    Title: Zendesk Pricing | Plans starting from just $55/month
+    Description: A family of products to connect with customers on any channel. From startups to Fortune 500 companies, Zendesk works for businesses of all sizes and shapes.
+    URL: https://www.zendesk.com/pricing/
+    Content:
+    Skip to main content
+    CX Trends 2025 report: Five key trends that transform your CX with human-centric AI.
+    Get the report
+    Start free trial
+    Start free trial
+    Products
+    Zendesk for service
+    The complete service solution
+    FEATURES
+    Messaging and live chat
+    AI and automation
+    Data privacy and protection
+    Help center
+    Agent workspace
+    Voice
+    Workforce engagement
+    ENHANCE YOUR WORKFLOWS
+    Zendesk Sunshine
+    Employee service
+    Zendesk for sales
+    Marketplace
+    Pricing
+    Zendesk for service
+    The complete service solution
+    Zendesk for sales
+    The modern sales solution
+    Solutions
+    BUSINESS
+    Enterprise
+    Small and medium businesses
+    Startups
+    Conversational CRM
+    INDUSTRIES
+    Retail
+    Financial Services
+    Education
+    Government
+    Transportation
+    Manufacturing
+    Software
+    Healthcare
+    Telecommunications
+    Media
+    Contact Professional Services
+    Demo
+    Resources
+    Blog
+    Events and webinars
+    Training and certification
+    Community
+    Professional services
+    What’s New with Zendesk
+    API and developers
+    CX Trends
+    Partners
+    Customer stories
+    Newsroom
+    Trust and security
+    Zendesk Help center
+    Company
+    About us
+    Newsroom
+    Events
+    Careers
+    Diversity & Inclusion
+    Accessibility Plan
+    Sustainability
+    Zendesk Foundation
+    Legal
+    Language
+    English (US)
+    English (UK)
+    Español
+    Español (LATAM)
+    Português
+    Français
+    Deutsch
+    Italiano
+    Nederlands
+    Dansk
+    Svenska
+    English (Australia)
+    English (India)
+    English (Singapore)
+    日本語
+    한국어
+    繁體中文 (台灣)
+    繁體中文 (香港特區)
+    ไทย
+    Contact
+    Contact Sales
+    Zendesk Help center
+    Free trial
+    Free trial
+    Sign in
+
+PLANS AND PRICING
+
+Zendesk Suite plans
+The complete, AI-powered CX solution with ticketing, live chat and messaging, help center, and voice. All plans drive efficiency with automations and AI agents, available 24/7 to solve customer issues.
+$19
+BUILD YOUR OWN PLAN, GREAT FOR SMALL BUSINESSES
+Starting at $19/month
+Suite Team
+Deliver seamless, conversational service with out-of-the-box tools that are quick to set up.
+$55
+per agent/month billed annually
+Free trial
+Free trial
+Buy now
+Ticketing system
+Email, chat, voice, social messaging, and more
+Help center
+AI agentsNEW
+Prebuilt analytics dashboards
+1,000+ apps & integrations
+Pre-defined responses (macros)
+Custom business rules (triggers & automations)
+Online support from the Zendesk team
+Digital onboarding and adoption resources
+Eligible for workforce management add-on
+Eligible for quality assurance add-on
+Suite Growth
+Boost efficiency and deliver quality service at scale with enhanced self service and automation capabilities.
+$89
+per agent/month billed annually
+Free trial
+Free trial
+Buy now
+Ticketing system
+Email, chat, voice, social messaging, and more
+Help center
+AI agentsNEW
+Prebuilt analytics dashboards
+1,000+ apps & integrations
+Pre-defined responses (macros)
+Custom business rules (triggers & automations)
+Online support from the Zendesk team
+Digital onboarding and adoption resources
+Eligible for workforce management add-on
+Eligible for quality assurance add-on
+Multiple ticket forms
+Light Agents
+Service level agreements (SLA)
+Customer satisfaction ratings (CSAT)
+Multilingual support and content
+Self-service customer portal
+Business hours
+MOST POPULAR
+Suite Professional
+Optimize your operations with powerful collaboration tools, skills-based ticket routing, and analytics.
+$115
+per agent/month billed annually
+Free trial
+Free trial
+Buy now
+Ticketing system
+Email, chat, voice, social messaging, and more
+Help center
+AI agentsNEW
+Prebuilt analytics dashboards
+1,000+ apps & integrations
+Pre-defined responses (macros)
+Custom business rules (triggers & automations)
+Online support from the Zendesk team
+Digital onboarding and adoption resources
+Eligible for workforce management add-on
+Eligible for quality assurance add-on
+Multiple ticket forms
+Light Agents
+Service level agreements (SLA)
+Customer satisfaction ratings (CSAT)
+Multilingual support and content
+Self-service customer portal
+Business hours
+Custom and live analytics
+Side conversations
+Skills-based routing
+Integrated community forums
+Data location options
+HIPAA enabled
+Access to Sunshine Conversations
+Eligible for Advanced AI add-on
+Suite Enterprise
+Deliver personalized experiences at scale with AI-powered content cues and custom roles and permissions.
+Talk to us for a comprehensive solution that meets all your enterprise needs.
+Talk to Sales
+Talk to Sales
+Buy now
+Ticketing system
+Email, chat, voice, social messaging, and more
+Help center
+AI agentsNEW
+Prebuilt analytics dashboards
+1,000+ apps & integrations
+Pre-defined responses (macros)
+Custom business rules (triggers & automations)
+Online support from the Zendesk team
+Digital onboarding and adoption resources
+Eligible for workforce management add-on
+Eligible for quality assurance add-on
+Multiple ticket forms
+Light Agents
+Service level agreements (SLA)
+Customer satisfaction ratings (CSAT)
+Multilingual support and content
+Self-service customer portal
+Business hours
+Custom and live analytics
+Side conversations
+Skills-based routing
+Integrated community forums
+Data location options
+HIPAA enabled
+Access to Sunshine Conversations
+Eligible for Advanced AI add-on
+Eligible for Advanced Data Privacy and Protection add-on
+Sandbox
+AI-powered Content Cues
+Content blocks
+Custom agent roles
+Dynamic, Contextual workspaces
+See all features
+See all features
+Suite Enterprise Plus
+Talk to us for a comprehensive solution that meets all your enterprise needs.
+Talk to Sales
+Talk to Sales
+NEW: ADD-ON
+Advanced AI
+$50per agent/month billed annually
+Advanced AI that instantly understands common customer issues, routes tickets, and gives your teams proactive insights and suggestions that allow them to take quick action, consistently across your team. It comes with AI-powered tools to optimize your service workflows, an AI-powered copilot to empower agents to solve issues faster, and tools to easily scale your knowledge base.
+Agent copilot
+AI-powered workflows
+Insights and suggestions
+Generative AI writing tools
+AI-powered knowledge
+Advanced AI is available at the Professional and higher plan levels.
+Talk to Sales
+Talk to Sales
+NEW: ADD-ON
+Zendesk Workforce Management
+$25 per agent/month billed annually
+For organizations managing teams in Zendesk, Workforce Management (WFM) is the ideal scheduling solution to meet AI-forecasted needs and to provide comprehensive historical and real-time reporting into team performance and capacity.
+AI-powered forecasting
+Automatic agent scheduling
+Real-time agent activity tracking
+Agent performance reporting
+Agent schedule views
+Available for all Zendesk plans.
+Talk to Sales
+Talk to Sales
+NEW: ADD-ON
+Zendesk Quality Assurance
+$35 per agent/month billed annually
+Automatically analyze 100% of conversations across human and AI agents, BPOs, channels, and languages. AI detects issues, knowledge gaps and coaching opportunities to improve service.
+AutoQA 100% coverage
+Spotlight AI insight filters
+Agent feedback and coaching
+Track performance trends
+Voice QA
+QA for AI agents
+Available for all Zendesk plans.
+Talk to Sales
+Talk to Sales
+NEW: ADD-ON
+Zendesk Workforce Engagement Bundle
+$50 per agent/month billed annually
+Enjoy the power of Zendesk Workforce Management and Zendesk Quality Assurance at a discounted bundle rate and lead your team to deliver superior CX.
+Talk to Sales
+Talk to Sales
+NEW: ADD-ON
+Advanced Data Privacy and Protection
+$50 per agent/month billed annually
+Support your compliance and security policy obligations with an extra layer of protection and privacy.
+Access log
+Advanced encryption
+Advanced data retention policies
+Advanced redaction
+Data masking
+Select features are not yet available. All features will be available or EAP by the end of 2024. Contact sales for more information.
+Talk to Sales
+Talk to Sales
+Startups get Zendesk free for six months
+Apply here
+Apply here
+Compare plans
+Plan type
+Annual Subscription Term (per agent per month)
+$55
+$89
+$115
+$169
+Monthly Subscription Term (per agent per month)
+$69
+$115
+$149
+$219
+Email
+Email with unlimited addresses
+Contact form
+Ticket file attachment size
+50MB
+50MB
+50MB
+50MB
+Incoming email authentication: SPF, DKIM, DMARC
+Automatic email archiving
+Messaging and live chat
+Web widget
+Mobile SDKs: iOS SDK, Android SDK, and Unity SDK
+Widget customization
+Pre-chat form
+Unlimited concurrent chats
+Shortcuts
+Automatic translation
+Send and receive files
+Conversation rating
+Transfers between agents & departments
+Departments
+2 departments
+2 departments
+Unlimited
+Unlimited
+Rich message types
+Conversation history
+Re-engagement
+Whisper mode
+Warm transfer
+Send proactive messages
+Skills-based routing
+Widget unbranding
+Social and business
+Social and business channels
+Voice
+Voicemail
+Text messages
+Add-on
+Add-on
+Add-on
+Add-on
+Embedded voice
+Display a number using web widget
+Partner Edition (Computer Telephony Integration) *
+Answer in browser & forward to phone
+Outbound Caller ID
+External number for outbound caller ID
+External number for outbound caller ID
+Call routing
+Omnichannel, group routing
+Omnichannel, Group, after-hours routing, VIP routing
+Group, overflow, and after-hours routing
+Group, overflow, and after-hours routing
+Failover
+Customized greetings
+Queue size and wait time
+Extended
+Automatic ticket creation
+Call recording
+Mute, hold & warm transfer
+Business hours
+Conference calling
+Call blocking
+Interactive voice response (IVR, phone trees)
+Priority numbers
+Request a callback
+Call wrap-up time limits
+Call recording controls
+Call monitoring & barging
+Call quality notifications
+Call offering time limit
+Call usage 99.95% uptime SLA
+Local and toll-free numbers
+Add-on
+Add-on
+Add-on
+Add-on
+Inbound and outbound minutes
+Add-on
+Add-on
+Add-on
+Add-on
+Help center
+Contextual self-service
+Multilingual content
+1 default language
+40+ languages; dynamic content
+40+ languages; dynamic content
+40+ languages; dynamic content
+Article view permissions
+Registered users & public
+Internal only (custom)
+Registered users (custom)
+Public (custom)
+Internal only (custom)
+Registered users (custom)
+Public (custom)
+Internal only (custom)
+Registered users (custom)
+Public (custom)
+Structured content
+Up to 2 levels deep
+Up to 2 levels deep
+Up to 2 levels deep
+Up to 6 levels deep
+Theme customization
+Standard themes
+Standard +
+Custom +
+Marketplace Themes
+Standard +
+Custom +
+Marketplace Themes
+Standard +
+Custom +
+Marketplace Themes +
+Multiple templates
+Multiple help centers
+1
+Up to 5
+Up to 5
+Up to 300
+Search
+Help center
+Help center
+Help center + community forums
+Federated search for multiple help centers + community forums
+Customer portal
+Knowledge management
+Rich text WYSIWYG editor
+SEO ready
+Bulk actions
+Basic
+Intermediate
+Intermediate
+Advanced
+Flag & create knowledge
+Content & revision history
+Article lists & labels
+Approval and publishing workflows
+Scheduled publishing and verification
+Content blocks
+Advanced AI: Generative AI tools for knowledge
+Add-on
+Add-on
+AI agents
+AI-powered bots
+Included automated resolutions (up to 10K)
+5 ARs per agent/month
+10 ARs per agent/month
+10 ARs per agent/month
+15 ARs per agent/month
+Committed automated resolutions (volume discounts available)
+$1.50
+$1.50
+$1.50
+$1.50
+Pay-as-you-go automated resolutions
+$2
+$2
+$2
+$2
+Community forums
+User profiles and aliases
+Integrated search
+Similar posts
+Escalate posts to tickets
+Community moderators and moderator groups
+Content moderation queue
+AI-powered spam protection
+User badges
+Agent workspace with customer context
+Unified agent workspace
+Translated interface
+Cards
+Standard
+Standard
+Configurable
+Configurable
+Interaction history
+Group contacts by organization
+Single
+Multiple
+Multiple
+Multiple
+Custom user and organization fields
+Custom & group views
+Custom Layouts
+Up to 1 custom layout applied
+Up to 20 custom layouts applied
+Dynamic content
+Customer satisfaction ratings (CSAT) & follow-up survey
+Custom agent statuses
+Up to 5
+Up to 100
+Support mobile app
+Dynamic, Contextual workspaces
+Advanced AI: Generative AI tools for agents
+Add-on
+Add-on
+Collaboration tools
+Light agents
+Up to 50
+Up to 100
+Up to 1000
+Light agents add-on
+Add-on
+Add-on
+Add-on
+Add-on
+Side conversations
+Marketplace
+Prebuilt apps & integrations
+Workflows
+Triggers
+Ticket sharing between multiple Zendesk accounts
+Automated
+Conversation routing
+Based on agent status and capacity
+Based on agent status and capacity
+Based on agent status, capacity, skill, and ticket priority
+Based on agent status, capacity, skill, and ticket priority
+Multiple ticket forms
+Conditional ticket fields
+Service level agreements (SLA)
+Skills-based routing
+Guided mode
+Automations & intelligence
+Pre-defined responses (macros)
+Custom business rules (triggers & automations)
+Article recommendations
+Business rules analysis
+AI-powered Content Cues
+Advanced AI: Intelligent triage
+Add-on
+Add-on
+Advanced AI: Actionable insights and suggestions
+Add-on
+Add-on
+Advanced AI: Macro insights for admins
+Add-on
+Add-on
+Change management
+Unified staff management
+Business hours
+Single
+Single
+Multiple
+Custom agent roles
+Audit logs
+Standard sandbox
+Premium Sandbox
+Partial
+Additional Premium Sandboxes
+Add-on
+Reporting & analytics
+Prebuilt analytics dashboards
+Data exports
+Zendesk Benchmark
+Voice usage reporting
+Google Analytics for help center
+Custom data exploration
+Scheduled dashboard delivery
+Zendesk users only
+Zendesk users and end-users
+Dashboard sharing
+Zendesk users only
+Zendesk users and end-users
+Live agent activity dashboard
+Default view
+Customizable views plus live agent status drill-in
+Pre-built live dashboard
+Customizable live dashboards
+Visual data alerts
+Refresh rate
+24 hours
+24 hours
+Real-time for prebuild dashboard
+1 hour for custom dashboards
+1 hour for pre-built and custom dashboards
+Advanced AI: Reporting and insights
+Add-on
+Add-on
+Data
+Data storage
+10 GB + 50 MB/agent
+10 GB + 100 MB/agent
+10 GB + 100 MB/agent
+10 GB + 200 MB/agent
+File storage
+10 GB + 2 GB/agent
+10 GB + 5 GB/agent
+10 GB + 5 GB/agent
+10 GB + 10 GB/agent
+Custom objects
+Up to 3 objects
+(5 lookup fields/object)
+Up to 5 objects
+(5 lookup fields/object)
+Up to 30 objects
+(10 lookup fields/object)
+Up to 50 objects
+(10 lookup fields/object)
+Zendesk events
+External events
+Up to 150K/month
+Up to 150K/month
+Up to 350K/month
+Up to 750K/month
+Event retention period
+90 days
+90 days
+1 year
+1 year
+External profiles
+Devices data log
+Additional data storage
+Add-on
+Add-on
+Add-on
+Add-on
+Custom apps and integrations
+Private custom apps & integrations
+Developer tools
+API access
+Sunshine Conversations 3rd party chatbots
+Add-on
+Add-on
+Add-on
+Add-on
+Additional API volume (10+ agents required)
+Add-on
+Add-on
+Add-on
+Security and compliance
+User authentication options: Native, SSO, and 2FA
+Secure access options: IP restrictions, password complexity, session length
+Agent device management
+Data encryption at rest and in motion
+Host mapping
+Disaster recovery
+Credit card redaction
+Data center location
+HIPAA enabled
+Access log
+Add-on
+Advanced encryption
+Add-on
+Advanced data retention policies
+Add-on
+Advanced redaction
+Add-on
+Data masking
+Add-on
+Sunshine Conversations
+Sunshine Conversations 3rd party chatbots
+Access to conversation tools and APIs
+Basic Platform Support
+Monthly Active Users per month
+1,000 included ($50/pack of additional 2,500 MAUs)
+1,000 included ($50/pack of additional 2,500 MAUs)
+Notifications per month
+1,000 included ($50/pack of additional 25,000 Notifications)
+1,000 included ($50/pack of additional 25,000 Notifications)
+Channels
+Orchestration APIs (Switchboard)
+Support and services from the Zendesk team
+Digital support
+Access to Zendesk Help Center and Community
+Digital onboarding and adoption resources
+Getting started on-demand training
+Guided learning paths
+Premier plans - 24/7 Proactive support & engagement*
+Add-on
+Add-on
+Add-on
+Add-on
+Professional Services
+Add-on
+Add-on
+Add-on
+Add-on
+Custom training and certifications
+Add-on
+Add-on
+Add-on
+Add-on
+Hands-on help with Zendesk Assist*
+Add-on
+Add-on
+Add-on
+Add-on
+*24/7 support in English only. 8x5 customer's local business hours for designated languages.
+JOIN OVER 160,000 BUSINESSES WHO TRUST ZENDESK
+Try the full Zendesk experience
+Free trial
+Free trial
+View a demo
+View a demo
+Frequently asked questions, answered.
+PURCHASE
+How can I buy your software?
+After clicking “Buy now”, you will create a Zendesk account and immediately be able to purchase your software. You can easily pay by credit card or Paypal. Customers who prefer to purchase through our sales representatives can opt to pay via invoice.
+How long are your contracts? Can I upgrade or downgrade my subscription?
+Plans are month-to-month or annual. You can start/stop or make changes to your plan at any time (but note that refunds are not given for cancellation or downgrades). Learn more here or contact us for details.
+What if I don't need all the capabilities in Zendesk Suite?
+The Zendesk Suite is the simplest way to get up and running with everything your team needs to deliver seamless support across channels, at great value. If you are looking for a lighter solution, check out our Support-only plans, starting from $19 per agent/month (billed annually).
+TRIAL
+How does the free trial work?
+When you sign up for your trial of Zendesk Suite, you'll have access to all features on the Zendesk Suite Professional plan. If you want to trial a specific plan, just contact us. At any point during the trial you can choose a plan and pay by credit card or Paypal from within your account.
+What happens after the trial ends?
+At the end of your Zendesk Suite trial, your data and setup remains intact. You can login and select a plan to purchase.
+GENERAL
+What resources are available to ensure I'm getting the most out of my Zendesk?
+Customers on any Zendesk Suite plan have access to online support, as well as the Zendesk Help Center, on-demand training, and Community. For additional fees, customers can access prescriptive guidance, custom training, hands-on configuration, 24/7 support, and implementation services to ensure teams are set up for success.
+Does Zendesk integrate with other applications & systems?
+We have thousands of pre-built apps and integrations available through the Zendesk Marketplace. You can also build almost anything you want on top of the Zendesk platform via our developer API.
+How do you protect your customers’ data?
+We combine enterprise-class security features with comprehensive audits of our applications, systems, and networks to ensure customer and business data is always protected. Take a look at the security measures we take to protect your business and your customers.
+More questions?
+Our Help Center is open 24/7. You can also reach out to our global support team. We're here to help.
+How can we help? Contact us.
+Terms of Use
+Privacy Notice
+Cookie Notice
+Cookie settings
+Trust Center
+©Zendesk 2024
+IMPORTANT:
+- Include ALL six sections
+- Follow the exact format
+- Use "Not specified" for missing information
+- Keep all section headers
+Here's how it looks:
+**SERVICE INFORMATION**
+- Name : Airtable
+- URL :https://airtablet.com/prices   -Logo Url: Not Specified
+- Description :
+A business process activation platform with comprehensible workflow capabilities. Enterprises can utilize these built-out functions to automate various functionalities.

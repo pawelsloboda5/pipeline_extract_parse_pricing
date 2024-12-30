@@ -1,0 +1,28 @@
+SERVICE INFORMATION
+  - ### Name: Zapier
+  - ### URL: https: //zapier.pricing
+  - ### Logo URL: Not specified
+  - ### Description: Zapier is a no- code automation platform that connects thousands of apps.
+  - ### Summary: Zapier automates workflows across various applications, offering different tiers based on needs.
+  - ### Category: 
+  - #### Primary: Workflow Automation
+  - #### Secondary: Integration
+  - #### Tags: automation, workflow, integration, productivity
+  - ### Business Model: 
+  - #### Type: Subscription, Usage- Based
+  - #### Description: Zapier uses both subscription and usage- based models where customers pay either a fixed price or based on the number of tasks performed.
+
+PRICING METADATA
+  - Not specified
+
+PLANS
+  - Not specified
+
+ADD-ONS
+  - Not specified
+
+ENTERPRISE
+  - Not specified
+
+DISCOUNTS
+  - Not specified

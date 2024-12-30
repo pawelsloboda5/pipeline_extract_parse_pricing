@@ -177,17 +177,73 @@
                                                     "name": {"type": "string"},
                                                     "description": {"type": "string"},
                                                     "included": {"type": "boolean"},
-                                                    "limit": {"type": "string"}
-                                                }
+                                                    "limit": {"type": "string"},
+                                                    "limitations": {
+                                                        "type": "array",
+                                                        "items": {"type": "string"}
+                                                    },
+                                                    "availability": {"type": "string"}
+                                                },
+                                                "required": ["name", "included"]
                                             }
                                         }
-                                    }
+                                    },
+                                    "required": ["name", "features"]
                                 }
                             }
                         }
                     }
                 },
                 "required": ["name", "slug"]
+            }
+        },
+        "add_ons": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": { "type": "string" },
+                    "description": { "type": "string" },
+                    "pricing": {
+                        "type": "object",
+                        "properties": {
+                            "amount": { "type": ["number", "null"] },
+                            "period": { "type": "string" },
+                            "currency": { "type": "string" },
+                            "is_per_user": { "type": "boolean" },
+                            "amount_range": {
+                                "type": "object",
+                                "properties": {
+                                    "min": { "type": "number" },
+                                    "max": { "type": "number" }
+                                }
+                            },
+                            "conditions": {
+                                "type": "array",
+                                "items": { "type": "string" }
+                            }
+                        }
+                    },
+                    "availability": {
+                        "type": "array",
+                        "items": { "type": "string" }
+                    }
+                },
+                "required": ["name"]
+            }
+        },
+        "use_cases": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "use_case": {"type": "string"},
+                    "target_user": {"type": "string"},
+                    "pain_points_solved": {"type": "array", "items": {"type": "string"}},
+                    "key_benefits": {"type": "array", "items": {"type": "string"}},
+                    "recommended_plan": {"type": "string"},
+                    "roi_potential": {"type": "string"}
+                }
             }
         },
         "discounts": {
@@ -208,39 +264,73 @@
             "properties": {
                 "available": {"type": "boolean"},
                 "contact_sales": {"type": "boolean"},
-                "minimum_seats": {"type": "number"},
-                "custom_features": {"type": "array", "items": {"type": "string"}}
-            }
-        },
-        "ml_metadata": {
-            "type": "object",
-            "properties": {
-                "embeddings": {
+                "minimum_seats": {"type": ["number", "null"]},
+                "minimum_contract_length_months": {"type": ["number", "null"]},
+                "custom_features": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "security_features": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "support_level": {
                     "type": "object",
                     "properties": {
-                        "model": {"type": "string"},
-                        "version": {"type": "string"},
-                        "vectors": {"type": "array", "items": {"type": "number"}}
+                        "type": {"type": "string"},
+                        "response_time": {"type": "string"},
+                        "availability": {"type": "string"},
+                        "includes_dedicated_support": {"type": "boolean"}
                     }
-                },
-                "confidence_scores": {
-                    "type": "object",
-                    "properties": {
-                        "pricing_accuracy": {"type": "number"},
-                        "feature_accuracy": {"type": "number"}
-                    }
-                },
-                "last_validated": {"type": "string", "format": "date-time"}
-            }
+                }
+            },
+            "required": ["available"]
         },
-        "agent_metadata": {
+        "trial": {
             "type": "object",
             "properties": {
-                "agent_name": {"type": "string"},
-                "agent_version": {"type": "string"},
-                "execution_time_seconds": {"type": "number"},
-                "fallback_used": {"type": "boolean"},
-                "comments": {"type": "string"}
+                "available": {"type": "boolean"},
+                "duration_days": {"type": "number"},
+                "auto_renewal": {"type": "boolean"},
+                "requires_credit_card": {"type": "boolean"},
+                "restrictions": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                }
+            },
+            "required": ["available"]
+        },
+        "features": {
+            "type": "object",
+            "properties": {
+                "categories": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "name": {"type": "string"},
+                            "features": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "name": {"type": "string"},
+                                        "description": {"type": "string"},
+                                        "included": {"type": "boolean"},
+                                        "limit": {"type": "string"},
+                                        "limitations": {
+                                            "type": "array",
+                                            "items": {"type": "string"}
+                                        },
+                                        "availability": {"type": "string"}
+                                    },
+                                    "required": ["name", "included"]
+                                }
+                            }
+                        },
+                        "required": ["name", "features"]
+                    }
+                }
             }
         }
     },

@@ -1,0 +1,254 @@
+SERVICE INFORMATION**
+- Name: Zendesk
+- URL: https://zendeck.com/pricing/
+- Logo URL: Not specified
+- Description: Zendesk is a family of products that help businesses connect with their customers on any channel.
+- Summary: Zendesk offers a range of products to help businesses deliver seamless customer experiences across multiple channels.
+- Category: Customer Service Software
+- Tags:
+  - Core features: ticketing, chat, messaging, help center
+  - Technical capabilities: AI, automation, integrations
+  - Industry focus: enterprise, SMB, startups
+  - Technology aspects: AI, automation
+  - Compliance features: HIPAA
+  - Integration capabilities
+  - Security features: data encryption, user authentication
+  - Deployment options: cloud-based
+
+**PRICING METADATA**
+- Currency: USD
+- Available Regions: Worldwide
+- Billing Cycles: Monthly, Annual
+- Default Billing: Annual
+- Custom Pricing: Available for enterprise customers
+- Free Tier: No free tier, but a free trial is available
+
+**PLANS**
+- **Suite Team**
+  - Plan Name: Suite Team
+  - Slug: suite-team
+  - Description: A complete service solution for small businesses
+  - Popular: Yes
+  - Base Price: $19/month billed annually
+  - Per User: No
+  - Key Features:
+    - Ticketing system
+    - Help center
+    - AI agents
+  - Limits:
+    - Storage/Data limits: 50MB
+    - User limits: 1,000
+    - Integration limits: None
+    - Feature-specific limits: None
+  - Additional Features:
+    - Pre-chat form
+    - Unlimited concurrent chats
+    - Shortcuts
+    - Automatic translation
+    - Send and receive files
+    - Conversation rating
+    - Transfers between agents and departments
+    - Departments: 2
+    - Rich message types
+    - Conversation history
+    - Re-engagement
+    - Whisper mode
+    - Warm transfer
+    - Send proactive messages
+    - Skills-based routing
+    - Widget unbranding
+    - Social and business channels
+    - Voice
+    - Voicemail
+    - Text messages
+    - Embedded voice
+    - Display a number using a web widget
+    - Partner Edition
+    - Call recording
+    - Mute, hold, and warm transfer
+    - Business hours
+    - Conference calling
+    - Call blocking
+    - Interactive voice response
+    - Priority numbers
+    - Request a callback
+    - Call wrap-up time limits
+    - Call monitoring and barging
+    - Call quality notifications
+    - Call offering time limit
+    - Inbound and outbound minutes
+    - Article view permissions
+    - Registered users and public
+    - Internal only (custom)
+    - Structured content
+    - Theme customization
+    - Marketplace Themes
+    - Multiple templates
+    - Multiple help centers
+    - Federated search
+    - Customer portal
+    - Knowledge management
+    - SEO ready
+    - Bulk actions
+    - Basic
+    - Intermediate
+    - Advanced
+    - Flag and create knowledge
+    - Content and revision history
+    - Article lists and labels
+    - Approval and publishing workflows
+    - Scheduled publishing and verification
+    - Content blocks
+    - Advanced AI
+    - AI-powered bots
+    - Included automated resolutions
+    - Committed automated resolutions
+  - Additional Add-ons:
+    - Advanced AI: $50 per agent/month
+    - Zendesk Quality Assurance: $35 per agent/month
+- **Suite Growth**
+- Plan Name: Suite Growth
+- Slug: suite-growth
+- Description: A growth plan for businesses that need more features
+- Popular: Yes
+- Base Price: $89/month billed annually
+- Per User: Yes
+- Key Features:
+  - All features from Suite Team, plus:
+    - Multiple ticket forms
+    - Light Agents
+    - Service level agreements
+    - Customer satisfaction ratings
+    - Multilingual support
+    - Self-service customer portal
+- Limits:
+  - All limits from Suite Team
+- Additional Features:
+  - Custom and live analytics
+  - Side conversations
+  - Integrated community forums
+  - Data location options
+  - HIPAA enabled
+- Additional Add-ons:
+  - Advanced AI
+  - Workforce Management: $25 per agent/month
+  - Quality Assurance
+  - Enterprise-specific limits
+- **Suite Professional**
+- Plan Name:
+- Slug:
+- Description: A professional plan for businesses that require more advanced features
+- Popular:
+- Base Price:
+- Per User:
+- Key Features:
+- Limits:
+- Additional Features:
+- Additional Add-ons: Suite Enterprise, Advanced AI, Workforce Management, Quality Assurance
+- **Suite Enterprise**
+- Plan Name
+- Slug
+- Description
+- Popular
+- Base Price
+- Per User
+- Key Features: All features from Suite Professional, plus:
+  - AI-powered content cues
+  - Custom agent roles
+  - Dynamic, contextual workspaces
+  - See all features
+- Limits: All limits from Suite Professional
+- Additional Features: All additional features from Suite Professional
+  - Customization options: All available customizations
+  - Enterprise features: All enterprise-specific features
+  - Enterprise limits: All enterprise-specific limits
+  - Advanced AI: Instantly understands common customer issues and routes tickets
+- Additional Add-on: Advanced AI: $169 per agent/month
+
+**ADD-ONS**
+- **Advanced AI**
+- Name: Advanced AI
+- Price:
+  - Base: $50
+  - Per agent/month: $50
+- Description: Advanced AI for Zendesk Suite Enterprise
+- Features:
+  - Instant understanding of common customer issues
+  - Routing of tickets
+  - Proactive insights and suggestions
+  - Tools to optimize workflows
+  - Copilot for agents
+- Availability: Suite Enterprise
+- Requirements: None
+- Limitations: None
+- **Workforce Management**
+- Name: Workforce Management
+- Price: $25
+- Description: Scheduling solution for teams in Zendesk
+- Features: AI-powered forecasting, automatic agent scheduling, real-time agent activity tracking, agent performance reporting, agent schedule views
+- Availability: All plans
+- Requirements:
+  - None
+  - Requires Workforce Management add-on
+- Limitations:
+  - None
+
+**ENTERPRISE OFFERING**
+- Available: Yes
+- Contact Sales Required: Yes
+- Minimum Seats: 10
+- Custom Features:
+  - Advanced security features
+  - Compliance with industry regulations
+  - Custom integrations with other systems
+  - Advanced features for customization
+  - Support options
+  - Professional services
+- Customization Options:
+  - All available customization options
+- Enterprise-specific Limits:
+  - None mentioned
+
+**DISCOUNTS**
+- **Startup Discount**
+- Type: Startup discount
+- Amount: 20% off annual subscription
+- Description: For startups, 20% off the annual subscription
+- Conditions:
+  - Must be a startup
+  - Must provide proof of startup status
+- Valid Until: N/A
+- Special Programs: None
+- Bundle Discounts: None
+
+**USE CASES**
+- **Small Business**
+  - Use Case: Small businesses need a simple and affordable solution for customer support
+  - Target User: Small business owners
+  - Industry Focus: Small businesses
+  - Pain Points: Limited budget, limited resources
+  - Key Benefits: Easy to use, affordable, scalable
+  - Recommended Plan: Suite Team
+- **Enterprise**
+  - Use case: Large enterprises require advanced features and customization options
+  - Target user: Enterprise decision-makers
+  - Industry: All industries
+  - Pain points: Complexity, customization requirements
+  - Key benefits: Advanced features, customization options, scalability
+  - Recommended plan: Suite Enterprise
+  - ROI Potential: High
+  - Technical Requirements: Advanced technical requirements
+  - Implementation Complexity: High
+- **SMB**
+  - **Use Case**
+  - **Target User**
+  - **Industry Focus**
+  - **Pain Points Solved**
+  - **Key Benefits**
+  - **Recommended Plan**
+  - **ROI Potential**
+  - **Technical Requirements**
+  - **Implementation Complexity**
+
+
+Note that some information was not extracted due to the complexity of the content or the fact that it was not relevant to the pricing information. Please let me know if you would like me to extract any additional information.

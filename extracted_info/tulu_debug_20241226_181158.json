@@ -1,0 +1,9 @@
+{
+  "input": {
+    "title": "Plans & Pricing | Zapier",
+    "url": "https://zapier.com/pricing",
+    "content_length": 28088
+  },
+  "prompt": "",
+  "output": "{\n  \"SERVICE_INFORMATION\": {\n    \"Name\": \"Zapier\",\n    \"URL\": \"https://zapier.com\",\n    \"Logo_URL\": \"Not specified\",\n    \"Description\": \"exact product description from the text\",\n    \"Summary\": \"Not specified\",\n    \"Category\": {\n      \"Primary\": \"Automation\",\n      \"Secondary\": \"Integration Platform\",\n      \"Tags\": [\n        \"automation\",\n        \"workflow\",\n        \"integration\",\n        \"saas\"\n      ]\n    },\n    \"Business_Model\": {\n      \"Type\": \"subscription\",\n      \"Description\": \"Per-seat subscription with usage-based tiers\"\n    }\n  },\n  \"PRICING_METADATA\": {\n    \"Currency\": \"USD\",\n    \"Regions\": \"Global\",\n    \"Billing_Cycles\": {\n      \"Available\": [\n        \"monthly\",\n        \"annual\"\n      ],\n      \"Default\": \"annual\"\n    },\n    \"Custom_Pricing_Available\": \"No\",\n    \"Free_Tier_Available\": \"No\"\n  },\n  \"PLANS\": {},\n  \"ADD_ONS\": [\n    {\n      \"Name\": \"exact add-on name\",\n      \"Price\": \"exact price text\",\n      \"Description\": \"exact description text\",\n      \"Features\": [\n        \"exact add-on feature 1\",\n        \"exact add-on feature 2\"\n      ],\n      \"Availability\": \"Not specified\",\n      \"Requirements\": \"Not specified\",\n      \"Limitations\": \"Not specified\"\n    }\n  ],\n  \"ENTERPRISE\": {\n    \"Available\": \"No\",\n    \"Contact_Sales_Required\": \"Yes\",\n    \"Minimum_Seats\": \"Not specified\",\n    \"Custom_Features\": []\n  },\n  \"DISCOUNTS\": []\n}"
+}
