@@ -1,6 +1,6 @@
 import os
 import requests
-from typing import Dict, List, Union
+from typing import Dict, List, Union, Tuple
 from datetime import datetime
 from urllib.parse import urlparse
 from selenium import webdriver
@@ -14,6 +14,9 @@ import time
 import re
 from pricing_agent import PricingAgent
 from check_json import PricingSchemaValidator
+import pymongo
+from pymongo import MongoClient
+from bson import ObjectId
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -261,6 +264,14 @@ class PricingExtractor:
         
         for directory in self.directories.values():
             directory.mkdir(exist_ok=True)
+        
+        # Initialize MongoDB connection
+        self.mongo_uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017/")
+        self.mongo_client = MongoClient(self.mongo_uri)
+        self.db = self.mongo_client["apicus_NodeJS_Express"]
+        self.collection = self.db["apicus_data"]
+        
+        logger.info("MongoDB connection initialized")
 
     def _get_service_name(self, url: str) -> str:
         """Extract service name from URL"""
@@ -296,14 +307,15 @@ class PricingExtractor:
             
             # 3. Validate and transform
             logger.info("Validating and transforming parsed data...")
-            validated_path = self.validate_and_transform(parsed_path, service_name, timestamp)
+            validated_path, mongo_id = self.validate_and_transform(parsed_path, service_name, timestamp)
             logger.info(f"Validated content saved to: {validated_path}")
+            logger.info(f"MongoDB document ID: {mongo_id}")
             
-            return raw_content_path, parsed_path, validated_path
+            return raw_content_path, parsed_path, validated_path, mongo_id
             
         except Exception as e:
             logger.error(f"Pipeline failed for {url}: {str(e)}", exc_info=True)
-            return None, None, None
+            return None, None, None, None
 
     def save_raw_content(self, extracted_data: dict, service_name: str, timestamp: str) -> Path:
         """Save raw extracted content"""
@@ -324,43 +336,103 @@ class PricingExtractor:
         """Process content with GPT-4 extractor"""
         from gpt4o_extractor_agent import process_pricing_json
         
-        # Prepare data for GPT-4
-        extraction_data = {
-            "data": {
-                "content": extracted_data['content'],
-                "title": extracted_data.get('title', ''),
-                "description": extracted_data.get('description', ''),
-                "url": extracted_data.get('url', '')
-            }
-        }
-        
         # Save to parsed content directory
         parsed_path = self.directories['parsed_content'] / f"parsed_{service_name}_{timestamp}.json"
         
-        # Process with GPT-4
-        result = process_pricing_json(extraction_data)
+        # Format data in the expected structure
+        formatted_data = {
+            "data": {
+                "content": extracted_data['content']['content'],
+                "title": extracted_data['content'].get('title', ''),
+                "description": extracted_data['content'].get('description', ''),
+                "url": extracted_data['content'].get('url', '')
+            }
+        }
         
+        # Save the formatted data
+        with open(parsed_path, 'w', encoding='utf-8') as f:
+            json.dump(formatted_data, f, indent=2)
+        
+        # Process with GPT-4 using the file path
+        result = process_pricing_json(str(parsed_path))
+        
+        # Save the processed result
         with open(parsed_path, 'w', encoding='utf-8') as f:
             json.dump(result, f, indent=2)
-            
+        
         return parsed_path
 
-    def validate_and_transform(self, parsed_path: Path, service_name: str, timestamp: str) -> Path:
-        """Validate and transform parsed data"""
+    def save_to_mongodb(self, validated_data: dict, service_name: str) -> str:
+        """Save validated data to MongoDB"""
+        try:
+            # Add metadata
+            validated_data["_metadata"] = {
+                "service_name": service_name,
+                "insertion_date": datetime.now().isoformat(),
+                "last_updated": datetime.now().isoformat()
+            }
+
+            # Check if service already exists
+            existing_doc = self.collection.find_one({
+                "_metadata.service_name": service_name
+            })
+
+            if existing_doc:
+                # Update existing document
+                result = self.collection.update_one(
+                    {"_metadata.service_name": service_name},
+                    {
+                        "$set": {
+                            **validated_data,
+                            "_metadata.last_updated": datetime.now().isoformat()
+                        }
+                    }
+                )
+                logger.info(f"Updated existing document for {service_name}")
+                return str(existing_doc["_id"])
+            else:
+                # Insert new document
+                result = self.collection.insert_one(validated_data)
+                logger.info(f"Inserted new document for {service_name}")
+                return str(result.inserted_id)
+
+        except Exception as e:
+            logger.error(f"Failed to save to MongoDB: {str(e)}")
+            raise
+
+    def validate_and_transform(self, parsed_path: Path, service_name: str, timestamp: str) -> Tuple[Path, str]:
+        """Validate and transform parsed data, then save to MongoDB"""
         validated_path = self.directories['validated_content'] / f"validated_{service_name}_{timestamp}.json"
         
-        # Validate and transform
-        is_valid, transformed_data, errors = self.schema_validator.validate_and_transform(str(parsed_path))
-        
-        if errors:
-            logger.warning("Validation produced warnings:")
-            for error in errors:
-                logger.warning(f"• {error}")
-        
-        # Save transformed data
-        self.schema_validator.save_transformed(transformed_data, str(validated_path))
-        
-        return validated_path
+        try:
+            # First load the parsed data
+            with open(parsed_path, 'r', encoding='utf-8') as f:
+                parsed_data = json.load(f)
+            
+            # Validate and transform
+            is_valid, transformed_data, errors = self.schema_validator.validate_and_transform(parsed_data)
+            
+            if errors:
+                logger.warning("Validation produced warnings:")
+                for error in errors:
+                    logger.warning(f"• {error}")
+            
+            # Save transformed data to file
+            self.schema_validator.save_transformed(transformed_data, str(validated_path))
+            
+            # Save to MongoDB
+            mongo_id = self.save_to_mongodb(transformed_data, service_name)
+            logger.info(f"Saved to MongoDB with ID: {mongo_id}")
+            
+            return validated_path, mongo_id
+            
+        except Exception as e:
+            logger.error(f"Validation and transformation failed: {str(e)}")
+            # Save original data to MongoDB if transformation fails
+            with open(parsed_path, 'r', encoding='utf-8') as f:
+                original_data = json.load(f)
+                mongo_id = self.save_to_mongodb(original_data, service_name)
+            return validated_path, mongo_id
 
     def extract(self, url: str) -> Dict[str, Union[str, List[str]]]:
         """Extract pricing information with fallback mechanism"""
@@ -395,7 +467,7 @@ def main():
         for url in urls:
             logger.info(f"\nProcessing {url}")
             try:
-                raw_path, parsed_path, validated_path = extractor.extract_and_parse(url)
+                raw_path, parsed_path, validated_path, mongo_id = extractor.extract_and_parse(url)
                 
                 if all(path is None for path in [raw_path, parsed_path, validated_path]):
                     logger.warning(f"Skipped processing for {url} due to extraction failure")
@@ -405,6 +477,7 @@ def main():
                 logger.info(f"Raw content: {raw_path}")
                 logger.info(f"Parsed content: {parsed_path}")
                 logger.info(f"Validated content: {validated_path}")
+                logger.info(f"MongoDB ID: {mongo_id}")
                     
             except Exception as e:
                 logger.error(f"Failed to process {url}: {str(e)}")

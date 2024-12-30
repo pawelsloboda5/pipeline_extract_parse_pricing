@@ -211,11 +211,13 @@ class PricingSchemaValidator:
 
         return transformed
 
-    def validate_and_transform(self, json_path: str) -> Tuple[bool, Dict[str, Any], List[str]]:
-        """Validate JSON file and transform for frontend use"""
+    def validate_and_transform(self, data: Union[str, Dict[str, Any]]) -> Tuple[bool, Dict[str, Any], List[str]]:
+        """Validate and transform data"""
         try:
-            with open(json_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
+            # If data is a string (file path), load it
+            if isinstance(data, str):
+                with open(data, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
 
             # Transform data
             transformed_data = self.transform_for_frontend(data)
@@ -232,7 +234,7 @@ class PricingSchemaValidator:
             return is_valid, transformed_data, errors
 
         except Exception as e:
-            logger.error(f"Failed to process file {json_path}: {str(e)}")
+            logger.error(f"Failed to process data: {str(e)}")
             return False, {}, [str(e)]
 
     def save_transformed(self, data: Dict[str, Any], output_path: str) -> None:

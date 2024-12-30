@@ -1,0 +1,768 @@
+{
+  "service_name": "apify",
+  "extraction_date": "2024-12-30T14:35:21.927523",
+  "content": {
+    "content": "Plans and pricing \u00b7 Apify\n===============\n \n\n[Skip to content](https://apify.com/pricing#main-content)\n\n[](https://apify.com/)\n\n[Get started](https://console.apify.com/sign-up)[Log in](https://console.apify.com/sign-in)\n\n*   Product\n    \n    Back\n    \n    [Start here! Get data with ready-made web scrapers for popular websites Browse 2,000+ Actors](https://apify.com/store)\n    \n    The Apify platform\n    \n    *   [Apify Store Pre-built web scraping tools](https://apify.com/store)\n    *   [Actors Build and run serverless programs](https://apify.com/actors)\n    *   [Integrations Connect with apps and services](https://apify.com/integrations)\n    *   [Storage Store results for web scrapers](https://apify.com/storage)\n    \n    Anti-blocking\n    \n    *   [Proxy Rotate scraper IP addresses](https://apify.com/proxy)\n    \n    Open source\n    \n    *   [Crawlee Web scraping and crawling library](https://crawlee.dev/?__hstc=160404322.b99fc98b1863b348466ba53e37cafb99.1735587313441.1735587313441.1735587313441.1&__hssc=160404322.1.1735587313441&__hsfp=2038185260)\n    \n*   Solutions\n    \n    Back\n    \n    Web data for\n    \n    *   [Enterprise](https://apify.com/enterprise)\n    *   [Startups](https://apify.com/resources/startups)\n    *   [Universities](https://apify.com/resources/universities)\n    *   [Nonprofits](https://apify.com/resources/nonprofits)\n    \n    Use cases\n    \n    *   [Data for generative AI](https://apify.com/data-for-generative-ai)\n    *   [Lead generation](https://apify.com/use-cases/lead-generation)\n    *   [Market research](https://apify.com/use-cases/market-research)\n    *   [Sentiment analysis](https://apify.com/use-cases/sentiment-analysis)\n    *   [View more \u2192](https://apify.com/use-cases)\n    \n    Consulting\n    \n    *   [Apify Professional Services](https://apify.com/professional-services)\n    *   [Apify Partners](https://apify.com/partners)\n    \n*   Developers\n    \n    Back\n    \n    *   [Documentation Full reference for the Apify platform](https://docs.apify.com/)\n    \n    Get started\n    \n    *   [Web scraping academy Courses for beginners and experts](https://docs.apify.com/academy)\n    *   [Code templates Python, JavaScript, and TypeScript](https://apify.com/templates)\n    *   [Deploy to Apify With CLI or GitHub integration](https://docs.apify.com/platform/actors/development/deployment)\n    *   [Get paid on Apify Earn passive income from sharing your Actors](https://apify.com/partners/actor-developers)\n    \n    Learn\n    \n    *   [API reference](https://docs.apify.com/api)\n    *   [CLI](https://docs.apify.com/cli/)\n    *   [SDK](https://docs.apify.com/sdk)\n    *   [Crawlee](https://crawlee.dev/?__hstc=160404322.b99fc98b1863b348466ba53e37cafb99.1735587313441.1735587313441.1735587313441.1&__hssc=160404322.1.1735587313441&__hsfp=2038185260)\n    \n    [Shape web scraping in 2025 Take our 5-minute survey to share insights for our upcoming report Take the survey](https://apify.typeform.com/to/YvB8IwyU)\n    \n*   Resources\n    \n    Back\n    \n    *   [Help and support Advice and answers about Apify](https://help.apify.com/en/)\n    *   [Submit your ideas Tell us the Actors you want](https://apify.com/ideas)\n    *   [Changelog See what\u2019s new on Apify](https://apify.com/change-log)\n    *   [Customer stories Find out how others use Apify](https://apify.com/success-stories)\n    \n    Company\n    \n    *   [About Apify](https://apify.com/about)\n    *   [Contact us](https://apify.com/contact)\n    *   [Blog](https://blog.apify.com/)\n    *   [Become Apify partner](https://apify.com/partners/join)\n    *   [Affiliate program](https://apify.com/partners/affiliate)\n    *   [Jobs We're hiring!](https://apify.com/jobs)\n    \n    [Join our Discord Talk to scraping experts](https://discord.com/invite/jyEM2PRvMU)\n    \n*   [Pricing](https://apify.com/pricing)\n    \n*   [Contact sales](https://apify.com/contact-sales)\n    \n\n[Contact sales](https://apify.com/contact-sales)[Log in](https://console.apify.com/sign-in)\n\n[Get started](https://console.apify.com/sign-up)\n\n[Do you want to get $500 usage credits for creating your own Actors?](https://apify.com/pricing/creator-plan)\n\nFlexible platform\u2014flexible pricing\n==================================\n\n**BILL MONTHLY**\n\n**BILL YEARLY 10% OFF**\n\n#### Free\n\n#### Starter\n\n#### Scale\n\n#### Business\n\n#### Enterprise\n\nMonthly prepaid usage\n\n### \n\n$0\n\n/ month\n\n[Get started](https://console.apify.com/sign-up)\n\n**$5 free usage**\n\n### \n\n$49\n\n/ month\n\n[Subscribe](https://console.apify.com/billing#/subscription?planId=STARTER&billingInterval=MONTHLY&openSubscriptionWizard=true)\n\n**$49** thenPay as you go\n\n### \n\n$499\n\n/ month\n\n[Subscribe](https://console.apify.com/billing#/subscription?planId=SCALE&billingInterval=MONTHLY&openSubscriptionWizard=true)\n\n**$499** thenPay as you go\n\n### \n\n$999\n\n/ month\n\n[Subscribe](https://console.apify.com/billing#/subscription?planId=BUSINESS&billingInterval=MONTHLY&openSubscriptionWizard=true)\n\n**$999** thenPay as you go\n\n### \n\nCustom\n\n[Get a demo](https://apify.com/contact-sales/demo)\n\n**Custom**\n\nActor runs\n\nCompute units (CU)  \n1 GB of RAM / hour\n\nActor RAM\n\nMax concurrent runs\n\nRented Actors\n\n$0.4 / CU\n\n8 GB\n\n25\n\nLimited\n\n$0.4 / CU\n\n32 GB\n\n32\n\nDeducted fromprepaid usage\n\n$0.3 / CU\n\n128 GB\n\n128\n\nDeducted fromprepaid usage\n\n$0.25 / CU\n\n256 GB\n\n256\n\nDeducted fromprepaid usage\n\nCustom\n\nUnlimited\n\nUnlimited\n\nCustom\n\nProxy\n\nResidential proxies\n\nDatacenter proxies\n\nSERPs proxy\n\n$10 / GB\n\n5 IPs included\n\n$3 / 1,000 SERPs\n\n$10 / GB\n\n30 IPs included\n\nthen $1 / IP\n\n$3 / 1,000 SERPs\n\n$9 / GB\n\n200 IPs included\n\nthen $0.8 / IP\n\n$2.5 / 1,000 SERPs\n\n$8 / GB\n\n500 IPs included\n\nthen $0.6 / IP\n\n$1.9 / 1,000 SERPs\n\nCustom\n\nCustom\n\nCustom\n\nOther\n\nPersonal tech training\n\nSupport level\n\nSingle sign-on (SSO)\n\nCommunity ([Discord](https://discord.com/invite/jyEM2PRvMU) )\n\n$200 / hour\n\nChat\n\n1 hour / quarter\n\nPriority chat\n\n1 hour / month\n\nAccount manager\n\nCustom\n\nSLA / Custom contract\n\nCustom\n\nStorages and Data transfer\n\nAdd-ons\n-------\n\nGet started with an Apify plan, then purchase add-ons to override specific limits.\n\nIncreased Actor RAM\n\n$2 / GB\n\nDatacenter proxy\n\nfrom $0.6 / IP address\n\nPersonal tech training\n\n$200 / hour\n\nMax concurrent runs\n\n$5 / run\n\nPriority support\n\n$100\n\nDo you want to build your own Actors?\n-------------------------------------\n\nHere is a special offer for you: our Creator Plan! For just $1 per month, enjoy $500 worth of free usage and other benefits for 6 months, but please note that you will have access to only some Apify Store Actors.\n\n[Subscribe](https://console.apify.com/billing/subscription?enableCreatorPlan=1)[Learn more](https://apify.com/pricing/creator-plan)\n\nHow pricing works\n-----------------\n\nApify's pricing is all about how you use the platform - here's a breakdown for a typical $49/month plan as an example.\n\nMonthly prepaid usage $49 + pay as you go\n\nActor rentals\n\nCU\n\nProxy\n\nStorage\n\nCU\n\nProxy\n\nStorage\n\n$49\n\nSet your limit\n\nYour limit\n\nPay as you go\n\nMonthly Actor rental fee\n\n1st Actor usage\\*\n\n2nd Actor usage\\*\n\n\\*Each Actor run is different. The above pricing breakdown is just an example.\n\nRegistered users can check their [daily usage chart in Apify Console](https://console.apify.com/billing)\n\nDetailed pricing breakdown\n--------------------------\n\nLet's explore how pricing works for specific scraping examples. Each example shows the breakdown of total platform usage, along with the prepaid usage consumed for each item.\n\nWeb scraperGoogle SERPs ScraperTikTok Scraper\n\nStart URLs\n\nhttps://crawlee.dev\n\nGlob patterns\n\nhttps://crawlee.dev/\\*/\\*\n\nResults of successful run:\n\n$5\n\nPrepaid usage\n\nFree plan\n\n$5\n\nUsage\n\nMonthly Actor rental fee\n\n\\-$0\n\nOverall platform usage\\*\n\n\\-$0.036\n\nRemaining usage\n\n$4.964\n\n\\*Usage can differ for every run. The example above uses default settings for each Actor.\n\nPlatform usage breakdown:\n\nActor compute units\n\n$0.035\n\nData transfer\n\n$0.000\n\nInternal\n\n$0.000\n\nExternal\n\n$0.000\n\nProxy\n\n$0.000\n\nSERP\n\n$0.000\n\nResidential\n\n$0.000\n\nDataset\n\n$0.000\n\nReads\n\n$0.000\n\nWrites\n\n$0.000\n\nKey-value store\n\n$0.000\n\nReads\n\n$0.000\n\nWrites\n\n$0.000\n\nLists\n\n$0.000\n\nRequest queue\n\n$0.001\n\nReads\n\n$0.000\n\nWrites\n\n$0.001\n\nRegistered users can check their [daily usage chart in Apify Console](https://console.apify.com/billing)\n\nFrequently asked questions[](https://apify.com/pricing#frequently-asked-questions)\n----------------------------------------------------------------------------------\n\n[](https://apify.com/pricing#what-is-the-prepaid-platform-usage-and-how-much-do-i-need)\n\n### What is the prepaid platform usage, and how much do I need?\n\nThe Apify platform has a number of services that are charged based on usages, such as Actors, proxies, data transfer, and storage. See [pricing](https://apify.com/pricing) for the full list of platform services.\n\nEach subscription plan comes with a certain amount of prepaid platform usage that is used to pay for services. If your platform usage in a given billing cycle exceeds this prepaid amount, the excess usage will be added to your next invoice, and you'll get a notification. If you're on the free plan, your access to Apify's services will be blocked until the beginning of the next monthly cycle.\n\n**Note that unused usage credits are not rolled over to the next billing cycle, and they expire at the end of the billing cycle.**\n\n[](https://apify.com/pricing#can-i-try-apify-for-free)\n\n### Can I try Apify for free?\n\nAbsolutely! We offer a [free plan](https://apify.com/pricing) that lets you use most of the features of the Apify platform, but with certain limits. No credit card is required. The free plan includes Apify Proxy, which is limited to use within the platform and does not extend to external clients.\n\nIf you'd like a free demo of Apify's custom solutions, please [contact us](https://apify.com/contact-sales/demo).\n\n[](https://apify.com/pricing#which-plan-should-i-choose)\n\n### Which plan should I choose?\n\nIf you're unsure which plan is right for you, just pick the lowest-priced plan that has all the features you need. If you exceed the prepaid platform usage, you'll get a notification, and the excess usage will be added to the next invoice (see below for details).\n\nYou can upgrade to a higher plan at any time in your [Billing](https://console.apify.com/billing) settings, and you'll only pay for the price difference.\n\n[](https://apify.com/pricing#what-is-the-pricing-for-actors-in-apify-store)\n\n### What is the pricing for Actors in Apify Store?\n\nThe Actors in Apify Store are either free or have to be rented for a monthly fee specific to each Actor. Running Actors will consume the platform usage credits included in your plan. Excess usage will be charged to your next invoice.\n\nThe exact platform usage depends on the specific Actor, the type of job it performs, how often it runs, and for how long. The easiest way to find out the platform usage of an Actor is to perform a test run. You can then review your platform usage in your [Billing](https://console.apify.com/billing) settings and figure out the best subscription plan for your needs.\n\nIf you need advice, please [contact us](https://apify.com/contact-sales).\n\n[](https://apify.com/pricing#can-i-upgrade-downgrade-or-cancel-my-plan)\n\n### Can I upgrade, downgrade or cancel my plan?\n\nYou can upgrade, downgrade, or cancel your plan at any time in your [Billing](https://console.apify.com/billing) settings.\n\nWhen you upgrade, your payment will be prorated, so you will only pay for the difference between the old and the new price, taking into account how much of the billing cycle has already passed.\n\nWhen you downgrade, there's no proration except for the unused platform usage that's rolled over to the new plan.\n\nIf you decide to cancel, your subscription will last until the end of the current billing cycle. It won't be renewed after that. Note that you might still be charged for excess platform usage.\n\n[](https://apify.com/pricing#what-drives-the-cost-of-an-actor-run)\n\n### What drives the cost of an Actor run?\n\nThe cost of an Actor run depends on the compute unit consumption, storage, proxies used, and data transfer. You can check your daily [usage chart](https://console.apify.com/billing) on the Apify platform.\n\n[](https://apify.com/pricing#what-happens-after-i-run-out-of-prepaid-usage)\n\n### What happens after I run out of prepaid usage?\n\nIf you're a paying user, you can continue using the platform and will be charged for overage until you reach the usage limit configured in the billing. If you're on the free plan, you'll be blocked until the next billing cycle.\n\n[](https://apify.com/pricing#what-happens-to-my-prepaid-usage-if-i-dont-use-all-of-it)\n\n### What happens to my prepaid usage if I don't use all of it?\n\nIf you don't consume all your prepaid usage, it disappears at the end of the billing cycle. Go to our [pricing](https://apify.com/pricing) page to learn more about the prepaid usage of all Apify's subscription plans.\n\n[](https://apify.com/pricing#why-do-some-of-my-actor-runs-cost-more-than-others)\n\n### Why do some of my Actor runs cost more than others?\n\nThe cost of Actor runs depends on the resources used - proxies, data transfers, or runs with a higher memory/CPU. It also depends on the number of retries when a request fails.\n\n[](https://apify.com/pricing#how-does-apify-pay-as-you-go-work)\n\n### How does Apify pay as you go work?\n\nIf you're on one of Apify's paid plans, you can continue using the platform after reaching the limit by paying the rest as overage. That means you don't have to change your pricing plan to exceed the usage limit of your current plan.\n\n[](https://apify.com/pricing#does-apify-offer-any-discounts-for-universities-or-nonprofit-organizations)\n\n### Does Apify offer any discounts for universities or nonprofit organizations?\n\nApify offers discounts on its paid plans to both academic institutions and nonprofit organizations. Students are eligible for 30% off Starter and Scale plans, while nonprofits can get a personalized discount. Learn more at [Apify for universities](https://apify.com/resources/universities) and [Apify for nonprofits](https://apify.com/resources/nonprofits).\n\n[](https://apify.com/pricing#do-startups-get-the-same-pricing-as-enterprise-customers)\n\n### Do startups get the same pricing as enterprise customers?\n\nApify believes in encouraging startups to grow by using online data at scale. So we're giving a special 30% discount on our Scale plan to startups. Learn more at [Apify for startups](https://apify.com/resources/startups).\n\n[](https://apify.com/pricing#i-would-like-to-develop-actors-what-should-i-do)\n\n### I would like to develop Actors. What should I do?\n\n[Apify Academy](https://docs.apify.com/academy) is a free course that shows you how to start developing Actors on the Apify platform. You can also find more information in the [Apify documentation](https://docs.apify.com/).\n\nCouldn't find something? Message us.\n\nProduct\n\n*   [Apify Store](https://apify.com/store)\n    \n*   [Integrations](https://apify.com/integrations)\n    \n*   [Proxy](https://apify.com/proxy)\n    \n*   [Crawlee](https://crawlee.dev/?__hstc=160404322.b99fc98b1863b348466ba53e37cafb99.1735587313441.1735587313441.1735587313441.1&__hssc=160404322.1.1735587313441&__hsfp=2038185260)\n    \n\nDevelopers\n\n*   [Documentation](https://docs.apify.com/)\n    \n*   [Code templates](https://apify.com/templates)\n    \n*   [Deploy to Apify](https://docs.apify.com/platform/actors/development/deployment)\n    \n*   [API reference](https://docs.apify.com/api)\n    \n*   [Get paid on Apify](https://apify.com/partners/actor-developers)\n    \n\nConsulting\n\n*   [Professional Services](https://apify.com/professional-services)\n    \n*   [Apify Partners](https://apify.com/partners)\n    \n\nSupport\n\n*   [Help & Support](https://help.apify.com/en/)\n    \n*   [Submit your ideas](https://apify.com/ideas)\n    \n\nCompany\n\n*   [About Apify](https://apify.com/about)\n    \n*   [Contact us](https://apify.com/contact)\n    \n*   [Blog](https://blog.apify.com/)\n    \n*   [Become an affiliate](https://apify.com/partners/affiliate)\n    \n*   [Customer stories](https://apify.com/success-stories)\n    \n*   [Changelog](https://apify.com/change-log)\n    \n*   [JobsWe're hiring!](https://apify.com/jobs)\n    \n\n[](https://apify.com/)\n\nSocials\n\n*   [](https://www.linkedin.com/company/apifytech/)\n*   [](https://x.com/apify)\n*   [](https://github.com/apify)\n*   [](https://www.youtube.com/apify)\n*   [](https://discord.com/invite/jyEM2PRvMU)\n*   [](https://www.tiktok.com/@apifytech)\n\nSecurity\n\n*   [](https://docs.apify.com/legal/gdpr-information)\n*   [](https://trust.apify.com/)\n\nReviews\n\n*   [](https://www.getapp.com/business-intelligence-analytics-software/a/apify/)\n*   [](https://www.softwareadvice.com/data-extraction/apify-profile/)\n*   [](https://www.capterra.com/p/150854/Apify/)\n*   [](https://www.g2.com/products/apify/reviews)\n*   [](https://www.trustradius.com/products/apify/reviews)\n*   [](https://crozdesk.com/software/apify)\n\n[All systems operational](https://status.apify.com/)\n\n[Terms of Use](https://docs.apify.com/legal/general-terms-and-conditions)\n\n[Privacy Policy](https://docs.apify.com/legal/privacy-policy)\n\n[Cookie Policy](https://docs.apify.com/legal/cookie-policy)\n\nCookie settings\n\n\u00a9 2024 Apify\n\n     \n\nApify uses cookies\n------------------\n\nWe use cookies to improve your experience and analyze traffic. By using our website, you agree to let us store cookies on your device. Or adjust your preferences with the \"Cookie settings\" button. [Read our cookie policy](https://docs.apify.com/legal/cookie-policy)\n\nContinue\n\nCookie settings\n\nCookies enable us to store your preferences and give you a personalized website experience. We also use cookies for analytics and targeted marketing. We respect your right to privacy, so you can choose not to allow some types of cookies. Click on the category headings to learn more and change your settings.  \n[Read our cookie policy](https://apify.com/cookie-policy)\n\nAllow All\n\n### Manage Consent Preferences\n\n#### Strictly Necessary Cookies\n\nAlways Active\n\nThese cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.\n\n#### Targeting Cookies\n\n Targeting Cookies\n\nThese cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.\n\n#### Performance Cookies\n\n Performance Cookies\n\nThese cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.\n\n### Performance Cookies\n\nClear\n\n checkbox label label\n\nApply Cancel\n\nConsent Leg.Interest\n\n checkbox label label\n\n checkbox label label\n\n checkbox label label\n\nReject all Confirm my Choices\n\n[](https://www.cookiepro.com/products/cookie-consent/)",
+    "title": "Plans and pricing \u00b7 Apify",
+    "description": "Extract value from the web with Apify. Flexible platform \u2014 flexible pricing. Free plan available, no credit card required.",
+    "url": "https://apify.com/pricing"
+  },
+  "links": [
+    {
+      "text": "Skip to content",
+      "url": "https://apify.com/pricing#main-content"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/"
+    },
+    {
+      "text": "Get started",
+      "url": "https://console.apify.com/sign-up"
+    },
+    {
+      "text": "Log in",
+      "url": "https://console.apify.com/sign-in"
+    },
+    {
+      "text": "Start here! Get data with ready-made web scrapers for popular websites Browse 2,000+ Actors",
+      "url": "https://apify.com/store"
+    },
+    {
+      "text": "Apify Store Pre-built web scraping tools",
+      "url": "https://apify.com/store"
+    },
+    {
+      "text": "Actors Build and run serverless programs",
+      "url": "https://apify.com/actors"
+    },
+    {
+      "text": "Integrations Connect with apps and services",
+      "url": "https://apify.com/integrations"
+    },
+    {
+      "text": "Storage Store results for web scrapers",
+      "url": "https://apify.com/storage"
+    },
+    {
+      "text": "Proxy Rotate scraper IP addresses",
+      "url": "https://apify.com/proxy"
+    },
+    {
+      "text": "Crawlee Web scraping and crawling library",
+      "url": "https://crawlee.dev/?__hstc=160404322.b99fc98b1863b348466ba53e37cafb99.1735587313441.1735587313441.1735587313441.1&__hssc=160404322.1.1735587313441&__hsfp=2038185260"
+    },
+    {
+      "text": "Enterprise",
+      "url": "https://apify.com/enterprise"
+    },
+    {
+      "text": "Startups",
+      "url": "https://apify.com/resources/startups"
+    },
+    {
+      "text": "Universities",
+      "url": "https://apify.com/resources/universities"
+    },
+    {
+      "text": "Nonprofits",
+      "url": "https://apify.com/resources/nonprofits"
+    },
+    {
+      "text": "Data for generative AI",
+      "url": "https://apify.com/data-for-generative-ai"
+    },
+    {
+      "text": "Lead generation",
+      "url": "https://apify.com/use-cases/lead-generation"
+    },
+    {
+      "text": "Market research",
+      "url": "https://apify.com/use-cases/market-research"
+    },
+    {
+      "text": "Sentiment analysis",
+      "url": "https://apify.com/use-cases/sentiment-analysis"
+    },
+    {
+      "text": "View more \u2192",
+      "url": "https://apify.com/use-cases"
+    },
+    {
+      "text": "Apify Professional Services",
+      "url": "https://apify.com/professional-services"
+    },
+    {
+      "text": "Apify Partners",
+      "url": "https://apify.com/partners"
+    },
+    {
+      "text": "Documentation Full reference for the Apify platform",
+      "url": "https://docs.apify.com/"
+    },
+    {
+      "text": "Web scraping academy Courses for beginners and experts",
+      "url": "https://docs.apify.com/academy"
+    },
+    {
+      "text": "Code templates Python, JavaScript, and TypeScript",
+      "url": "https://apify.com/templates"
+    },
+    {
+      "text": "Deploy to Apify With CLI or GitHub integration",
+      "url": "https://docs.apify.com/platform/actors/development/deployment"
+    },
+    {
+      "text": "Get paid on Apify Earn passive income from sharing your Actors",
+      "url": "https://apify.com/partners/actor-developers"
+    },
+    {
+      "text": "API reference",
+      "url": "https://docs.apify.com/api"
+    },
+    {
+      "text": "CLI",
+      "url": "https://docs.apify.com/cli/"
+    },
+    {
+      "text": "SDK",
+      "url": "https://docs.apify.com/sdk"
+    },
+    {
+      "text": "Crawlee",
+      "url": "https://crawlee.dev/?__hstc=160404322.b99fc98b1863b348466ba53e37cafb99.1735587313441.1735587313441.1735587313441.1&__hssc=160404322.1.1735587313441&__hsfp=2038185260"
+    },
+    {
+      "text": "Shape web scraping in 2025 Take our 5-minute survey to share insights for our upcoming report Take the survey",
+      "url": "https://apify.typeform.com/to/YvB8IwyU"
+    },
+    {
+      "text": "Help and support Advice and answers about Apify",
+      "url": "https://help.apify.com/en/"
+    },
+    {
+      "text": "Submit your ideas Tell us the Actors you want",
+      "url": "https://apify.com/ideas"
+    },
+    {
+      "text": "Changelog See what\u2019s new on Apify",
+      "url": "https://apify.com/change-log"
+    },
+    {
+      "text": "Customer stories Find out how others use Apify",
+      "url": "https://apify.com/success-stories"
+    },
+    {
+      "text": "About Apify",
+      "url": "https://apify.com/about"
+    },
+    {
+      "text": "Contact us",
+      "url": "https://apify.com/contact"
+    },
+    {
+      "text": "Blog",
+      "url": "https://blog.apify.com/"
+    },
+    {
+      "text": "Become Apify partner",
+      "url": "https://apify.com/partners/join"
+    },
+    {
+      "text": "Affiliate program",
+      "url": "https://apify.com/partners/affiliate"
+    },
+    {
+      "text": "Jobs We're hiring!",
+      "url": "https://apify.com/jobs"
+    },
+    {
+      "text": "Join our Discord Talk to scraping experts",
+      "url": "https://discord.com/invite/jyEM2PRvMU"
+    },
+    {
+      "text": "Pricing",
+      "url": "https://apify.com/pricing"
+    },
+    {
+      "text": "Contact sales",
+      "url": "https://apify.com/contact-sales"
+    },
+    {
+      "text": "Contact sales",
+      "url": "https://apify.com/contact-sales"
+    },
+    {
+      "text": "Log in",
+      "url": "https://console.apify.com/sign-in"
+    },
+    {
+      "text": "Get started",
+      "url": "https://console.apify.com/sign-up"
+    },
+    {
+      "text": "Do you want to get $500 usage credits for creating your own Actors?",
+      "url": "https://apify.com/pricing/creator-plan"
+    },
+    {
+      "text": "Get started",
+      "url": "https://console.apify.com/sign-up"
+    },
+    {
+      "text": "Subscribe",
+      "url": "https://console.apify.com/billing#/subscription?planId=STARTER&billingInterval=MONTHLY&openSubscriptionWizard=true"
+    },
+    {
+      "text": "Subscribe",
+      "url": "https://console.apify.com/billing#/subscription?planId=SCALE&billingInterval=MONTHLY&openSubscriptionWizard=true"
+    },
+    {
+      "text": "Subscribe",
+      "url": "https://console.apify.com/billing#/subscription?planId=BUSINESS&billingInterval=MONTHLY&openSubscriptionWizard=true"
+    },
+    {
+      "text": "Get a demo",
+      "url": "https://apify.com/contact-sales/demo"
+    },
+    {
+      "text": "Discord",
+      "url": "https://discord.com/invite/jyEM2PRvMU"
+    },
+    {
+      "text": "Subscribe",
+      "url": "https://console.apify.com/billing/subscription?enableCreatorPlan=1"
+    },
+    {
+      "text": "Learn more",
+      "url": "https://apify.com/pricing/creator-plan"
+    },
+    {
+      "text": "Image 23: Developer plan illustration",
+      "url": "https://apify.com/img/pricing/creator-plan.svg"
+    },
+    {
+      "text": "daily usage chart in Apify Console",
+      "url": "https://console.apify.com/billing"
+    },
+    {
+      "text": "Image 24: Web scraper logo",
+      "url": "https://apify.com/img/pricing/web-scraper.webp"
+    },
+    {
+      "text": "Image 25: Google SERPs scraper logo",
+      "url": "https://apify.com/img/pricing/serp-scraper.webp"
+    },
+    {
+      "text": "Image 26: Tiktok scraper logo",
+      "url": "https://apify.com/img/pricing/tiktok-scraper.webp"
+    },
+    {
+      "text": "daily usage chart in Apify Console",
+      "url": "https://console.apify.com/billing"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#frequently-asked-questions"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#what-is-the-prepaid-platform-usage-and-how-much-do-i-need"
+    },
+    {
+      "text": "pricing",
+      "url": "https://apify.com/pricing"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#can-i-try-apify-for-free"
+    },
+    {
+      "text": "free plan",
+      "url": "https://apify.com/pricing"
+    },
+    {
+      "text": "contact us",
+      "url": "https://apify.com/contact-sales/demo"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#which-plan-should-i-choose"
+    },
+    {
+      "text": "Billing",
+      "url": "https://console.apify.com/billing"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#what-is-the-pricing-for-actors-in-apify-store"
+    },
+    {
+      "text": "Billing",
+      "url": "https://console.apify.com/billing"
+    },
+    {
+      "text": "contact us",
+      "url": "https://apify.com/contact-sales"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#can-i-upgrade-downgrade-or-cancel-my-plan"
+    },
+    {
+      "text": "Billing",
+      "url": "https://console.apify.com/billing"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#what-drives-the-cost-of-an-actor-run"
+    },
+    {
+      "text": "usage chart",
+      "url": "https://console.apify.com/billing"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#what-happens-after-i-run-out-of-prepaid-usage"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#what-happens-to-my-prepaid-usage-if-i-dont-use-all-of-it"
+    },
+    {
+      "text": "pricing",
+      "url": "https://apify.com/pricing"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#why-do-some-of-my-actor-runs-cost-more-than-others"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#how-does-apify-pay-as-you-go-work"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#does-apify-offer-any-discounts-for-universities-or-nonprofit-organizations"
+    },
+    {
+      "text": "Apify for universities",
+      "url": "https://apify.com/resources/universities"
+    },
+    {
+      "text": "Apify for nonprofits",
+      "url": "https://apify.com/resources/nonprofits"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#do-startups-get-the-same-pricing-as-enterprise-customers"
+    },
+    {
+      "text": "Apify for startups",
+      "url": "https://apify.com/resources/startups"
+    },
+    {
+      "text": "",
+      "url": "https://apify.com/pricing#i-would-like-to-develop-actors-what-should-i-do"
+    },
+    {
+      "text": "Apify Academy",
+      "url": "https://docs.apify.com/academy"
+    },
+    {
+      "text": "Apify documentation",
+      "url": "https://docs.apify.com/"
+    },
+    {
+      "text": "Apify Store",
+      "url": "https://apify.com/store"
+    },
+    {
+      "text": "Integrations",
+      "url": "https://apify.com/integrations"
+    },
+    {
+      "text": "Proxy",
+      "url": "https://apify.com/proxy"
+    },
+    {
+      "text": "Crawlee",
+      "url": "https://crawlee.dev/?__hstc=160404322.b99fc98b1863b348466ba53e37cafb99.1735587313441.1735587313441.1735587313441.1&__hssc=160404322.1.1735587313441&__hsfp=2038185260"
+    },
+    {
+      "text": "Documentation",
+      "url": "https://docs.apify.com/"
+    },
+    {
+      "text": "Code templates",
+      "url": "https://apify.com/templates"
+    },
+    {
+      "text": "Deploy to Apify",
+      "url": "https://docs.apify.com/platform/actors/development/deployment"
+    },
+    {
+      "text": "API reference",
+      "url": "https://docs.apify.com/api"
+    },
+    {
+      "text": "Get paid on Apify",
+      "url": "https://apify.com/partners/actor-developers"
+    },
+    {
+      "text": "Professional Services",
+      "url": "https://apify.com/professional-services"
+    },
+    {
+      "text": "Apify Partners",
+      "url": "https://apify.com/partners"
+    },
+    {
+      "text": "Help & Support",
+      "url": "https://help.apify.com/en/"
+    },
+    {
+      "text": "Submit your ideas",
+      "url": "https://apify.com/ideas"
+    },
+    {
+      "text": "About Apify",
+      "url": "https://apify.com/about"
+    },
+    {
+      "text": "Contact us",
+      "url": "https://apify.com/contact"
+    },
+    {
+      "text": "Blog",
+      "url": "https://blog.apify.com/"
+    },
+    {
+      "text": "Become an affiliate",
+      "url": "https://apify.com/partners/affiliate"
+    },
+    {
+      "text": "Customer stories",
+      "url": "https://apify.com/success-stories"
+    },
+    {
+      "text": "Changelog",
+      "url": "https://apify.com/change-log"
+    },
+    {
+      "text": "JobsWe're hiring!",
+      "url": "https://apify.com/jobs"
+    },
+    {
+      "text": "![Image 27: Apify logo",
+      "url": "https://apify.com/img/favicon.svg"
+    },
+    {
+      "text": "",
+      "url": "https://www.linkedin.com/company/apifytech/"
+    },
+    {
+      "text": "",
+      "url": "https://x.com/apify"
+    },
+    {
+      "text": "",
+      "url": "https://github.com/apify"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/apify"
+    },
+    {
+      "text": "",
+      "url": "https://discord.com/invite/jyEM2PRvMU"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@apifytech"
+    },
+    {
+      "text": "![Image 28: GDPR image",
+      "url": "https://cdn-cms.apify.com/GDPR_a807ac9a_ba0683f740.svg"
+    },
+    {
+      "text": "![Image 29: SOC2 image",
+      "url": "https://cdn-cms.apify.com/SOC_dc6cf5ae_f7999d700f.svg"
+    },
+    {
+      "text": "![Image 30: GetApp Apify user reviews image",
+      "url": "https://cdn-cms.apify.com/Get_App_1f4079a540.png"
+    },
+    {
+      "text": "![Image 31: Software Advice Apify reviews image",
+      "url": "https://cdn-cms.apify.com/Softwareadvice_88026ee6c2.png"
+    },
+    {
+      "text": "![Image 32: Capterra Apify user reviews image",
+      "url": "https://cdn-cms.apify.com/Capterra_ce83db3070.png"
+    },
+    {
+      "text": "![Image 33: G2 Apify user reviews image",
+      "url": "https://cdn-cms.apify.com/G2_d80d60f2f8.png"
+    },
+    {
+      "text": "![Image 34: TrustRadius Apify user reviews image",
+      "url": "https://cdn-cms.apify.com/Trust_Radius_7ca0e0bdad.png"
+    },
+    {
+      "text": "![Image 35: Crozdesk Apify user reviews image",
+      "url": "https://cdn-cms.apify.com/Crozdesk_1d12ceb040.png"
+    },
+    {
+      "text": "All systems operational",
+      "url": "https://status.apify.com/"
+    },
+    {
+      "text": "Terms of Use",
+      "url": "https://docs.apify.com/legal/general-terms-and-conditions"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://docs.apify.com/legal/privacy-policy"
+    },
+    {
+      "text": "Cookie Policy",
+      "url": "https://docs.apify.com/legal/cookie-policy"
+    },
+    {
+      "text": "Image 36: Company Logo",
+      "url": "https://cookie-cdn.cookiepro.com/logos/25b9d95b-f10b-40d3-9c47-6d33ca00a6bb/018dc6cf-1c6e-747b-abf7-df287e29e375/4c50ed00-31e8-4800-838b-76fe18fac550/Icon_cookie.png"
+    },
+    {
+      "text": "Read our cookie policy",
+      "url": "https://docs.apify.com/legal/cookie-policy"
+    },
+    {
+      "text": "Image 37: Company Logo",
+      "url": "https://cookie-cdn.cookiepro.com/logos/25b9d95b-f10b-40d3-9c47-6d33ca00a6bb/018dc6cf-1c6e-747b-abf7-df287e29e375/e578844c-d76d-4fe6-a8a5-ca3ef2bf5784/apify-logo-512px.png"
+    },
+    {
+      "text": "Read our cookie policy",
+      "url": "https://apify.com/cookie-policy"
+    },
+    {
+      "text": "![Image 38: Powered by Onetrust",
+      "url": "https://cookie-cdn.cookiepro.com/logos/static/poweredBy_cp_logo.svg"
+    },
+    {
+      "text": "Image 39",
+      "url": "https://t.co/1/i/adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Win32%26255%26800%26600%264%2624%26800%26600%260%26na&eci=3&event=%7B%7D&event_id=6dad2637-821d-4034-a372-1a1c142dbbb1&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=85b251d4-e2a9-4c78-b2fe-87ae891ac3e7&tw_document_href=https%3A%2F%2Fapify.com%2Fpricing&tw_iframe_status=0&txn_id=omnsj&type=javascript&version=2.3.31"
+    },
+    {
+      "text": "Image 40",
+      "url": "https://analytics.twitter.com/1/i/adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Win32%26255%26800%26600%264%2624%26800%26600%260%26na&eci=3&event=%7B%7D&event_id=6dad2637-821d-4034-a372-1a1c142dbbb1&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=85b251d4-e2a9-4c78-b2fe-87ae891ac3e7&tw_document_href=https%3A%2F%2Fapify.com%2Fpricing&tw_iframe_status=0&txn_id=omnsj&type=javascript&version=2.3.31"
+    },
+    {
+      "text": "Image 41",
+      "url": "https://t.co/1/i/adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Win32%26255%26800%26600%264%2624%26800%26600%260%26na&eci=3&event=%7B%7D&event_id=a402b0c9-67ce-415a-a358-128f131ed21f&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=85b251d4-e2a9-4c78-b2fe-87ae891ac3e7&tw_document_href=https%3A%2F%2Fapify.com%2Fpricing&tw_iframe_status=0&txn_id=ovcoc&type=javascript&version=2.3.31"
+    },
+    {
+      "text": "Image 42",
+      "url": "https://analytics.twitter.com/1/i/adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Win32%26255%26800%26600%264%2624%26800%26600%260%26na&eci=3&event=%7B%7D&event_id=a402b0c9-67ce-415a-a358-128f131ed21f&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=85b251d4-e2a9-4c78-b2fe-87ae891ac3e7&tw_document_href=https%3A%2F%2Fapify.com%2Fpricing&tw_iframe_status=0&txn_id=ovcoc&type=javascript&version=2.3.31"
+    },
+    {
+      "text": "Image 43",
+      "url": "https://bat.bing.com/action/0?ti=187137944&tm=gtm002&Ver=2&mid=af12a422-ee2f-4a69-8c8c-ed1a1a3f06f3&bo=3&sid=3217d550c6e511efb552897b937f0cb8&vid=32184a60c6e511efb3e69fc587b53768&vids=1&msclkid=N&uach=pv%3D10.0&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Plans%20and%20pricing%20%C2%B7%20Apify&kw=web%20scraper,web%20crawler,scraping,data%20extraction,API&p=https%3A%2F%2Fapify.com%2Fpricing&r=&lt=4235&evt=pageLoad&sv=1&asc=G&cdb=AQET&rn=820556"
+    },
+    {
+      "text": "Skip to content",
+      "url": "https://apify.com/pricing#main-content"
+    },
+    {
+      "text": "Get started",
+      "url": "https://console.apify.com/sign-up"
+    },
+    {
+      "text": "Log in",
+      "url": "https://console.apify.com/sign-in"
+    },
+    {
+      "text": "Apify Store",
+      "url": "https://apify.com/store"
+    },
+    {
+      "text": "ActorsBuild and run serverless programs",
+      "url": "https://apify.com/actors"
+    },
+    {
+      "text": "Integrations",
+      "url": "https://apify.com/integrations"
+    },
+    {
+      "text": "StorageStore results for web scrapers",
+      "url": "https://apify.com/storage"
+    },
+    {
+      "text": "Proxy",
+      "url": "https://apify.com/proxy"
+    },
+    {
+      "text": "Crawlee",
+      "url": "https://crawlee.dev/?__hstc=160404322.b99fc98b1863b348466ba53e37cafb99.1735587313441.1735587313441.1735587313441.1&__hssc=160404322.1.1735587313441&__hsfp=2038185260"
+    },
+    {
+      "text": "Enterprise",
+      "url": "https://apify.com/enterprise"
+    },
+    {
+      "text": "Apify for startups",
+      "url": "https://apify.com/resources/startups"
+    },
+    {
+      "text": "Apify for universities",
+      "url": "https://apify.com/resources/universities"
+    },
+    {
+      "text": "Apify for nonprofits",
+      "url": "https://apify.com/resources/nonprofits"
+    },
+    {
+      "text": "Data for generative AI",
+      "url": "https://apify.com/data-for-generative-ai"
+    },
+    {
+      "text": "Lead generation",
+      "url": "https://apify.com/use-cases/lead-generation"
+    },
+    {
+      "text": "Market research",
+      "url": "https://apify.com/use-cases/market-research"
+    },
+    {
+      "text": "Sentiment analysis",
+      "url": "https://apify.com/use-cases/sentiment-analysis"
+    },
+    {
+      "text": "View more \u2192",
+      "url": "https://apify.com/use-cases"
+    },
+    {
+      "text": "Professional Services",
+      "url": "https://apify.com/professional-services"
+    },
+    {
+      "text": "Apify Partners",
+      "url": "https://apify.com/partners"
+    },
+    {
+      "text": "Documentation",
+      "url": "https://docs.apify.com/"
+    },
+    {
+      "text": "Apify Academy",
+      "url": "https://docs.apify.com/academy"
+    },
+    {
+      "text": "Code templates",
+      "url": "https://apify.com/templates"
+    },
+    {
+      "text": "Deploy to Apify",
+      "url": "https://docs.apify.com/platform/actors/development/deployment"
+    },
+    {
+      "text": "Get paid on Apify",
+      "url": "https://apify.com/partners/actor-developers"
+    },
+    {
+      "text": "API reference",
+      "url": "https://docs.apify.com/api"
+    },
+    {
+      "text": "CLI",
+      "url": "https://docs.apify.com/cli/"
+    },
+    {
+      "text": "SDK",
+      "url": "https://docs.apify.com/sdk"
+    },
+    {
+      "text": "Shape web scraping in 2025Take our 5-minute survey to share insights for our upcoming reportTake the survey",
+      "url": "https://apify.typeform.com/to/YvB8IwyU"
+    },
+    {
+      "text": "Help & Support",
+      "url": "https://help.apify.com/en/"
+    },
+    {
+      "text": "Submit your ideas",
+      "url": "https://apify.com/ideas"
+    },
+    {
+      "text": "Changelog",
+      "url": "https://apify.com/change-log"
+    },
+    {
+      "text": "Customer stories",
+      "url": "https://apify.com/success-stories"
+    },
+    {
+      "text": "About Apify",
+      "url": "https://apify.com/about"
+    },
+    {
+      "text": "Contact us",
+      "url": "https://apify.com/contact"
+    },
+    {
+      "text": "Blog",
+      "url": "https://blog.apify.com/"
+    },
+    {
+      "text": "Become Apify partner",
+      "url": "https://apify.com/partners/join"
+    },
+    {
+      "text": "Become an affiliate",
+      "url": "https://apify.com/partners/affiliate"
+    },
+    {
+      "text": "JobsWe're hiring!",
+      "url": "https://apify.com/jobs"
+    },
+    {
+      "text": "Discord",
+      "url": "https://discord.com/invite/jyEM2PRvMU"
+    },
+    {
+      "text": "pricing",
+      "url": "https://apify.com/pricing"
+    },
+    {
+      "text": "contact us",
+      "url": "https://apify.com/contact-sales/demo"
+    },
+    {
+      "text": "Learn more",
+      "url": "https://apify.com/pricing/creator-plan"
+    },
+    {
+      "text": "Subscribe",
+      "url": "https://console.apify.com/billing/subscription?enableCreatorPlan=1"
+    },
+    {
+      "text": "usage chart",
+      "url": "https://console.apify.com/billing"
+    },
+    {
+      "text": "All systems operational",
+      "url": "https://status.apify.com/"
+    },
+    {
+      "text": "Terms of Use",
+      "url": "https://docs.apify.com/legal/general-terms-and-conditions"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://docs.apify.com/legal/privacy-policy"
+    },
+    {
+      "text": "Read our cookie policy",
+      "url": "https://apify.com/cookie-policy"
+    }
+  ]
+}

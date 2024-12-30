@@ -1,0 +1,506 @@
+{
+  "service": {
+    "name": "Apify",
+    "url": "https://apify.com/pricing",
+    "logo_url": null,
+    "description": "Apify provides a platform that enables users to build and run serverless programs called actors for web scraping, data extraction, and automation. It offers various pricing plans with flexibility, allowing users to expand their capabilities with add-ons and choose between monthly and yearly billing options.",
+    "category": {
+      "primary": "Web Scraping",
+      "secondary": "Data Extraction",
+      "tags": [
+        "web scraping",
+        "data extraction",
+        "automation"
+      ]
+    },
+    "business_model": {
+      "type": [
+        "SaaS"
+      ],
+      "description": "Subscription-based model with monthly or yearly billing; add-ons available for extra capabilities."
+    }
+  },
+  "pricing_metadata": {
+    "last_updated": "2024-10-05",
+    "currency": "USD",
+    "regions": [
+      "Global"
+    ],
+    "billing_cycles": {
+      "available": [
+        "Monthly",
+        "Yearly"
+      ],
+      "default": "Monthly"
+    },
+    "custom_pricing_available": true,
+    "free_tier_available": true,
+    "versioning": {
+      "current": "v2024.1",
+      "history": [
+        "v2024.0",
+        "v2023.9"
+      ]
+    }
+  },
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "description": null,
+      "highlight_features": [
+        "$5 free usage"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 0.0,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": [
+          {
+            "name": "Actor runs",
+            "type": "compute_units",
+            "unit": "CU",
+            "tiers": [
+              {
+                "range": {
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "unit_price": 0.4,
+                "flat_fee": null
+              }
+            ]
+          }
+        ]
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": {
+          "vcpu": 8.0,
+          "memory": 8.0,
+          "unit": "GB"
+        },
+        "other_limits": [
+          {
+            "name": "Max concurrent runs",
+            "value": "25",
+            "description": "Maximum number of actor concurrent runs at any given time."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Community support",
+                "description": "Access to community support via Discord.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Starter",
+      "slug": "starter",
+      "description": null,
+      "highlight_features": [
+        "$49 prepaid usage"
+      ],
+      "is_popular": true,
+      "pricing": {
+        "base": {
+          "amount": 49.0,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": [
+          {
+            "name": "Actor runs",
+            "type": "compute_units",
+            "unit": "CU",
+            "tiers": [
+              {
+                "range": {
+                  "min": 1.0,
+                  "max": 32.0
+                },
+                "unit_price": 0.4,
+                "flat_fee": null
+              }
+            ]
+          }
+        ]
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": {
+          "vcpu": 32.0,
+          "memory": 32.0,
+          "unit": "GB"
+        },
+        "other_limits": [
+          {
+            "name": "Max concurrent runs",
+            "value": "32",
+            "description": "Maximum number of actor concurrent runs at any given time."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Priority chat",
+                "description": "Priority chat support available.",
+                "included": true,
+                "limit": "1 hour/quarter"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scale",
+      "slug": "scale",
+      "description": null,
+      "highlight_features": [
+        "$499 prepaid usage"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 499.0,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": [
+          {
+            "name": "Actor runs",
+            "type": "compute_units",
+            "unit": "CU",
+            "tiers": [
+              {
+                "range": {
+                  "min": 33.0,
+                  "max": 128.0
+                },
+                "unit_price": 0.3,
+                "flat_fee": null
+              }
+            ]
+          }
+        ]
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": {
+          "vcpu": 128.0,
+          "memory": 128.0,
+          "unit": "GB"
+        },
+        "other_limits": [
+          {
+            "name": "Max concurrent runs",
+            "value": "128",
+            "description": "Maximum number of actor concurrent runs at any given time."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "Account manager",
+                "description": "Access to an account manager.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Business",
+      "slug": "business",
+      "description": null,
+      "highlight_features": [
+        "$999 prepaid usage"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 999.0,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": [
+          {
+            "name": "Actor runs",
+            "type": "compute_units",
+            "unit": "CU",
+            "tiers": [
+              {
+                "range": {
+                  "min": 129.0,
+                  "max": 256.0
+                },
+                "unit_price": 0.25,
+                "flat_fee": null
+              }
+            ]
+          }
+        ]
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": {
+          "vcpu": 256.0,
+          "memory": 256.0,
+          "unit": "GB"
+        },
+        "other_limits": [
+          {
+            "name": "Max concurrent runs",
+            "value": "256",
+            "description": "Maximum number of actor concurrent runs at any given time."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Support",
+            "features": [
+              {
+                "name": "SLA / Custom contract",
+                "description": "Custom service-level agreement and contract.",
+                "included": true,
+                "limit": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "description": "Custom solutions tailored to enterprise needs involving unlimited resources and enhanced support.",
+      "highlight_features": null,
+      "is_popular": false,
+      "pricing": null,
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": null
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Custom Features",
+            "features": [
+              {
+                "name": "Unlimited resources",
+                "description": "Tailored solution with unlimited concurrent actor runs and RAM.",
+                "included": true,
+                "limit": "Unlimited"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Creator Plan",
+      "slug": "creator-plan",
+      "description": "Special offer for developers to build their own Actors with $500 free usage credits for 6 months.",
+      "highlight_features": [
+        "$500 free usage credits"
+      ],
+      "is_popular": false,
+      "pricing": {
+        "base": {
+          "amount": 1.0,
+          "amount_range": null,
+          "period": "monthly",
+          "currency": "USD",
+          "is_per_user": false
+        },
+        "usage_based": []
+      },
+      "limits": {
+        "users": null,
+        "storage": null,
+        "api": null,
+        "compute": null,
+        "other_limits": [
+          {
+            "name": "Access limitation",
+            "value": "Some Store Actors",
+            "description": "Restricted access to only some Apify Store Actors."
+          }
+        ]
+      },
+      "features": {
+        "categories": [
+          {
+            "name": "Development",
+            "features": [
+              {
+                "name": "$500 free usage",
+                "description": "Free usage credits for 6 months.",
+                "included": true,
+                "limit": "$500 for 6 months"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "add_ons": [
+    {
+      "name": "Increased Actor RAM",
+      "description": "Expand actor RAM capacity.",
+      "pricing": {
+        "amount": 2.0,
+        "period": "one-time",
+        "currency": "USD"
+      }
+    },
+    {
+      "name": "Datacenter proxy",
+      "description": "Usage of datacenter proxies per IP address.",
+      "pricing": {
+        "amount_range": 0.6,
+        "period": "one-time",
+        "currency": "USD"
+      }
+    },
+    {
+      "name": "Personal tech training",
+      "description": "Training sessions with a technical expert.",
+      "pricing": {
+        "amount": 200.0,
+        "period": "hourly",
+        "currency": "USD"
+      }
+    },
+    {
+      "name": "Max concurrent runs",
+      "description": "Increase the number of concurrent actor runs.",
+      "pricing": {
+        "amount": 5.0,
+        "period": "one-time",
+        "currency": "USD"
+      }
+    },
+    {
+      "name": "Priority support",
+      "description": "Upgrade to priority support.",
+      "pricing": {
+        "amount": 100.0,
+        "period": "one-time",
+        "currency": "USD"
+      }
+    }
+  ],
+  "use_cases": [
+    {
+      "use_case": "Web scraping for enterprise data aggregation",
+      "target_user": "Enterprises",
+      "pain_points_solved": [
+        "Manual data aggregation is resource-heavy",
+        "Requires consistent, automated data pipeline"
+      ],
+      "key_benefits": [
+        "Automated scalable web scraping",
+        "Access to large scale data volumes",
+        "Enhanced support for enterprise use"
+      ],
+      "recommended_plan": "Enterprise",
+      "roi_potential": "High ROI for enterprises leveraging data at scale."
+    },
+    {
+      "use_case": "Market research data collection",
+      "target_user": "Market Research Agencies",
+      "pain_points_solved": [
+        "Data collection is time-consuming",
+        "Requires precise and reliable data"
+      ],
+      "key_benefits": [
+        "Robust data extraction capabilities",
+        "Flexible data handling and storage"
+      ],
+      "recommended_plan": "Scale",
+      "roi_potential": "Improved insight gathering capabilities lead to strategic advantages."
+    },
+    {
+      "use_case": "Lead generation using web data",
+      "target_user": "Marketing Teams",
+      "pain_points_solved": [
+        "Lack of qualified leads",
+        "Need consistent data extraction"
+      ],
+      "key_benefits": [
+        "Automated lead collection systems",
+        "Custom data scraping capabilities"
+      ],
+      "recommended_plan": "Starter",
+      "roi_potential": "Increased lead quality and reduced acquisition time."
+    }
+  ],
+  "discounts": [
+    {
+      "type": "University and Nonprofit Discount",
+      "amount": "30%",
+      "description": "Discount for universities and nonprofits on Starter and Scale plans.",
+      "conditions": "Eligibility confirmation required.",
+      "valid_until": "Indefinite"
+    }
+  ],
+  "enterprise": {
+    "available": true,
+    "contact_sales": true,
+    "minimum_seats": null,
+    "custom_features": [
+      "Unlimited resources",
+      "Custom support arrangements",
+      "Priority access to features"
+    ]
+  },
+  "ml_metadata": null,
+  "agent_metadata": null
+}
